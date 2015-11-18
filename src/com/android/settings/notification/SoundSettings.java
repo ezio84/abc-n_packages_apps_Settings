@@ -160,6 +160,11 @@ public class SoundSettings extends DashboardFragment {
                 mCurrent.stopSample();
             }
         }
+
+        @Override
+        public void onMuted(int stream, boolean muted, boolean zenMuted) {
+            // noop
+        }
     }
 
     // === Callbacks ===
