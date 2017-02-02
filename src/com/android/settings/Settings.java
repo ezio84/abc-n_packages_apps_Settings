@@ -167,4 +167,5 @@ public class Settings extends SettingsActivity {
 
     // Abc Additions.
     public static class AbcSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

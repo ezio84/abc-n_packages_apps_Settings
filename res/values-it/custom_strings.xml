@@ -19,4 +19,6 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="custom_ambient_display_summary">Configura l\'Ambient Display avanzato</string>
+
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>
