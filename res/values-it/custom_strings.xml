@@ -84,4 +84,6 @@
 
     <string name="notification_sound_vib_screen_on_title">Suono notifiche se attivo</string>
     <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
+
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>

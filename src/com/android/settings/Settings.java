@@ -240,4 +240,6 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // Custom additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
