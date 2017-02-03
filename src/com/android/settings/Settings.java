@@ -191,4 +191,6 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // Abc Additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
