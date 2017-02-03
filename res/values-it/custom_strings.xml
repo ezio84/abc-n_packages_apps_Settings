@@ -22,4 +22,7 @@
     <string name="show_dev_already_enabled">Opzioni sviluppatore già attive di default.</string>
     <string name="abc_settings_activity">Avanzate</string>
     <string name="abc_settings_activity_summary">Impostazioni aggiuntive ROM</string>
+
+
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>
