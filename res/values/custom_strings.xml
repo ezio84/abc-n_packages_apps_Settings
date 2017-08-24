@@ -21,4 +21,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- ABC version in About phone -->
+    <string name="rom_version_title">ABC version</string>
+
 </resources>
