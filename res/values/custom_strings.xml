@@ -20,4 +20,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="rom_version_title">ABC Rom version</string>
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+    <string name="abc_settings_activity">Advanced</string>
+    <string name="abc_settings_activity_summary">Additional ROM settings</string>
 </resources>
