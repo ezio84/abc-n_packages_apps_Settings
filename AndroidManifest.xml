@@ -3110,7 +3110,7 @@
         <activity android:name=".Settings$SystemDashboardActivity"
                   android:label="@string/header_category_system"
                   android:icon="@drawable/ic_settings_about">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3126,7 +3126,7 @@
                   android:icon="@drawable/ic_help"
                   android:theme="@android:style/Theme.DeviceDefault.Light.Panel"
                   android:enabled="@bool/config_support_enabled">
-            <intent-filter android:priority="-2">
+            <intent-filter android:priority="-3">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <intent-filter>
@@ -3311,5 +3311,18 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <activity android:name=".Settings$AbcSettingsActivity"
+                  android:label="@string/abc_settings_activity"
+                  android:icon="@drawable/ic_settings_abc">
+            <intent-filter android:priority="-1">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.abc.settings.AbcSettings"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/abc_settings_activity_summary"/>
+        </activity>
     </application>
 </manifest>
