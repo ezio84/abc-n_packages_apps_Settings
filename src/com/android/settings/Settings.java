@@ -166,4 +166,6 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // Abc Additions.
+    public static class AbcSettingsActivity extends SettingsActivity {}
 }
