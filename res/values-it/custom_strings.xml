@@ -23,6 +23,11 @@
     <string name="abc_settings_activity">Avanzate</string>
     <string name="abc_settings_activity_summary">Impostazioni aggiuntive ROM</string>
 
-
     <string name="background_processes_settings_title">Processi in background</string>
+
+    <string name="light_customization">Led di notifica</string>
+    <string name="custom_light_title">Colore led</string>
+    <string name="custom_light_on_time_title">"Tempo di accensione durante il lampeggio (ms)"</string>
+    <string name="custom_light_off_time_title">"Tempo di spegnimento durante il lampeggio (ms)"</string>
+    <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
 </resources>
