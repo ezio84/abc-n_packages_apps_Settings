@@ -34,4 +34,12 @@
     <string name="ambient_doze_custom_brightness_title">Luminosità fissa Ambient</string>
     <string name="ambient_doze_auto_brightness_title">Luminosità automatica Ambient</string>
     <string name="ambient_doze_auto_brightness_summary">Usa la luminosità adattiva precedente allo spegnimento dello schermo per Ambient Display e Lift To Wake</string>
+
+    <string name="light_customization">Led di notifica</string>
+    <string name="custom_light_title">Colore</string>
+    <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
+    <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
+    <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
+    <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
+
 </resources>
