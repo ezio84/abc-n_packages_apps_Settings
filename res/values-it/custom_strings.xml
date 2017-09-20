@@ -30,6 +30,7 @@
     <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
     <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
     <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
+    <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
 
     <string name="night_brightness_category">Luminosità</string>
     <string name="night_brightness_value_title">Abbassa luminosità per la modalità notte</string>
