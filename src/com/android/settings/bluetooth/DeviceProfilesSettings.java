@@ -323,8 +323,6 @@ public final class DeviceProfilesSettings extends InstrumentedDialogFragment imp
         final EditText deviceNameField = (EditText) mRootView.findViewById(R.id.name);
         if (deviceNameField != null) {
             deviceNameField.setText(mCachedDevice.getName());
-            int textLength = deviceNameField.getText().length();
-            deviceNameField.setSelection(textLength);
         }
 
         refreshProfiles();
