@@ -136,7 +136,7 @@
           android:title="@string/emergency_tone_title"
           android:summary="%s" />
 
-        <com.android.settingslib.RestrictedPreference
+        <!--com.android.settingslib.RestrictedPreference
           android:key="cell_broadcast_settings"
           android:title="@string/cell_broadcast_settings"
           settings:useAdminDisabledSummary="true"
@@ -145,7 +145,7 @@
                   android:action="android.intent.action.MAIN"
                   android:targetPackage="com.android.cellbroadcastreceiver"
                   android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
-        </com.android.settingslib.RestrictedPreference>
+        </com.android.settingslib.RestrictedPreference-->
 
         <com.android.settings.WorkOnlyCategory
             android:key="sound_work_settings_section"
