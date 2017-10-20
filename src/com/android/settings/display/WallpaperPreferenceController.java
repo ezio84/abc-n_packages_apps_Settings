@@ -33,7 +33,7 @@ public class WallpaperPreferenceController extends PreferenceController {
 
     @Override
     public boolean isAvailable() {
-        return true;
+        return false;
     }
 
     @Override
