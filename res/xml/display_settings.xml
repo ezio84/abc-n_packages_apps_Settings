@@ -96,6 +96,10 @@
         android:title="@string/ambient_display_screen_title"
         android:fragment="com.android.settings.display.AmbientDisplaySettings" />
 
+    <Preference
+        android:key="ambient_display_custom"
+        android:title="@string/ambient_display_screen_title" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
