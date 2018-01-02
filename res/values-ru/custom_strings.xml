@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2017 ABC rom
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="show_dev_already_enabled">Настройки для разработчика активированы по умолчанию.</string>
+
+    <string name="rom_version_title">Версия ABC Rom</string>
+
+    <string name="twilight_mode_location_dialog">Передача геоданных отключена</string>
+    <string name="twilight_mode_location_disabled">Нет доступа к поиску местоположения</string>
+    <string name="twilight_mode_location_enable">Включить</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Уменьшение яркости в ночном режиме</string>
+    <string name="night_bright_disabled">Выключено</string>
+    <string name="night_bright_minimum">Низкая</string>
+    <string name="night_bright_low">Минимальная</string>
+    <string name="night_bright_medium">Средняя</string>
+
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_auto_brightness_title">Авто-яркость для Ambient Display и LiftToWake</string>
+    <string name="ambient_doze_auto_brightness_summary">Использовать значение яркости, заданное перед выключением экрана, при поднятии устройства и получении уведомления на выключенном экране</string>
+
+    <string name="background_processes_settings_title">Фоновые процессы</string>
+
+    <string name="alert_on_charged_level_title">Уведомление об оптимальном уровне заряда</string>
+    <string name="alert_on_charged_level_summary">Уведомлять пользователя о достижении оптимального уровня заряда с помощью звука или вибрации, если до этого экран был выключен на протяжении хотя бы 1 мин.\nУведомление может быть отключено по долгому нажатию на него.</string>
+    <string name="alert_on_charged_level_dis">Отключено</string>
+    <string name="alert_on_charged_level_80">"80%"</string>
+    <string name="alert_on_charged_level_90">"90%"</string>
+    <string name="alert_on_charged_level_99">"99%"</string>
+
+    <string name="abc_settings_activity">Расширения</string>
+    <string name="abc_settings_activity_summary">Дополнительные настройки</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Индикатор уведомлений</string>
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="app_notifications_info_desc">Нажмите на название канала для редактирования индикации</string>
+    <string name="value_equals_default">умолч.</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
+
+    <string name="notif_sound_screen_on_title">Звуки и вибрация при включенном экране</string>
+</resources>
