@@ -48,4 +48,5 @@
     <string name="abc_settings_activity">Avanzate</string>
     <string name="abc_settings_activity_summary">Impostazioni aggiuntive ROM</string>
 
+    <string name="notif_sound_screen_on_title">Riproduci suono e vibrazione quando lo schermo è acceso</string>
 </resources>

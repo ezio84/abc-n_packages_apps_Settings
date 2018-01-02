@@ -69,6 +69,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private static final String KEY_IMPORTANCE = "importance";
     private static final String KEY_ADVANCED = "advanced";
     private static final String KEY_LIGHT_ON_ZEN = "show_light_on_zen";
+    private static final String KEY_SOUND_SCREEN_ON = "notif_sound_screen_on";
     private static final String KEY_LIGHTS_CAT = "light_customization";
 
     private Preference mImportance;
@@ -83,6 +84,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private EntityHeaderController mHeaderPref;
     private PreferenceGroup mAdvanced;
     private SwitchPreference mLightOnZen;
+    private SwitchPreference mSoundScreenOn;
     private PreferenceGroup mLightsCategory;
 
     @Override
@@ -112,6 +114,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
             populateDefaultChannelPrefs();
             //setup lights for uncategorized channel
             setupLights();
+            setupSound();
             mShowLegacyChannelConfig = true;
         } else {
             populateUpgradedChannelPrefs();
@@ -148,6 +151,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         setupVisOverridePref(mChannel.getLockscreenVisibility());
         //setup lights for categorized channel
         setupLights();
+        setupSound();
         setupVibrate();
         setupRingtone();
         setupImportance();
@@ -309,6 +313,20 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
             public boolean onPreferenceChange(Preference preference, Object newValue) {
                 final boolean show = (Boolean) newValue;
                 mChannel.setLightOnZen(show);
+                mBackend.updateChannel(mPkg, mUid, mChannel);
+                return true;
+            }
+        });
+    }
+
+    private void setupSound() {
+        mSoundScreenOn = (SwitchPreference) findPreference(KEY_SOUND_SCREEN_ON);
+        mSoundScreenOn.setChecked(mChannel.shouldSoundScreenOn());
+        mSoundScreenOn.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                final boolean enable = (Boolean) newValue;
+                mChannel.setSoundScreenOn(enable);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
                 return true;
             }

@@ -30,6 +30,10 @@
         android:title="@string/allow_interruption"
 	android:summary="@string/allow_interruption_summary"/>
 
+    <SwitchPreference
+        android:key="notif_sound_screen_on"
+        android:title="@string/notif_sound_screen_on_title" />
+
     <!-- Visibility Override -->
     <com.android.settings.notification.RestrictedDropDownPreference
         android:key="visibility_override"

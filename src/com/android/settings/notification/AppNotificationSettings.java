@@ -75,6 +75,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     private static final String KEY_LIGHTS_ON_TIME = "custom_light_on_time";
     private static final String KEY_LIGHTS_OFF_TIME = "custom_light_off_time";
     private static final String KEY_LIGHT_ON_ZEN = "show_light_on_zen";
+    private static final String KEY_SOUND_SCREEN_ON = "notif_sound_screen_on";
 
     private List<NotificationChannelGroup> mChannelGroupList;
     private List<PreferenceCategory> mChannelGroups = new ArrayList();
@@ -86,6 +87,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     private CustomSeekBarPreference mLightOnTime;
     private CustomSeekBarPreference mLightOffTime;
     private SwitchPreference mLightOnZen;
+    private SwitchPreference mSoundScreenOn;
 
     @Override
     public int getMetricsCategory() {
@@ -122,6 +124,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
             mLightCategory = (PreferenceCategory) findPreference("light_customization");
             //setup lights for legacy app default channel
             setupLights();
+            setupSound();
         } else {
             addPreferencesFromResource(R.xml.upgraded_app_notification_settings);
             setupBadge();
@@ -240,6 +243,20 @@ public class AppNotificationSettings extends NotificationSettingsBase {
             public boolean onPreferenceChange(Preference preference, Object newValue) {
                 final boolean show = (Boolean) newValue;
                 mChannel.setLightOnZen(show);
+                mBackend.updateChannel(mPkg, mUid, mChannel);
+                return true;
+            }
+        });
+    }
+
+    private void setupSound() {
+        mSoundScreenOn = (SwitchPreference) findPreference(KEY_SOUND_SCREEN_ON);
+        mSoundScreenOn.setChecked(mChannel.shouldSoundScreenOn());
+        mSoundScreenOn.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                final boolean enable = (Boolean) newValue;
+                mChannel.setSoundScreenOn(enable);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
                 return true;
             }
