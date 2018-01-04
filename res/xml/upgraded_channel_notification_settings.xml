@@ -37,10 +37,6 @@
         android:title="@string/notification_vibrate_title"
         settings:useAdditionalSummary="true" />
 
-    <SwitchPreference
-        android:key="notif_sound_screen_on"
-        android:title="@string/notif_sound_screen_on_title" />
-
     <PreferenceCategory
         android:key="advanced"
         android:title="@string/advanced_apps">
