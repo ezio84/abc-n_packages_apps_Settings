@@ -48,4 +48,5 @@
     <string name="abc_settings_activity">Avanzate</string>
     <string name="abc_settings_activity_summary">Impostazioni aggiuntive ROM</string>
 
+    <string name="wireless_charging_sounds_title">Suoni caricamento wireless</string>
 </resources>
