@@ -48,4 +48,8 @@
 
     <string name="fp_swipe_to_dismiss_notifications_title">Scorri lateralmente per cancellare le notifiche</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Per eliminare le notifiche correnti, scorri a destra o sinistra sul sensore di impronte digitali sul retro del telefono.</string>
+
+    <string name="applying_theme_toast">Applicazione tema in corso...</string>
+    <string name="theme_applied_toast">Tema applicato!</string>
+    <string name="substratum_installed_title">Rilevato Substratum. I temi predefiniti di sistema sono stati disattivati.</string>
 </resources>
