@@ -21,7 +21,7 @@
 
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
-    <string name="rom_version_title">ABC Rom version</string>
+    <string name="rom_version_title">ABC ROM version</string>
 
     <string name="twilight_mode_location_dialog">Location disabled</string>
     <string name="twilight_mode_location_disabled">Location access is disabled</string>

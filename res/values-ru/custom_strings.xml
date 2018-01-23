@@ -21,7 +21,7 @@
 
     <string name="show_dev_already_enabled">Настройки для разработчика активированы по умолчанию.</string>
 
-    <string name="rom_version_title">Версия ABC Rom</string>
+    <string name="rom_version_title">Версия ABC ROM</string>
 
     <string name="twilight_mode_location_dialog">Передача геоданных отключена</string>
     <string name="twilight_mode_location_disabled">Нет доступа к поиску местоположения</string>
