@@ -40,13 +40,6 @@
 
     <string name="background_processes_settings_title">Background processes</string>
 
-    <string name="alert_on_charged_level_title">Optimal charge level alert</string>
-    <string name="alert_on_charged_level_summary">Notify and play sound/vibrate on optimal charge level if screen is off since at least 1 min.\nNotification can be disabled separately long pressing on it.</string>
-    <string name="alert_on_charged_level_dis">Disabled</string>
-    <string name="alert_on_charged_level_80">"80%"</string>
-    <string name="alert_on_charged_level_90">"90%"</string>
-    <string name="alert_on_charged_level_99">"99%"</string>
-
     <string name="abc_settings_activity">Advanced</string>
     <string name="abc_settings_activity_summary">Additional ROM settings</string>
 
@@ -65,4 +58,5 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <!--  [CHAR LIMIT=160]-->
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
 </resources>

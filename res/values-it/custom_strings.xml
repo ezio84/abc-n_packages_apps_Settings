@@ -21,10 +21,6 @@
 
     <string name="background_processes_settings_title">Processi in background</string>
 
-    <string name="alert_on_charged_level_title">Avviso carica batteria ottimale</string>
-    <string name="alert_on_charged_level_summary">Notifica e suona/vibra quando il livello di ricarica è ottimale e lo schermo è spento da almeno 1 min.\nLa notifica può essere disattivata separatamente con un tap lungo su di essa.</string>
-    <string name="alert_on_charged_level_dis">Disattivato</string>
-
     <string name="night_brightness_category">Luminosità</string>
     <string name="night_brightness_value_title">Abbassa luminosità per la modalità notte</string>
     <string name="night_bright_disabled">Disattivato</string>
@@ -49,4 +45,5 @@
     <string name="abc_settings_activity_summary">Impostazioni aggiuntive ROM</string>
 
     <string name="wireless_charging_sounds_title">Suoni caricamento wireless</string>
+
 </resources>

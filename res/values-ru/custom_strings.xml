@@ -40,13 +40,6 @@
 
     <string name="background_processes_settings_title">Фоновые процессы</string>
 
-    <string name="alert_on_charged_level_title">Уведомление об оптимальном уровне заряда</string>
-    <string name="alert_on_charged_level_summary">Уведомлять пользователя о достижении оптимального уровня заряда с помощью звука или вибрации, если до этого экран был выключен на протяжении хотя бы 1 мин.\nУведомление может быть отключено по долгому нажатию на него.</string>
-    <string name="alert_on_charged_level_dis">Отключено</string>
-    <string name="alert_on_charged_level_80">"80%"</string>
-    <string name="alert_on_charged_level_90">"90%"</string>
-    <string name="alert_on_charged_level_99">"99%"</string>
-
     <string name="abc_settings_activity">Персонализация</string>
     <string name="abc_settings_activity_summary">Дополнительные настройки</string>
 
