@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-* Copyright (C) 2017 The halogenOS Project
+* Copyright (C) 2017 ABC rom
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -46,4 +46,6 @@
 
     <string name="wireless_charging_sounds_title">Suoni caricamento wireless</string>
 
+    <string name="fp_swipe_to_dismiss_notifications_title">Scorri lateralmente per cancellare le notifiche</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Per eliminare le notifiche correnti, scorri a destra o sinistra sul sensore di impronte digitali sul retro del telefono.</string>
 </resources>
