@@ -53,4 +53,9 @@
     <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 
     <string name="wireless_charging_sounds_title">Сигналы беспроводной зарядки</string>
+
+    <!-- [CHAR LIMIT=80]-->
+    <string name="fp_swipe_to_dismiss_notifications_title">Горизонтальный свайп по сканеру отпечатка для скрытия уведомлений</string>
+    <!--  [CHAR LIMIT=160]-->
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы скрыть уведомления, проведите влево или вправо по сканеру отпечатка пальца.</string>
 </resources>
