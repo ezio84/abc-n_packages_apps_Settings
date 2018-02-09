@@ -136,6 +136,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.abc.settings.AbcSettings;
 import com.abc.settings.FlingSettings;
 import com.abc.settings.NavbarSettings;
+import com.abc.settings.OtherSettings;
 import com.abc.settings.PulseSettings;
 import com.abc.settings.SmartbarSettings;
 
@@ -264,6 +265,7 @@ public class SettingsGateway {
             AbcSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
+            OtherSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
     };
@@ -307,6 +309,7 @@ public class SettingsGateway {
             Settings.AbcSettingsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
+            Settings.AbcOtherSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
     };

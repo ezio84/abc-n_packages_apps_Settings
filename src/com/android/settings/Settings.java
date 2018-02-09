@@ -194,6 +194,7 @@ public class Settings extends SettingsActivity {
     // Abc Additions.
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class AbcSettingsActivity extends SettingsActivity {}
+    public static class AbcOtherSettingsActivity extends SettingsActivity {}
     public static class NavigationSettingsActivity extends SettingsActivity { /* empty */ }
     public static class FlingSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SmartbarSettingsActivity extends SettingsActivity { /* empty */ }

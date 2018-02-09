@@ -3327,6 +3327,18 @@
                        android:resource="@string/abc_settings_activity_summary"/>
         </activity>
 
+        <!-- ABC Other settings -->
+        <activity android:name="Settings$AbcOtherSettingsActivity"
+                android:label="@string/other_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.abc.settings.OtherSettings" />
+        </activity>
+
         <!-- Global navbar settings -->
         <activity android:name="Settings$NavigationSettingsActivity"
                 android:label="@string/bottom_nav_navigation_title"
