@@ -58,4 +58,6 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Горизонтальный свайп по сканеру отпечатка для скрытия уведомлений</string>
     <!--  [CHAR LIMIT=160]-->
     <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы скрыть уведомления, проведите влево или вправо по сканеру отпечатка пальца.</string>
+
+    <string name="notification_log_summary">Отображать журнал уведомлений</string>
 </resources>
