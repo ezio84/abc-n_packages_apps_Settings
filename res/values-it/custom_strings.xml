@@ -52,4 +52,9 @@
     <string name="applying_theme_toast">Applicazione tema in corso...</string>
     <string name="theme_applied_toast">Tema applicato!</string>
     <string name="substratum_installed_title">Rilevato Substratum. I temi predefiniti di sistema sono stati disattivati.</string>
+
+    <string name="systemui_theme_style_title">Tema di sistema</string>
+    <string name="systemui_theme_style_auto">Basato sullo sfondo</string>
+    <string name="systemui_theme_style_light">Light</string>
+    <string name="systemui_theme_style_dark">Dark</string>
 </resources>

@@ -60,4 +60,9 @@
     <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы скрыть уведомления, проведите влево или вправо по сканеру отпечатка пальца.</string>
 
     <string name="notification_log_summary">Отображать журнал уведомлений</string>
+
+    <string name="systemui_theme_style_title">Стиль оформления</string>
+    <string name="systemui_theme_style_auto">Авто (по обоям)</string>
+    <string name="systemui_theme_style_light">Светлый</string>
+    <string name="systemui_theme_style_dark">Темный</string>
 </resources>
