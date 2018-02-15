@@ -69,4 +69,6 @@
     <string name="systemui_theme_style_auto">Wallpaper based</string>
     <string name="systemui_theme_style_light">Light style</string>
     <string name="systemui_theme_style_dark">Dark style</string>
+
+    <string name="the_dummy_guys">The Dummy guys</string>
 </resources>

@@ -132,6 +132,10 @@
         android:persistent="false" />
 
     <Preference
+        android:key="dummy_fragment"
+        android:title="@string/the_dummy_guys" />
+
+    <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
