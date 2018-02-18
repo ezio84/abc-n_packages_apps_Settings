@@ -62,11 +62,16 @@
     <string name="notification_log_summary">Отображать журнал уведомлений</string>
 
     <!-- Themes -->
-    <string name="systemui_theme_style_title">Стиль оформления</string>
+    <string name="theme_category_title">Стиль оформления</string>
+    <string name="systemui_theme_style_title">Цвет фона</string>
     <string name="systemui_theme_style_auto">Авто (по обоям)</string>
     <string name="systemui_theme_style_light">Светлый</string>
     <string name="systemui_theme_style_dark">Темный</string>
     <string name="applying_theme_toast">Тема применяется! Подождите...</string>
     <string name="theme_applied_toast">Тема применена!</string>
+    <string name="accent_picker_dialog_title">Выберите цвет акцента</string>
+    <string name="theme_accent_picker_title">Цвет акцента</string>
+    <string name="theme_accent_picker_summary">Выберите цвет акцента системы</string>
+    <string name="theme_accent_picker_default">По умолчанию</string>
 
 </resources>
