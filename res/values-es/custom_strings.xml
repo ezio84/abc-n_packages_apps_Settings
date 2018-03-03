@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2017 ABC rom
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="show_dev_already_enabled">No es necesario, opciones de desarrollador activas por defecto.</string>
+
+    <string name="rom_version_title">Version de ABC ROM</string>
+
+    <string name="twilight_mode_location_dialog">Ubicación inactiva</string>
+    <string name="twilight_mode_location_disabled">Acceso a la ubicación inactiva</string>
+    <string name="twilight_mode_location_enable">Activar</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Brillo bajo en Luz Nocturna</string>
+    <string name="night_bright_disabled">Inactiva</string>
+    <string name="night_bright_minimum">Brillo mínimo</string>
+    <string name="night_bright_low">Brillo bajo</string>
+    <string name="night_bright_medium">Brillo medio</string>
+
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_auto_brightness_title">Brillo automática en ambiente y encender al levantar</string>
+    <string name="ambient_doze_auto_brightness_summary">Usar el ultimo valor de brillo en la pantalla ambiente o encender pantalla al levantar</string>
+
+    <string name="background_processes_settings_title">Procesos de fondo</string>
+
+    <string name="abc_settings_activity">Avanzado</string>
+    <string name="abc_settings_activity_summary">Ajustes adicionales de ROM</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Luz de notificación</string>
+    <string name="custom_light_title">Color de luz</string>
+    <string name="custom_light_on_time_title">"Tiempo durante el pulso de luz encendida (ms)"</string>
+    <string name="custom_light_off_time_title">"Tiempo durante el pulso de luz apagada (ms)"</string>
+    <string name="app_notifications_info_desc">Toca sobre uno de los canales para configurar los colores de la luz y otras opciones</string>
+    <string name="value_equals_default">Def</string>
+    <string name="show_light_on_zen_title">Parpadear durante No Molestar</string>
+
+    <string name="wireless_charging_sounds_title">Sonido de carga inalámbrica</string>
+
+    <!-- [CHAR LIMIT=80]-->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslizar sensor de huella de izq. a der. para descartar notificaciones</string>
+    <!--  [CHAR LIMIT=160]-->
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar sus notificaciones, desliza de izquierda a derecha el sensor de huella.</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar historia de registros de notificaciones</string>
+
+    <!-- System theme -->
+    <string name="theme_category_title">Tema del sistema</string>
+    <string name="systemui_theme_style_title">Color de fondo</string>
+    <string name="applying_theme_toast">Aplicando tema, espera por favor...</string>
+    <string name="theme_applied_toast">Tema aplicado!</string>
+    <string name="substratum_installed_title">Los temas no esta disponibles ya que Substratum esta instalado. Desinstalalo si quieres usar estos temas.</string>
+    <string name="systemui_theme_style_auto">Basado en fondo de pantalla</string>
+    <string name="systemui_theme_style_light">Estilo claro</string>
+    <string name="systemui_theme_style_dark">Estilo oscuro</string>
+    <string name="accent_picker_dialog_title">Selecciona el color de énfasis</string>
+    <string name="theme_accent_picker_title">Color de énfasis</string>
+    <string name="theme_accent_picker_summary">Selecciona color de énfasis para el sistema</string>
+    <string name="theme_accent_picker_default">Defecto</string>
+</resources>
