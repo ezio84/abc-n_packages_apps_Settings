@@ -48,8 +48,4 @@
 
     </PreferenceCategory>
 
-    <SwitchPreference
-        android:key="ambient_doze_auto_brightness"
-        android:title="@string/ambient_doze_auto_brightness_title"
-        android:summary="@string/ambient_doze_auto_brightness_summary" />
 </PreferenceScreen>
