@@ -57,6 +57,7 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:title="@string/custom_light_title"
+            isledPicker="true"
             settings:defaultColorValue="0xFFFFFFFF" />
 
         <com.abc.settings.preferences.CustomSeekBarPreference
