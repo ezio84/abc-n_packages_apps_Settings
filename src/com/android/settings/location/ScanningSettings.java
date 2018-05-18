@@ -59,10 +59,16 @@ public class ScanningSettings extends SettingsPreferenceFragment {
             (SwitchPreference) findPreference(KEY_WIFI_SCAN_ALWAYS_AVAILABLE);
         wifiScanAlwaysAvailable.setChecked(Global.getInt(getContentResolver(),
                     Global.WIFI_SCAN_ALWAYS_AVAILABLE, 0) == 1);
+        boolean isBleScanForceDisabled = getActivity().getResources()
+                    .getBoolean(com.android.internal.R.bool.forceDisableAlwaysOnBle);
         final SwitchPreference bleScanAlwaysAvailable =
             (SwitchPreference) findPreference(KEY_BLUETOOTH_SCAN_ALWAYS_AVAILABLE);
-        bleScanAlwaysAvailable.setChecked(Global.getInt(getContentResolver(),
-                    Global.BLE_SCAN_ALWAYS_AVAILABLE, 0) == 1);
+        if (isBleScanForceDisabled && bleScanAlwaysAvailable != null) {
+            getPreferenceScreen().removePreference(bleScanAlwaysAvailable);
+        } else {
+            bleScanAlwaysAvailable.setChecked(Global.getInt(getContentResolver(),
+                        Global.BLE_SCAN_ALWAYS_AVAILABLE, 0) == 1);
+        }
     }
 
     @Override
