@@ -61,4 +61,6 @@
     <string name="theme_accent_picker_title">Colore accent</string>
     <string name="theme_accent_picker_summary">Seleziona il colore accent di sistema</string>
     <string name="theme_accent_picker_default">Predefinito</string>
+
+    <string name="custom_ambient_display_summary">Configura l\'Ambient Display avanzato</string>
 </resources>
