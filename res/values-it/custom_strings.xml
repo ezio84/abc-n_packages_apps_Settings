@@ -21,4 +21,9 @@
     <string name="custom_ambient_display_summary">Configura l\'Ambient Display avanzato</string>
 
     <string name="background_processes_settings_title">Processi in background</string>
+
+    <string name="custom_light_title">Colore led</string>
+    <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
+    <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
+    <string name="value_equals_default">def</string>
 </resources>
