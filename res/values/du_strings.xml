@@ -26,4 +26,8 @@
     <string name="accent_picker_custom_colors">User requested</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
+
+    <!-- Ambient category -->
+    <string name="ambient_display_category">Ambient options</string>
+
 </resources>
