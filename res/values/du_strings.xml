@@ -14,15 +14,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- System theme -->
     <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
     <string name="system_theme_light">Light</string>
     <string name="system_theme_dark">Dark</string>
-
+    <!-- Themes -->
+    <string name="theme_category_title">Theme options</string>
     <string name="accent_picker_dialog_title">Select an accent color</string>
     <string name="theme_accent_picker_title">Accent color</string>
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
+    <string name="accent_picker_material_colors">Material palette</string>
+    <string name="accent_picker_custom_colors">User requested</string>
+    <string name="qs_styles_dialog_title">Select a QS tile style</string>
 
 </resources>
