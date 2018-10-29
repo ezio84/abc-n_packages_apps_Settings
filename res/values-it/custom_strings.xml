@@ -47,4 +47,11 @@
     <string name="qs_columns_portrait_title">Colonne tiles in portrait</string>
     <string name="qs_columns_landscape_title">Colonne tiles landscape</string>
     <string name="qs_tile_title_visibility_title">Mostra descrizione tiles</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
+    <string name="double_tap_power_flashlight_title">Pulsante power per la torcia</string>
+    <string name="torch_power_button_gesture_none">Disattivato</string>
+    <string name="torch_power_button_gesture_dt">Doppio tap power per la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione lunga power per la torcia</string>
 </resources>
