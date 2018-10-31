@@ -3330,7 +3330,7 @@
 
         <activity android:name=".Settings$AbcSettingsActivity"
                   android:label="@string/abc_settings_activity"
-                  android:icon="@drawable/ic_settings_abc">
+                  android:icon="@drawable/ic_settings_abc_shape">
             <intent-filter android:priority="-1">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
