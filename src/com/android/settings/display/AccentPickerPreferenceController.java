@@ -38,7 +38,6 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
         implements PreferenceControllerMixin, LifecycleObserver, OnResume {
 
     private static final String KEY_ACCENT_PICKER_FRAGMENT_PREF = "accent_picker";
-    private static final String SUBS_PACKAGE = "projekt.substratum";
 
     private static final int MY_USER_ID = UserHandle.myUserId();
 
@@ -67,7 +66,7 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
 
     @Override
     public boolean isAvailable() {
-        return !Utils.isPackageInstalled(mContext, SUBS_PACKAGE);
+        return true;
     }
 
     @Override
