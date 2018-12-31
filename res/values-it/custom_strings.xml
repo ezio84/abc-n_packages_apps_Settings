@@ -26,4 +26,7 @@
     <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
     <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
     <string name="value_equals_default">def</string>
+
+    <string name="abc_settings_activity">Avanzate</string>
+    <string name="abc_settings_activity_summary">Opzioni aggiuntive ROM</string>
 </resources>
