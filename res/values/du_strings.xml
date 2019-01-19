@@ -65,4 +65,9 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
+
 </resources>
