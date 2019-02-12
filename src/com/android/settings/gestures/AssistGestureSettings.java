@@ -50,20 +50,6 @@ public class AssistGestureSettings extends DashboardFragment {
         return R.xml.assist_gesture_settings;
     }
 
-    @Override
-    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, getLifecycle());
-    }
-
-    private static List<AbstractPreferenceController> buildPreferenceControllers(Context context,
-            Lifecycle lifecycle) {
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.addAll(FeatureFactory.getFactory(context).getAssistGestureFeatureProvider()
-                .getControllers(context, lifecycle));
-
-        return controllers;
-    }
-
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
@@ -75,17 +61,10 @@ public class AssistGestureSettings extends DashboardFragment {
                 }
 
                 @Override
-                public List<AbstractPreferenceController> createPreferenceControllers(
-                        Context context) {
-                    return buildPreferenceControllers(context, null /* lifecycle */);
-                }
-
-                @Override
                 protected boolean isPageSearchEnabled(Context context) {
                     AssistGestureSettingsPreferenceController controller =
                             new AssistGestureSettingsPreferenceController(context,
                                     "gesture_assist_input_summary");
-                    controller.setAssistOnly(false);
                     return controller.isAvailable();
                 }
             };

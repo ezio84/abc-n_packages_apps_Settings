@@ -66,8 +66,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
                 new AmbientDisplayConfiguration(context);
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
 
-        controllers.add(new AssistGestureSettingsPreferenceController(context, FAKE_PREF_KEY)
-                .setAssistOnly(false));
+        //controllers.add(new AssistGestureSettingsPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new SwipeToNotificationPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new DoubleTwistPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new DoubleTapPowerPreferenceController(context, FAKE_PREF_KEY));
@@ -90,7 +89,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         final boolean assistGestureSilenceEnabled = Settings.Secure.getInt(
                 contentResolver, Settings.Secure.ASSIST_GESTURE_SILENCE_ALERTS_ENABLED, 1) != 0;
 
-        if (mFeatureProvider.isSupported(mContext) && assistGestureEnabled) {
+        if (assistGestureEnabled) {
             return mContext.getText(
                     R.string.language_input_gesture_summary_on_with_assist);
         }

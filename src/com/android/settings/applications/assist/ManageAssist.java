@@ -63,7 +63,7 @@ public class ManageAssist extends DashboardFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(AssistGestureSettingsPreferenceController.class).setAssistOnly(true);
+        //use(AssistGestureSettingsPreferenceController.class).setAssistOnly(true);
     }
 
     @Override

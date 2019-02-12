@@ -67,7 +67,6 @@ public class GestureSettings extends DashboardFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(AssistGestureSettingsPreferenceController.class).setAssistOnly(false);
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
     }
@@ -93,7 +92,7 @@ public class GestureSettings extends DashboardFragment {
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     // Duplicates in summary and details pages.
-                    keys.add(KEY_ASSIST);
+                    //keys.add(KEY_ASSIST);
                     keys.add(KEY_SWIPE_DOWN);
                     keys.add(KEY_DOUBLE_TAP_POWER);
                     keys.add(KEY_DOUBLE_TWIST);

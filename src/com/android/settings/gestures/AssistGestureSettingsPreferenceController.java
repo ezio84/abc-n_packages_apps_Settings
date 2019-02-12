@@ -16,136 +16,154 @@
 
 package com.android.settings.gestures;
 
-import static android.provider.Settings.Secure.ASSIST_GESTURE_ENABLED;
-import static android.provider.Settings.Secure.ASSIST_GESTURE_SILENCE_ALERTS_ENABLED;
+import static android.provider.Settings.Secure.ASSIST_GESTURE_SENSITIVITY;
+import static android.provider.Settings.Secure.ASSIST_GESTURE_WAKE_ENABLED;
+import static android.provider.Settings.Secure.SQUEEZE_SELECTION;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.provider.Settings;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
+import android.text.TextUtils;
 
-import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.R;
+import com.android.settings.core.BasePreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.overlay.FeatureFactory;
-import com.android.settings.search.DatabaseIndexingUtils;
-import com.android.settings.search.InlineSwitchPayload;
-import com.android.settings.search.ResultPayload;
+import com.android.settings.widget.VideoPreference;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnCreate;
+import com.android.settingslib.core.lifecycle.events.OnPause;
+import com.android.settingslib.core.lifecycle.events.OnResume;
+import com.android.settingslib.core.lifecycle.events.OnSaveInstanceState;
 
-public class AssistGestureSettingsPreferenceController extends GesturePreferenceController {
+import com.abc.support.preferences.CustomSeekBarPreference;
+
+public class AssistGestureSettingsPreferenceController extends BasePreferenceController
+        implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener,
+        LifecycleObserver, OnResume, OnPause, OnCreate, OnSaveInstanceState {
 
     private static final String PREF_KEY_VIDEO = "gesture_assist_video";
+    static final String KEY_VIDEO_PAUSED = "key_video_paused";
 
-    private static final String SECURE_KEY_ASSIST = ASSIST_GESTURE_ENABLED;
-    private static final String SECURE_KEY_SILENCE = ASSIST_GESTURE_SILENCE_ALERTS_ENABLED;
     private static final int ON = 1;
     private static final int OFF = 0;
 
-    private final String mAssistGesturePrefKey;
     private final AssistGestureFeatureProvider mFeatureProvider;
-    private boolean mWasAvailable;
 
-    private PreferenceScreen mScreen;
-    private Preference mPreference;
+    private VideoPreference mVideoPreference;
+    boolean mVideoPaused;
 
-    @VisibleForTesting
-    boolean mAssistOnly;
+    private CustomSeekBarPreference mActiveEdgeSensitivity;
+    private ListPreference mActiveEdgeActions;
+    private SwitchPreference mActiveEdgeWake;
 
     public AssistGestureSettingsPreferenceController(Context context,
             String key) {
         super(context, key);
         mFeatureProvider = FeatureFactory.getFactory(context).getAssistGestureFeatureProvider();
-        mWasAvailable = isAvailable();
-        mAssistGesturePrefKey = key;
     }
 
     @Override
     public int getAvailabilityStatus() {
-        final boolean isAvailable = mAssistOnly ? mFeatureProvider.isSupported(mContext)
-                : mFeatureProvider.isSensorAvailable(mContext);
-        return isAvailable ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return mFeatureProvider.isSensorAvailable(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
     public void displayPreference(PreferenceScreen screen) {
-        mScreen = screen;
-        mPreference = screen.findPreference(getPreferenceKey());
         super.displayPreference(screen);
+        if (isAvailable()) {
+            mVideoPreference = (VideoPreference) screen.findPreference(PREF_KEY_VIDEO);
+
+            mActiveEdgeActions = (ListPreference) screen.findPreference("squeeze_selection");
+            mActiveEdgeSensitivity = (CustomSeekBarPreference) screen.findPreference("gesture_assist_sensitivity");
+            mActiveEdgeWake = (SwitchPreference) screen.findPreference("gesture_assist_wake");
+        }
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        if (savedInstanceState != null) {
+            mVideoPaused = savedInstanceState.getBoolean(KEY_VIDEO_PAUSED, false);
+        }
+    }
+
+     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putBoolean(KEY_VIDEO_PAUSED, mVideoPaused);
+    }
+
+    @Override
+    public void onPause() {
+        if (mVideoPreference != null) {
+            mVideoPaused = mVideoPreference.isVideoPaused();
+            mVideoPreference.onViewInvisible();
+        }
     }
 
     @Override
     public void onResume() {
-        if (mWasAvailable != isAvailable()) {
-            // Only update the preference visibility if the availability has changed -- otherwise
-            // the preference may be incorrectly added to screens with collapsed sections.
-            updatePreference();
-            mWasAvailable = isAvailable();
-        }
-    }
-
-    public AssistGestureSettingsPreferenceController setAssistOnly(boolean assistOnly) {
-        mAssistOnly = assistOnly;
-        return this;
-    }
-
-    private void updatePreference() {
-        if (mPreference == null) {
-            return;
-        }
-
-        if (isAvailable()) {
-            if (mScreen.findPreference(getPreferenceKey()) == null) {
-                mScreen.addPreference(mPreference);
-            }
-        } else {
-            mScreen.removePreference(mPreference);
+        if (mVideoPreference != null) {
+            mVideoPreference.onViewVisible(mVideoPaused);
         }
     }
 
     private boolean isAssistGestureEnabled() {
         return Settings.Secure.getInt(mContext.getContentResolver(),
-                SECURE_KEY_ASSIST, ON) != 0;
-    }
-
-    private boolean isSilenceGestureEnabled() {
-        return Settings.Secure.getInt(mContext.getContentResolver(),
-                SECURE_KEY_SILENCE, ON) != 0;
+                SQUEEZE_SELECTION, OFF) != 0;
     }
 
     @Override
-    public boolean setChecked(boolean isChecked) {
-        return Settings.Secure.putInt(mContext.getContentResolver(), SECURE_KEY_ASSIST,
-                isChecked ? ON : OFF);
-    }
+    public void updateState(Preference preference) {
+        super.updateState(preference);
 
-    @Override
-    protected String getVideoPrefKey() {
-        return PREF_KEY_VIDEO;
-    }
+        if (preference == null) return;
 
-    @Override
-    public CharSequence getSummary() {
-        boolean isEnabled = isAssistGestureEnabled() && mFeatureProvider.isSupported(mContext);
-        if (!mAssistOnly) {
-            isEnabled = isEnabled || isSilenceGestureEnabled();
+        if (TextUtils.equals(preference.getKey(), "gesture_assist_wake")) {
+            SwitchPreference pref = (SwitchPreference) preference;
+            int value = Settings.Secure.getInt(
+                    mContext.getContentResolver(), ASSIST_GESTURE_WAKE_ENABLED, ON);
+            pref.setChecked(value == ON);
+        } else if (TextUtils.equals(preference.getKey(), "squeeze_selection")) {
+            ListPreference pref = (ListPreference) preference;
+            int value = Settings.Secure.getInt(
+                    mContext.getContentResolver(), SQUEEZE_SELECTION, OFF);
+            pref.setValue(String.valueOf(value));
+            pref.setSummary(pref.getEntry());
+        } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
+            CustomSeekBarPreference pref = (CustomSeekBarPreference) preference;
+            int value = Settings.Secure.getInt(
+                    mContext.getContentResolver(), ASSIST_GESTURE_SENSITIVITY, 2);
+            pref.setValue(value);
         }
-        return mContext.getText(
-                isEnabled ? R.string.gesture_setting_on : R.string.gesture_setting_off);
     }
 
     @Override
-    public boolean isChecked() {
-        return Settings.Secure.getInt(mContext.getContentResolver(), SECURE_KEY_ASSIST, OFF) == ON;
-    }
-
-    @Override
-    //TODO (b/69808376): Remove result payload
-    public ResultPayload getResultPayload() {
-        final Intent intent = DatabaseIndexingUtils.buildSearchResultPageIntent(mContext,
-                AssistGestureSettings.class.getName(), mAssistGesturePrefKey,
-                mContext.getString(R.string.display_settings));
-
-        return new InlineSwitchPayload(SECURE_KEY_ASSIST, ResultPayload.SettingsSource.SECURE,
-                ON /* onValue */, intent, isAvailable(), ON /* defaultValue */);
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (TextUtils.equals(preference.getKey(), "squeeze_selection")) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.Secure.putInt(mContext.getContentResolver(),
+                    SQUEEZE_SELECTION, value);
+            int index = mActiveEdgeActions.findIndexOfValue((String) newValue);
+            mActiveEdgeActions.setSummary(
+                    mActiveEdgeActions.getEntries()[index]);
+            return true;
+        } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
+            int val = (Integer) newValue;
+            Settings.Secure.putInt(mContext.getContentResolver(),
+                    ASSIST_GESTURE_SENSITIVITY, val);
+            return true;
+        } else if (TextUtils.equals(preference.getKey(), "gesture_assist_wake")) {
+            boolean enabled = ((Boolean) newValue).booleanValue();
+            Settings.Secure.putInt(mContext.getContentResolver(),
+                    ASSIST_GESTURE_WAKE_ENABLED,
+                    enabled ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 }

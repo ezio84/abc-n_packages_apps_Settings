@@ -26,13 +26,6 @@ import java.util.List;
 /** Feature provider for the assist gesture. */
 public interface AssistGestureFeatureProvider {
 
-    /** Returns true if the assist gesture is supported. */
-    boolean isSupported(Context context);
-
     /** Returns true if the sensor is available. */
     boolean isSensorAvailable(Context context);
-
-    /** Returns a list of additional preference controllers */
-    List<AbstractPreferenceController> getControllers(Context context, Lifecycle lifecycle);
-
 }
