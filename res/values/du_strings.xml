@@ -87,4 +87,6 @@
     <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">QS panel</string>
     <string name="action_launch_camera">Camera</string>
+
+    <string name="active_edge_footer_info">Not all squeeze actions within Active Edge have the capability to activate the display</string>
 </resources>
