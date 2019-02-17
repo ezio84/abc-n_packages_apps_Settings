@@ -35,6 +35,16 @@
         app:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController"
         android:defaultValue="0" />
 
+    <Preference
+        android:key="squeeze_app_selection"
+        android:title="@string/active_edge_app_select_title"
+        app:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController"
+        android:summary="@string/active_edge_app_select_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.google.android.systemui.elmyra.actions.AppPicker" />
+    </Preference>
+
     <com.abc.support.preferences.CustomSeekBarPreference
         android:key="gesture_assist_sensitivity"
         app:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController"

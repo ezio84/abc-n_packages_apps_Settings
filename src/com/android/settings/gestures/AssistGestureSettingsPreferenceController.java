@@ -61,6 +61,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
     private CustomSeekBarPreference mActiveEdgeSensitivity;
     private ListPreference mActiveEdgeActions;
     private SwitchPreference mActiveEdgeWake;
+    private Preference mActiveEdgeAppSelection;
 
     public AssistGestureSettingsPreferenceController(Context context,
             String key) {
@@ -82,6 +83,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             mActiveEdgeActions = (ListPreference) screen.findPreference("squeeze_selection");
             mActiveEdgeSensitivity = (CustomSeekBarPreference) screen.findPreference("gesture_assist_sensitivity");
             mActiveEdgeWake = (SwitchPreference) screen.findPreference("gesture_assist_wake");
+            mActiveEdgeAppSelection = (Preference) screen.findPreference("squeeze_app_selection");
         }
     }
 
@@ -139,6 +141,11 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             int value = Settings.Secure.getInt(
                     mContext.getContentResolver(), ASSIST_GESTURE_SENSITIVITY, 2);
             pref.setValue(value);
+        } else if (TextUtils.equals(preference.getKey(), "squeeze_app_selection")) {
+            Preference pref = (Preference) preference;
+            boolean isAppSelection = Settings.Secure.getInt(mContext.getContentResolver(),
+                    SQUEEZE_SELECTION, OFF) == 11/*action_app_action*/;
+            pref.setEnabled(isAppSelection);
         }
     }
 
@@ -151,6 +158,9 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             int index = mActiveEdgeActions.findIndexOfValue((String) newValue);
             mActiveEdgeActions.setSummary(
                     mActiveEdgeActions.getEntries()[index]);
+            if (mActiveEdgeAppSelection != null) {
+                mActiveEdgeAppSelection.setEnabled(value == 11);
+            }
             return true;
         } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
             int val = (Integer) newValue;
