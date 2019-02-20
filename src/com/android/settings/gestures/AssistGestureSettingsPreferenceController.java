@@ -105,6 +105,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             mVideoPaused = mVideoPreference.isVideoPaused();
             mVideoPreference.onViewInvisible();
         }
+        customAppCheck(mActiveEdgeAppSelection);
     }
 
     @Override
@@ -112,6 +113,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
         if (mVideoPreference != null) {
             mVideoPreference.onViewVisible(mVideoPaused);
         }
+        customAppCheck(mActiveEdgeAppSelection);
     }
 
     private boolean isAssistGestureEnabled() {
@@ -146,6 +148,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             boolean isAppSelection = Settings.Secure.getInt(mContext.getContentResolver(),
                     SQUEEZE_SELECTION, OFF) == 11/*action_app_action*/;
             pref.setEnabled(isAppSelection);
+            customAppCheck(pref);
         }
     }
 
@@ -161,6 +164,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             if (mActiveEdgeAppSelection != null) {
                 mActiveEdgeAppSelection.setEnabled(value == 11);
             }
+            customAppCheck(mActiveEdgeAppSelection);
             return true;
         } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
             int val = (Integer) newValue;
@@ -175,5 +179,11 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             return true;
         }
         return false;
+    }
+
+    private void customAppCheck(Preference appSelection) {
+        if (appSelection == null) return;
+        appSelection.setSummary(Settings.Secure.getString(mContext.getContentResolver(),
+                String.valueOf(Settings.Secure.SQUEEZE_CUSTOM_APP_FR_NAME)));
     }
 }
