@@ -402,9 +402,9 @@ public class ManageApplications extends InstrumentedFragment
             }
         }
         if (mListType == LIST_TYPE_NOTIFICATION) {
-            mFilterAdapter.enableFilter(FILTER_APPS_ALL);
             mFilterAdapter.enableFilter(FILTER_APPS_RECENT);
             mFilterAdapter.enableFilter(FILTER_APPS_FREQUENT);
+            mFilterAdapter.disableFilter(FILTER_APPS_ALL);
         }
         if (mListType == LIST_TYPE_HIGH_POWER) {
             mFilterAdapter.enableFilter(FILTER_APPS_POWER_WHITELIST_ALL);
@@ -644,7 +644,6 @@ public class ManageApplications extends InstrumentedFragment
         mOptionsMenu.findItem(R.id.reset_app_preferences).setVisible(mListType == LIST_TYPE_MAIN);
 
         // Hide notification menu items, because sorting happens when filtering
-        mOptionsMenu.findItem(R.id.filter_all_apps).setVisible(false);
         mOptionsMenu.findItem(R.id.sort_order_recent_notification).setVisible(false);
         mOptionsMenu.findItem(R.id.sort_order_frequent_notification).setVisible(false);
     }
@@ -929,12 +928,10 @@ public class ManageApplications extends InstrumentedFragment
             mAppFilter = appFilter;
 
             // Notification filters require resorting the list
-            if (FILTER_APPS_ALL == appFilter.getFilterType()) {
-                rebuild(R.id.filter_all_apps);
+            if (FILTER_APPS_FREQUENT == appFilter.getFilterType()) {
+                rebuild(R.id.sort_order_frequent_notification);
             } else if (FILTER_APPS_RECENT == appFilter.getFilterType()) {
                 rebuild(R.id.sort_order_recent_notification);
-            } else if (FILTER_APPS_FREQUENT == appFilter.getFilterType()) {
-                rebuild(R.id.sort_order_frequent_notification);
             } else {
                 rebuild();
             }
@@ -1310,7 +1307,7 @@ public class ManageApplications extends InstrumentedFragment
                     if (entry.extraInfo != null) {
                         holder.setSummary(AppStateNotificationBridge.getSummary(mContext,
                                 (NotificationsSentState) entry.extraInfo,
-                                (mLastSortMode == R.id.filter_all_apps)));
+                                (mLastSortMode == R.id.sort_order_recent_notification)));
                     } else {
                         holder.setSummary(null);
                     }
@@ -1359,7 +1356,7 @@ public class ManageApplications extends InstrumentedFragment
                     if (entry.extraInfo != null) {
                         holder.setSummary(AppStateNotificationBridge.getSummary(mContext,
                                 (NotificationsSentState) entry.extraInfo,
-                                (mLastSortMode == R.id.filter_all_apps)));
+                                (mLastSortMode == R.id.sort_order_recent_notification)));
                     } else {
                         holder.setSummary(null);
                     }
