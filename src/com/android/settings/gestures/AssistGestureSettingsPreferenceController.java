@@ -18,7 +18,10 @@ package com.android.settings.gestures;
 
 import static android.provider.Settings.Secure.ASSIST_GESTURE_SENSITIVITY;
 import static android.provider.Settings.Secure.ASSIST_GESTURE_WAKE_ENABLED;
-import static android.provider.Settings.Secure.SQUEEZE_SELECTION;
+import static android.provider.Settings.Secure.SHORT_SQUEEZE_SELECTION;
+import static android.provider.Settings.Secure.SHORT_SQUEEZE_CUSTOM_APP_FR_NAME;
+import static android.provider.Settings.Secure.LONG_SQUEEZE_SELECTION;
+import static android.provider.Settings.Secure.LONG_SQUEEZE_CUSTOM_APP_FR_NAME;
 
 import android.content.Context;
 import android.content.Intent;
@@ -59,9 +62,11 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
     boolean mVideoPaused;
 
     private CustomSeekBarPreference mActiveEdgeSensitivity;
-    private ListPreference mActiveEdgeActions;
     private SwitchPreference mActiveEdgeWake;
-    private Preference mActiveEdgeAppSelection;
+    private ListPreference mActiveEdgeShortSqueezeActions;
+    private Preference mActiveEdgeShortSqueezeAppSelection;
+    private ListPreference mActiveEdgeLongSqueezeActions;
+    private Preference mActiveEdgeLongSqueezeAppSelection;
 
     public AssistGestureSettingsPreferenceController(Context context,
             String key) {
@@ -80,10 +85,12 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
         if (isAvailable()) {
             mVideoPreference = (VideoPreference) screen.findPreference(PREF_KEY_VIDEO);
 
-            mActiveEdgeActions = (ListPreference) screen.findPreference("squeeze_selection");
             mActiveEdgeSensitivity = (CustomSeekBarPreference) screen.findPreference("gesture_assist_sensitivity");
             mActiveEdgeWake = (SwitchPreference) screen.findPreference("gesture_assist_wake");
-            mActiveEdgeAppSelection = (Preference) screen.findPreference("squeeze_app_selection");
+            mActiveEdgeShortSqueezeActions = (ListPreference) screen.findPreference("short_squeeze_selection");
+            mActiveEdgeShortSqueezeAppSelection = (Preference) screen.findPreference("short_squeeze_app_selection");
+            mActiveEdgeLongSqueezeActions = (ListPreference) screen.findPreference("long_squeeze_selection");
+            mActiveEdgeLongSqueezeAppSelection = (Preference) screen.findPreference("long_squeeze_app_selection");
         }
     }
 
@@ -105,7 +112,7 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             mVideoPaused = mVideoPreference.isVideoPaused();
             mVideoPreference.onViewInvisible();
         }
-        customAppCheck(mActiveEdgeAppSelection);
+        customAppCheck(mActiveEdgeShortSqueezeAppSelection, mActiveEdgeLongSqueezeAppSelection);
     }
 
     @Override
@@ -113,12 +120,14 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
         if (mVideoPreference != null) {
             mVideoPreference.onViewVisible(mVideoPaused);
         }
-        customAppCheck(mActiveEdgeAppSelection);
+        customAppCheck(mActiveEdgeShortSqueezeAppSelection, mActiveEdgeLongSqueezeAppSelection);
     }
 
     private boolean isAssistGestureEnabled() {
-        return Settings.Secure.getInt(mContext.getContentResolver(),
-                SQUEEZE_SELECTION, OFF) != 0;
+        return (Settings.Secure.getInt(mContext.getContentResolver(),
+                SHORT_SQUEEZE_SELECTION, OFF) != 0)
+                || (Settings.Secure.getInt(mContext.getContentResolver(),
+                LONG_SQUEEZE_SELECTION, OFF) != 0);
     }
 
     @Override
@@ -132,39 +141,63 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
             int value = Settings.Secure.getInt(
                     mContext.getContentResolver(), ASSIST_GESTURE_WAKE_ENABLED, ON);
             pref.setChecked(value == ON);
-        } else if (TextUtils.equals(preference.getKey(), "squeeze_selection")) {
-            ListPreference pref = (ListPreference) preference;
-            int value = Settings.Secure.getInt(
-                    mContext.getContentResolver(), SQUEEZE_SELECTION, OFF);
-            pref.setValue(String.valueOf(value));
-            pref.setSummary(pref.getEntry());
         } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
             CustomSeekBarPreference pref = (CustomSeekBarPreference) preference;
             int value = Settings.Secure.getInt(
                     mContext.getContentResolver(), ASSIST_GESTURE_SENSITIVITY, 2);
             pref.setValue(value);
-        } else if (TextUtils.equals(preference.getKey(), "squeeze_app_selection")) {
+        } else if (TextUtils.equals(preference.getKey(), "short_squeeze_selection")) {
+            ListPreference pref = (ListPreference) preference;
+            int value = Settings.Secure.getInt(
+                    mContext.getContentResolver(), SHORT_SQUEEZE_SELECTION, OFF);
+            pref.setValue(String.valueOf(value));
+            pref.setSummary(pref.getEntry());
+        } else if (TextUtils.equals(preference.getKey(), "short_squeeze_app_selection")) {
             Preference pref = (Preference) preference;
             boolean isAppSelection = Settings.Secure.getInt(mContext.getContentResolver(),
-                    SQUEEZE_SELECTION, OFF) == 11/*action_app_action*/;
+                    SHORT_SQUEEZE_SELECTION, OFF) == 11/*action_app_action*/;
             pref.setEnabled(isAppSelection);
-            customAppCheck(pref);
+            customAppCheck(pref, mActiveEdgeLongSqueezeAppSelection);
+        } else if (TextUtils.equals(preference.getKey(), "long_squeeze_selection")) {
+            ListPreference pref = (ListPreference) preference;
+            int value = Settings.Secure.getInt(
+                    mContext.getContentResolver(), LONG_SQUEEZE_SELECTION, OFF);
+            pref.setValue(String.valueOf(value));
+            pref.setSummary(pref.getEntry());
+        } else if (TextUtils.equals(preference.getKey(), "long_squeeze_app_selection")) {
+            Preference pref = (Preference) preference;
+            boolean isAppSelection = Settings.Secure.getInt(mContext.getContentResolver(),
+                    LONG_SQUEEZE_SELECTION, OFF) == 11/*action_app_action*/;
+            pref.setEnabled(isAppSelection);
+            customAppCheck(mActiveEdgeShortSqueezeAppSelection, pref);
         }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (TextUtils.equals(preference.getKey(), "squeeze_selection")) {
+        if (TextUtils.equals(preference.getKey(), "short_squeeze_selection")) {
             int value = Integer.parseInt((String) newValue);
             Settings.Secure.putInt(mContext.getContentResolver(),
-                    SQUEEZE_SELECTION, value);
-            int index = mActiveEdgeActions.findIndexOfValue((String) newValue);
-            mActiveEdgeActions.setSummary(
-                    mActiveEdgeActions.getEntries()[index]);
-            if (mActiveEdgeAppSelection != null) {
-                mActiveEdgeAppSelection.setEnabled(value == 11);
+                    SHORT_SQUEEZE_SELECTION, value);
+            int index = mActiveEdgeShortSqueezeActions.findIndexOfValue((String) newValue);
+            mActiveEdgeShortSqueezeActions.setSummary(
+                    mActiveEdgeShortSqueezeActions.getEntries()[index]);
+            if (mActiveEdgeShortSqueezeAppSelection != null) {
+                mActiveEdgeShortSqueezeAppSelection.setEnabled(value == 11);
             }
-            customAppCheck(mActiveEdgeAppSelection);
+            customAppCheck(mActiveEdgeShortSqueezeAppSelection, mActiveEdgeLongSqueezeAppSelection);
+            return true;
+        } else if (TextUtils.equals(preference.getKey(), "long_squeeze_selection")) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.Secure.putInt(mContext.getContentResolver(),
+                    LONG_SQUEEZE_SELECTION, value);
+            int index = mActiveEdgeLongSqueezeActions.findIndexOfValue((String) newValue);
+            mActiveEdgeLongSqueezeActions.setSummary(
+                    mActiveEdgeLongSqueezeActions.getEntries()[index]);
+            if (mActiveEdgeLongSqueezeAppSelection != null) {
+                mActiveEdgeLongSqueezeAppSelection.setEnabled(value == 11);
+            }
+            customAppCheck(mActiveEdgeShortSqueezeAppSelection, mActiveEdgeLongSqueezeAppSelection);
             return true;
         } else if (TextUtils.equals(preference.getKey(), "gesture_assist_sensitivity")) {
             int val = (Integer) newValue;
@@ -181,9 +214,14 @@ public class AssistGestureSettingsPreferenceController extends BasePreferenceCon
         return false;
     }
 
-    private void customAppCheck(Preference appSelection) {
-        if (appSelection == null) return;
-        appSelection.setSummary(Settings.Secure.getString(mContext.getContentResolver(),
-                String.valueOf(Settings.Secure.SQUEEZE_CUSTOM_APP_FR_NAME)));
+    private void customAppCheck(Preference appShortSqueezeSelection, Preference appLongSqueezeSelection) {
+        if (appShortSqueezeSelection != null) {
+            appShortSqueezeSelection.setSummary(Settings.Secure.getString(mContext.getContentResolver(),
+                    String.valueOf(SHORT_SQUEEZE_CUSTOM_APP_FR_NAME)));
+        }
+        if (appLongSqueezeSelection != null) {
+            appLongSqueezeSelection.setSummary(Settings.Secure.getString(mContext.getContentResolver(),
+                    String.valueOf(LONG_SQUEEZE_CUSTOM_APP_FR_NAME)));
+        }
     }
 }
