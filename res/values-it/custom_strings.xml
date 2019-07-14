@@ -29,4 +29,10 @@
 
     <string name="abc_settings_activity">Avanzate</string>
     <string name="abc_settings_activity_summary">Opzioni aggiuntive ROM</string>
+    
+    <string name="full_gesture_mode_title">Attiva modalità full gesture</string>
+    <string name="full_gesture_mode_summary">Questa modalità disabilita il tasto indietro che resta disponibile tramite uno swipe verso sinistra sulla navbar. Uno swipe a destra attiva lo scrolling del pannello Recenti.Per tornare alla home, basta tappare qualunque spazio vuoto o il tasto Home. Quando la tastiera è visibile, premere a lungo nella zona sinistra o destra della navbar per muovere il cursore del testo.</string>
+    <string name="full_gesture_mode_dt2s_title">Attiva doppio tap per spegnere</string>
+    <string name="full_gesture_mode_dt2s_summary">Doppio tap su uno spazio vuoto della navbar tranne il tasto Home per spegnere lo schermo.</string>
+
 </resources>
