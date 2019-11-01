@@ -65,4 +65,9 @@
     <string name="doubletap_lockscreen_screen_title">Spegni schermo</string>
     <string name="doubletap_lockscreen_title">Doppio tap lockscreen per spegnere</string>
     <string name="doubletap_lockscreen_summary">Doppio tap in un\'area vuota della lockscreen per spegnere lo schermo</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Salta le tracce</string>
+    <string name="volume_skiptrack_title">Salta tracce con il bilanciere volume</string>
+    <string name="volume_skiptrack_summary">Premi a lungo i tasti volume per saltare le tracce durante la riproduzione, anche se remota su tv o PC on Spotify. L\'app deve essere attiva con la relativa notifica.</string>
 </resources>
