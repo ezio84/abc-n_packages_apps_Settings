@@ -19,4 +19,22 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="background_processes_settings_title">Processi in background</string>
+
+    <!-- ABC version in About phone -->
+    <string name="rom_version_title">Versione ABC</string>
+
+    <string name="fp_swipe_to_dismiss_notifications_title">Scorri a destra o sinistra il sensore per cancellare le notifiche</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Per eliminare le notifiche, scorri a destra o sinistra il dito sul sensore sul retro del tuo telefono.</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
+    <string name="double_tap_power_flashlight_title">Pulsante power per la torcia</string>
+    <string name="torch_power_button_gesture_none">Disattivato</string>
+    <string name="torch_power_button_gesture_dt">Doppio tap power per la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione lunga power per la torcia</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Salta le tracce</string>
+    <string name="volume_skiptrack_title">Salta tracce con il bilanciere volume</string>
+    <string name="volume_skiptrack_summary">Premi a lungo il bilanciere del volume per saltare le tracce durante la riproduzione musicale, anche se remota su tv o PC on Spotify (l\'app deve essere attiva con la relativa notifica).</string>
 </resources>
