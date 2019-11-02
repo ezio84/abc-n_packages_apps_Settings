@@ -70,4 +70,10 @@
     <string name="volume_skiptrack_screen_title">Salta le tracce</string>
     <string name="volume_skiptrack_title">Salta tracce con il bilanciere volume</string>
     <string name="volume_skiptrack_summary">Premi a lungo i tasti volume per saltare le tracce durante la riproduzione, anche se remota su tv o PC on Spotify. L\'app deve essere attiva con la relativa notifica.</string>
+
+    <string name="ambient_wake_gestures_title">Risveglia su Ambient</string>
+    <string name="ambient_wake_gestures_summary">Mostra l\'Ambient Display invece della lockscreen con le wake gesture</string>
+
+    <string name="pulse_on_new_tracks_title">Ticker musica Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando una nuova traccia viene riprodotta. Doppio tap sulla traccia per passare alla successiva.</string>
 </resources>
