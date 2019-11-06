@@ -236,6 +236,10 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         controllers.add(new AlarmRingtonePreferenceController(context));
         controllers.add(new NotificationRingtonePreferenceController(context));
 
+        final SwapVolumeRotationPreferenceController swapVolumeRotationPreferenceController =
+                new SwapVolumeRotationPreferenceController(context, fragment, lifecycle);
+        controllers.add(swapVolumeRotationPreferenceController);
+
         // === Work Sound Settings ===
         controllers.add(new WorkSoundPreferenceController(context, fragment, lifecycle));
 
