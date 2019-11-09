@@ -78,4 +78,7 @@
     <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando una nuova traccia viene riprodotta. Doppio tap sulla traccia per passare alla successiva.</string>
 
     <string name="swap_volume_keys_on_rotation_title">Inverti i tasti volume quando il dispositivo viene ruotato</string>
+
+    <string name="less_boring_heads_up_title">Heads up meno insistenti</string>
+    <string name="less_boring_heads_up_summary">Disattiva velocemente tutte le heads up tranne che per Telefono e Messaggi</string>
 </resources>

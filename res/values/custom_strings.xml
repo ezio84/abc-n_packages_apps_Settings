@@ -79,4 +79,7 @@
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
 
     <string name="swap_volume_keys_on_rotation_title">Swap volume buttons when rotating the device</string>
+
+    <string name="less_boring_heads_up_title">Less boring heads up</string>
+    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
 </resources>
