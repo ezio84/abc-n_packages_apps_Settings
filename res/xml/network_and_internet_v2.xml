@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="network_and_internet_screen"
     android:title="@string/network_dashboard_title"
-    settings:initialExpandedChildrenCount="5">
+    settings:initialExpandedChildrenCount="100">
 
     <PreferenceCategory
         android:key="multi_network_header"
@@ -107,4 +107,21 @@
         android:positiveButtonText="@string/save"
         android:negativeButtonText="@android:string/cancel" />
 
+    <PreferenceCategory
+        android:key="net_monitor_category"
+        android:title="@string/net_monitor_category_title"
+        android:order="25" >
+        <com.abc.support.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:defaultValue="true" />
+
+        <com.abc.support.preferences.CustomSystemSeekBarPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_threshold_title"
+            android:max="10"
+            android:min="0"
+            android:defaultValue="1"
+            settings:units="" />
+    </PreferenceCategory>
 </PreferenceScreen>
