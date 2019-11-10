@@ -36,5 +36,17 @@
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Salta le tracce</string>
     <string name="volume_skiptrack_title">Salta tracce con il bilanciere volume</string>
-    <string name="volume_skiptrack_summary">Premi a lungo il bilanciere del volume per saltare le tracce durante la riproduzione musicale, anche se remota su tv o PC on Spotify (l\'app deve essere attiva con la relativa notifica).</string>
+    <string name="volume_skiptrack_summary">"Premi a lungo il bilanciere del volume per saltare le tracce durante la riproduzione musicale, anche se remota su tv o PC on Spotify (l\'app deve essere attiva con la relativa notifica)."</string>
+
+    <string name="ambient_wake_gestures_title">Risveglia su Ambient</string>
+    <string name="ambient_wake_gestures_summary">Mostra l\'Ambient Display invece della lockscreen con le wake gesture</string>
+
+    <string name="pulse_on_new_tracks_title">Ticker musica Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando una nuova traccia viene riprodotta. Doppio tap sulla traccia per passare alla successiva.</string>
+
+    <string name="doubletap_lockscreen_screen_title">Spegni schermo</string>
+    <string name="doubletap_lockscreen_title">Doppio tap lockscreen per spegnere</string>
+    <string name="doubletap_lockscreen_summary">Doppio tap in un\'area vuota della lockscreen per spegnere lo schermo</string>
+
+    <string name="swap_volume_keys_on_rotation_title">Inverti i tasti volume quando il dispositivo viene ruotato</string>
 </resources>
