@@ -54,4 +54,14 @@
     <string name="net_monitor_category_title">Monitor rete</string>
     <string name="network_traffic_state_title">Mostra l\'attività di rete nella barra di stato se espansa</string>
     <string name="network_traffic_autohide_threshold_title">"Soglia monitor di rete in KB/s"</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">Impostazioni Quick Tiles</string>
+    <string name="qs_columns_rows_category_title">Righe e colonne tiles</string>
+    <string name="qs_rows_columns_title">Righe e colonne tiles</string>
+    <string name="qs_rows_portrait_title">Righe tiles in portrait</string>
+    <string name="qs_rows_landscape_title">Righe tiles in landscape</string>
+    <string name="qs_columns_portrait_title">Colonne tiles in portrait</string>
+    <string name="qs_columns_landscape_title">Colonne tiles landscape</string>
+    <string name="qs_tile_title_visibility_title">Mostra descrizione tiles</string>
 </resources>
