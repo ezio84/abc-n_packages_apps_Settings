@@ -64,4 +64,9 @@
     <string name="qs_columns_portrait_title">Colonne tiles in portrait</string>
     <string name="qs_columns_landscape_title">Colonne tiles landscape</string>
     <string name="qs_tile_title_visibility_title">Mostra descrizione tiles</string>
+
+    <string name="status_bar_quick_qs_pulldown">Pulldown veloce tiles</string>
+    <string name="quick_pulldown_none">Disattivato</string>
+    <string name="quick_pulldown_right">Lato destro statusbar</string>
+    <string name="quick_pulldown_left">Lato sinistro statusbar</string>
 </resources>
