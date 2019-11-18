@@ -153,6 +153,11 @@
           android:title="@string/other_sound_category_preference_title"
           android:order="-50">
 
+        <com.abc.support.preferences.SystemSettingSwitchPreference
+            android:key="screenshot_sound"
+            android:title="@string/screenshot_sound_title"
+            android:defaultValue="false" />
+        
         <!-- Dial pad tones -->
         <SwitchPreference
           android:key="dial_pad_tones"
