@@ -90,5 +90,7 @@
 
     <string name="screenshot_sound_title">Suono screenshot</string>
 
-    <string name="lockscreen_media_blur_title">Livello blur media art lockscreen</string>
+    <string name="lockscreen_media_blur_title">Livello blur media art</string>
+    <string name="show_lockscreen_media_art_title">Mostra media art</string>
+    <string name="lockscreen_media_art_options_title">Media art losckreen</string>
 </resources>
