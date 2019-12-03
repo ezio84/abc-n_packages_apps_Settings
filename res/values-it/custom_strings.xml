@@ -81,4 +81,7 @@
 
     <string name="less_boring_heads_up_title">Heads up meno insistenti</string>
     <string name="less_boring_heads_up_summary">Disattiva velocemente tutte le heads up tranne che per Telefono e Messaggi</string>
+
+    <string name="notification_sound_vib_screen_on_title">Suono notifiche se attivo</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
 </resources>
