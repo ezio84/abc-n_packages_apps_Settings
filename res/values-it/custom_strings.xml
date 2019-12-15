@@ -99,4 +99,11 @@
 
     <string name="doze_on_charge_title">Always On in carica</string>
     <string name="doze_on_charge_summary">Mostra l\'Ambient display durante la carica</string>
+
+    <string name="smallest_tick_label">Schermo pieno</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Sensibilità e zona morta Indietro</string>
+    <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima seekbar per configurare la sensibilità del gesto Indietro, la seconda per impostare l\'area dello schermo dove il gesto Indietro funzionerà, in modo da evitare conflitti con i gesti delle app.</string>
 </resources>
