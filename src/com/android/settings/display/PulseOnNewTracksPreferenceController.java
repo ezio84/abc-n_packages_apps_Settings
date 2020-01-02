@@ -37,6 +37,7 @@ public class PulseOnNewTracksPreferenceController extends
 
     @VisibleForTesting
     static final String KEY_PULSE_ON_NEW_TRACKS = "pulse_on_new_tracks";
+    static final String KEY_PULSE_ON_NEW_TRACKS_SOLI = "pulse_on_new_tracks_soli";
     private static final int MY_USER = UserHandle.myUserId();
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
@@ -60,7 +61,8 @@ public class PulseOnNewTracksPreferenceController extends
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        if (KEY_PULSE_ON_NEW_TRACKS.equals(preference.getKey())) {
+        if (KEY_PULSE_ON_NEW_TRACKS.equals(preference.getKey())
+                || KEY_PULSE_ON_NEW_TRACKS_SOLI.equals(preference.getKey())) {
             mMetricsFeatureProvider.action(mContext, SettingsEnums.ACTION_AMBIENT_DISPLAY);
         }
         return false;
@@ -81,16 +83,17 @@ public class PulseOnNewTracksPreferenceController extends
 
     @Override
     public int getAvailabilityStatus() {
-        return getAmbientConfig().pulseOnNotificationAvailable()
+        return getAmbientConfig().pulseOnNotificationAvailable() && !getAmbientConfig().deviceHasSoli()
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
     public boolean isSliceable() {
-        return TextUtils.equals(getPreferenceKey(), "pulse_on_new_tracks");
+        return TextUtils.equals(getPreferenceKey(), KEY_PULSE_ON_NEW_TRACKS)
+                || TextUtils.equals(getPreferenceKey(), KEY_PULSE_ON_NEW_TRACKS_SOLI);
     }
 
-    private AmbientDisplayConfiguration getAmbientConfig() {
+    protected AmbientDisplayConfiguration getAmbientConfig() {
         if (mConfig == null) {
             mConfig = new AmbientDisplayConfiguration(mContext);
         }
