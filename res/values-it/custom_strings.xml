@@ -142,4 +142,9 @@
     <string name="clock_date_right">A destra dell\'ora</string>
     <string name="clock_date_left">A sinistra dell\'ora</string>
     <string name="clock_date_position">Posizione data</string>
+
+    <string name="lockscreen_clock_title">Orologio lockscreen</string>
+    <string name="lockscreen_clock_summary">Stile dell\'orologio in lockscreen e Ambient display</string>
+    <string name="lockscreen_clock_dialog_title">Seleziona lo stile dell\'orologio</string>
+    <string name="lockscreen_clock_hide">Nascosto</string>
 </resources>
