@@ -158,4 +158,9 @@
     <string name="network_traffic_state_title">Attiva monitor di rete</string>
     <string name="network_traffic_state_summary">Attiva monitor di rete nella barra di stato espansa</string>
     <string name="network_traffic_autohide_threshold_title">Soglia monitor di rete in KB/s</string>
+
+    <string name="lockscreen_clock_title">Orologio lockscreen</string>
+    <string name="lockscreen_clock_summary">Stile dell\'orologio in lockscreen e Ambient display</string>
+    <string name="lockscreen_clock_dialog_title">Seleziona lo stile dell\'orologio</string>
+    <string name="lockscreen_clock_hide">Nascosto</string>
 </resources>
