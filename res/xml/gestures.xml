@@ -21,6 +21,18 @@
     android:key="gesture_settings_screen"
     android:title="@string/gesture_preference_title">
 
+    <com.google.android.settings.aware.AwareSettingsDialogPreference
+        android:key="aware_settings"
+        android:title="@string/aware_settings_title"
+        android:summary="@string/aware_settings_summary"
+        settings:controller="com.android.settings.gestures.AwareSettingsPreferencePreferenceController" />
+
+    <Preference
+        android:key="active_edge_settings"
+        android:title="@string/active_edge_title"
+        android:fragment="com.android.settings.gestures.ActiveEdge"
+        settings:controller="com.android.settings.gestures.ActiveEdgeSettingsPreferenceController" />
+
     <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
