@@ -95,7 +95,7 @@
 
     <string name="lockscreen_media_blur_title">Livello blur media art</string>
     <string name="show_lockscreen_media_art_title">Mostra media art</string>
-    <string name="lockscreen_media_art_options_title">Media art losckreen</string>
+    <string name="lockscreen_media_art_options_title">Media art lockscreen</string>
 
     <string name="doze_on_charge_title">Always On in carica</string>
     <string name="doze_on_charge_summary">Mostra l\'Ambient display durante la carica</string>
@@ -147,4 +147,23 @@
     <string name="lockscreen_clock_summary">Stile dell\'orologio in lockscreen e Ambient display</string>
     <string name="lockscreen_clock_dialog_title">Seleziona lo stile dell\'orologio</string>
     <string name="lockscreen_clock_hide">Nascosto</string>
+
+    <!-- Active Edge -->
+    <string name="active_edge_title">Active Edge</string>
+    <string name="active_edge_summary">Configura le opzioni di Active Edge</string>
+    <string name="active_edge_short_actions_title">Azione squeeze breve</string>
+    <string name="active_edge_long_actions_title">Azione squeeze lungo</string>
+    <string name="active_edge_sensitivity_title">Sensibilità squeeze</string>
+    <string name="active_edge_wake_title">Azioni a schermo spento</string>
+    <string name="active_edge_wake_summary">Esegui le azioni anche a schermo spento</string>
+    <string name="active_edge_footer_info">Non tutte le azioni dell\'Active Edge hanno la possibilità di attivare lo schermo</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Disattivato</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_volume_panel">Volume</string>  
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_screenshot">Screenshot</string>
 </resources>
