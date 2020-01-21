@@ -211,4 +211,7 @@
     <string name="wake_screen_aware_disabled_info_dialog_content">Reach to check phone and other Motion Sense features are not supported in this country</string>
     <string name="wake_screen_aware_off_dialog_content">To use Reach to check phone, turn on Motion Sense</string>
     <string name="wake_screen_aware_off_dialog_title">Reach to check phone is off</string>
+
+    <string name="powermenu_lockscreen_title">Power menu visibility</string>
+    <string name="powermenu_lockscreen_summary">Display power menu on a secured lockscreen</string>
 </resources>

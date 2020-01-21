@@ -166,4 +166,7 @@
     <string name="action_volume_panel">Volume</string>  
     <string name="action_screen_off">Spegni schermo</string>
     <string name="action_screenshot">Screenshot</string>
+
+    <string name="powermenu_lockscreen_title">Visibilità menu power</string>
+    <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
 </resources>
