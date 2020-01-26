@@ -24,12 +24,12 @@ import com.android.settingslib.core.AbstractPreferenceController;
 
 import java.util.List;
 
-public class AwareSettingsPreferencePreferenceController extends BasePreferenceController {
+public class AwareSettingsPreferenceController extends BasePreferenceController {
 
     private static final String KEY_SETTINGS = "aware_settings";
     private Context mContext;
 
-    public AwareSettingsPreferencePreferenceController(Context context) {
+    public AwareSettingsPreferenceController(Context context) {
         super(context, KEY_SETTINGS);
         mContext = context;
     }
