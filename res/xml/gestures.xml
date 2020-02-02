@@ -111,4 +111,10 @@
         android:title="@string/doubletap_lockscreen_screen_title"
         android:fragment="com.android.settings.gestures.DoubleTapLockscreenSettings"
         settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
+
+        <com.abc.support.preferences.SystemSettingSwitchPreference
+            android:key="partial_screenshot_as_default"
+            android:title="@string/partial_screenshot_as_default_title"
+            android:summary="@string/partial_screenshot_as_default_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>

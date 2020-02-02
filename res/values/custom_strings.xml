@@ -214,4 +214,7 @@
 
     <string name="powermenu_lockscreen_title">Power menu visibility</string>
     <string name="powermenu_lockscreen_summary">Display power menu on a secured lockscreen</string>
+
+    <string name="partial_screenshot_as_default_title">Partial screenshot as default action</string>
+    <string name="partial_screenshot_as_default_summary">Set partial screenshot as default action for Screenshot button in power menu. Otherwise a long press action triggers it.</string>
 </resources>
