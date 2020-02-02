@@ -169,4 +169,8 @@
 
     <string name="powermenu_lockscreen_title">Visibilità menu power</string>
     <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
+
+    <string name="power_menu_gestures_title">Azioni menu Power</string>
+    <string name="partial_screenshot_as_default_title">Screenshot parziale come default</string>
+    <string name="partial_screenshot_as_default_summary">Imposta lo screenshot parziale come azione default per il pulsante Screenshot del menu Power. Altrimenti l\'azione è richiamabile tramite pressione lunga sullo stesso.</string>
 </resources>
