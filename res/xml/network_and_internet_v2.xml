@@ -117,12 +117,12 @@
             android:summary="@string/network_traffic_state_summary"
             android:defaultValue="true" />
 
-        <com.abc.support.preferences.SystemSettingSwitchPreference
+        <SwitchPreference
             android:key="network_traffic_state_sb"
             android:title="@string/network_traffic_state_sb_title"
             android:summary="@string/network_traffic_state_sb_summary"
             android:dependency="network_traffic_state"
-            android:defaultValue="false" />
+            settings:controller="com.android.settings.network.NetworkMonitorSbPrefController" />
 
         <com.abc.support.preferences.CustomSystemSeekBarPreference
             android:key="network_traffic_autohide_threshold"
