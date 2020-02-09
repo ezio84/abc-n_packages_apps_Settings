@@ -52,7 +52,10 @@
 
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Monitor rete</string>
-    <string name="network_traffic_state_title">Mostra l\'attività di rete nella barra di stato se espansa</string>
+    <string name="network_traffic_state_title">Attiva monitor di rete</string>
+    <string name="network_traffic_state_sb_title">Mostra sempre monitor di rete</string>
+    <string name="network_traffic_state_summary">Mostra l\'attività di download di rete, o l\'upload se maggiore, nella barra di stato espansa</string>
+    <string name="network_traffic_state_sb_summary">Mostra continuamente l\'attività di rete anche nella barra di stato normale</string>
     <string name="network_traffic_autohide_threshold_title">"Soglia monitor di rete in KB/s"</string>
 
     <!-- QS rows and columns -->

@@ -104,11 +104,20 @@
         <com.abc.support.preferences.SystemSettingSwitchPreference
             android:key="network_traffic_state"
             android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
             android:defaultValue="true" />
+
+        <com.abc.support.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_state_sb"
+            android:title="@string/network_traffic_state_sb_title"
+            android:summary="@string/network_traffic_state_sb_summary"
+            android:dependency="network_traffic_state"
+            android:defaultValue="false" />
 
         <com.abc.support.preferences.CustomSystemSeekBarPreference
             android:key="network_traffic_autohide_threshold"
             android:title="@string/network_traffic_autohide_threshold_title"
+            android:dependency="network_traffic_state"
             android:max="10"
             android:min="0"
             android:defaultValue="1"
