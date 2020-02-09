@@ -43,7 +43,10 @@
     <string name="swap_volume_keys_on_rotation_title">Prohodit tlačítka hlasitosti při otočení zařízení</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Monitorování sítě</string>
-    <string name="network_traffic_state_title">Zobrazit indikátor síťové aktivity v rozšířené stavové liště</string>
+    <string name="network_traffic_state_title">Zapnout monitoring sítě</string>
+    <string name="network_traffic_state_sb_title">Vždy zobrazovat monitoring sítě</string>
+    <string name="network_traffic_state_summary">Zobrazuje aktivitu sítě při nahrávání nebo stahování. Při větších objemech se aktivita zobrazí v rozšířené stavové liště</string>
+    <string name="network_traffic_state_sb_summary">Zobrazovat aktivitu sítě také na výchozí stavové liště</string>
     <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí síťové aktivity (KB/s)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Nastavení panelu QS</string>
@@ -191,4 +194,7 @@
     <string name="wake_screen_aware_off_dialog_title">Ověření telefonu při přiblížení je vypnuto</string>
     <string name="powermenu_lockscreen_title">Zobrazení menu napájení</string>
     <string name="powermenu_lockscreen_summary">Zobrazit nabídku napájení na zabezpečené zamykací obrazovce</string>
+    <string name="power_menu_gestures_title">Akce menu tlačítka napájení</string>
+    <string name="partial_screenshot_as_default_title">Částečný snímek obrazovky jako výchozí akce</string>
+    <string name="partial_screenshot_as_default_summary">Nastavit částečný snímek obrazovky jako výchozí akci pro tlačítko Snímek obrazovky v menu napájení. Jinak se spustí akcí dlouhým stisknutím.</string>
 </resources>

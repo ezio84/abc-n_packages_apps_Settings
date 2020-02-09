@@ -43,7 +43,10 @@
     <string name="swap_volume_keys_on_rotation_title">Lautstärketasten beim Drehen des Geräts vertauschen</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Netzwerkmonitor</string>
-    <string name="network_traffic_state_title">Netzwerkaktivität in erweiterter Statusleiste anzeigen</string>
+    <string name="network_traffic_state_title">Netzwerkmonitor aktivieren</string>
+    <string name="network_traffic_state_sb_title">Netzwerkmonitor immer anzeigen</string>
+    <string name="network_traffic_state_summary">Zeige Download-Aktivität, oder Upload-Aktivität falls größer, in der erweiterten Statusleiste</string>
+    <string name="network_traffic_state_sb_summary">Anzeige der Netzwerk-Aktivität in der normalen Statusleiste beibehalten</string>
     <string name="network_traffic_autohide_threshold_title">Netzwerkaktivitäts-Schwellenwert automatisch verstecken (KB/s)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Einstellungen QS Panel</string>
@@ -191,6 +194,7 @@
     <string name="wake_screen_aware_off_dialog_title">Die Funktion \"zum Telefon greifen um Inhalte zu sehen\" ist deaktiviert</string>
     <string name="powermenu_lockscreen_title">Sichtbarkeit des Power-Menüs</string>
     <string name="powermenu_lockscreen_summary">Power-Menü auf Sperrbildschirm anzeigen</string>
+    <string name="power_menu_gestures_title">Power-Menü Aktionen</string>
     <string name="partial_screenshot_as_default_title">Partielles Bildschirmfoto als Standard-Aktion</string>
     <string name="partial_screenshot_as_default_summary">Lege partielles Bildschirmfoto als Standard-Aktion für die Bildschirmfoto-Schaltfläche fest im Power-Menü. Ansonsten löst ein langes Drücken die Aktion aus.</string>
 </resources>

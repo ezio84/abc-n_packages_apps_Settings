@@ -23,10 +23,10 @@
     <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы очистить ваши уведомления, проведите пальцем влево или вправо по сканеру отпечатка пальца на тыльной стороне Вашего телефона.</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Активировать фонарик</string>
-    <string name="double_tap_power_flashlight_title">Фонарь по кнопке питания при выключенном экране</string>
+    <string name="double_tap_power_flashlight_title">Фонарь по кнопке выключения при отключенном экране</string>
     <string name="torch_power_button_gesture_none">Отключено</string>
-    <string name="torch_power_button_gesture_dt">Двойное нажатие на питание для включения фонарика</string>
-    <string name="torch_power_button_gesture_lp">Долгое нажатие на питание для включения фонарика</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопке выключения для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Удержание кнопки выключения для активации фонарика</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Пропустить музыкальные треки</string>
     <string name="volume_skiptrack_title">Пропускать треки кнопками громкости</string>
@@ -42,7 +42,10 @@
     <string name="swap_volume_keys_on_rotation_title">Поменять местами кнопки громкости при повороте устройства</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Мониторинг сети</string>
-    <string name="network_traffic_state_title">Показывать сетевую активность в расширенной строке состояния</string>
+    <string name="network_traffic_state_title">Включить сетевой мониторинг</string>
+    <string name="network_traffic_state_sb_title">Всегда показывать сетевой монитор</string>
+    <string name="network_traffic_state_summary">Показать сетевую активность загрузки или выгрузки, если она выше установленной, в расширенной строке состояния</string>
+    <string name="network_traffic_state_sb_summary">Показывать сетевую активность также в обычной строке состояния</string>
     <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Параметры панели быстрых настроек</string>
@@ -190,4 +193,7 @@
     <string name="wake_screen_aware_off_dialog_title">Функция \'дотянуться до телефона\' отключена</string>
     <string name="powermenu_lockscreen_title">Видимость меню выключения</string>
     <string name="powermenu_lockscreen_summary">Показывать меню выключения на заблокированном экране</string>
+    <string name="power_menu_gestures_title">Настройка меню выключения</string>
+    <string name="partial_screenshot_as_default_title">Частичный снимок экрана по умолчанию</string>
+    <string name="partial_screenshot_as_default_summary">Установить частичный снимок экрана в качестве действия по умолчанию для кнопки снимка экрана в меню выключения. В противном случае его запускает удержание нажатия.</string>
 </resources>

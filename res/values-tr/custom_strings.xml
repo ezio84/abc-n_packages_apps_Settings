@@ -42,7 +42,6 @@
     <string name="swap_volume_keys_on_rotation_title">Cihaz döndürüldüğünde ses tuşlarının yerini değiştir</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Ağ izleyici</string>
-    <string name="network_traffic_state_title">Genişletilmiş durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizleme eşiği (KB/s)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Hızlı ayarlar paneli ayarları</string>

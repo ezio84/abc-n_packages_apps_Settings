@@ -43,7 +43,6 @@
     <string name="swap_volume_keys_on_rotation_title">Inverter botões de volume ao girar o dispositivo</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">Monitoramento de rede</string>
-    <string name="network_traffic_state_title">Mostrar a atividade da rede na barra de status</string>
     <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Configurações do painel QS</string>

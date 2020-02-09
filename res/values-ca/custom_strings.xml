@@ -19,9 +19,11 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
     <!-- ABC version in About phone -->
+    <string name="rom_version_title">Versió ABC</string>
     <string name="fp_swipe_to_dismiss_notifications_title">Feu lliscar l\'empremta dactilar a esquerra o dreta per eliminar les notificacions</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Per descartar les notificacions, feu lliscar el dit cap a l\'esquerra o cap a la dreta al sensor d\'empremta digital a la part posterior del telèfon.</string>
     <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activa la llanterna</string>
     <string name="torch_power_button_gesture_none">Desactivat</string>
     <!-- Volume rocker gestures -->
     <string name="pulse_on_new_tracks_title">Teletip de música ambient</string>

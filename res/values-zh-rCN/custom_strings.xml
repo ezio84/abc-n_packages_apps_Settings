@@ -42,7 +42,6 @@
     <string name="swap_volume_keys_on_rotation_title">旋转设备时交换音量按钮</string>
     <!-- Statusbar net monitor -->
     <string name="net_monitor_category_title">网络指示器</string>
-    <string name="network_traffic_state_title">在状态栏显示网络活动</string>
     <string name="network_traffic_autohide_threshold_title">网络流量计自动隐藏阈值 (KB/s)</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">快速设置面板选项</string>
