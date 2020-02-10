@@ -36,8 +36,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_DEAD_Y_ZONE = "back_dead_y_zone";
+    private static final String KEY_KILL_APP_TIMEOUT = "kill_app_timeout";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int backDeadYZoneMode) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int backDeadYZoneMode, int killAppTimeout) {
         if (!parent.isAdded()) {
             return;
         }
@@ -47,6 +48,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         final Bundle bundle = new Bundle();
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_DEAD_Y_ZONE, backDeadYZoneMode);
+        bundle.putInt(KEY_KILL_APP_TIMEOUT, killAppTimeout);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -65,6 +67,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         sensitivitySeekBar.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
         final SeekBar backDeadzoneSeekbar = view.findViewById(R.id.back_deadzone_seekbar);
         backDeadzoneSeekbar.setProgress(getArguments().getInt(KEY_BACK_DEAD_Y_ZONE));
+        final SeekBar killAppTimeoutSeekbar = view.findViewById(R.id.kill_app_timeout_seekbar);
+        killAppTimeoutSeekbar.setProgress(getArguments().getInt(KEY_KILL_APP_TIMEOUT));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_sensitivity_dialog_title_cust)
                 .setMessage(R.string.back_sensitivity_dialog_message_cust)
@@ -78,6 +82,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_DEAD_Y_ZONE, backDeadYZoneMode);
                     SystemNavigationGestureSettings.setBackDeadYZone(getActivity(),
                             backDeadYZoneMode);
+                    int killAppTimeout = killAppTimeoutSeekbar.getProgress();
+                    getArguments().putInt(KEY_KILL_APP_TIMEOUT, killAppTimeout);
+                    SystemNavigationGestureSettings.setKillAppTimeout(getActivity(),
+                            killAppTimeout);
                 })
                 .create();
     }

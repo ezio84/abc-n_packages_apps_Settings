@@ -85,8 +85,6 @@
     <string name="greatest_tick_label">Tela dividida</string>
     <!-- [CHAR LIMIT=60] -->
     <string name="back_sensitivity_dialog_title_cust">Sensibilidade traseira e zona morta</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUse a primeira barra de busca para configurar a sensibilidade do deslize para trás, a segunda barra de busca para definir a área da tela onde o deslize pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Relógio da barra de status</string>
     <string name="status_bar_clock">Relógio e Data</string>

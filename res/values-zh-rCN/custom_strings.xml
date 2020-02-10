@@ -83,8 +83,6 @@
     <string name="greatest_tick_label">半屏幕</string>
     <!-- [CHAR LIMIT=60] -->
     <string name="back_sensitivity_dialog_title_cust">后退灵敏度和死亡区域</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\n使用第一个搜索栏来配置回滑敏感性。 第二个搜索栏设置可以触发滑动的屏幕区域，以避免与应用内手势发生冲突。</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">状态栏时钟</string>
     <string name="status_bar_clock">时钟和日期</string>

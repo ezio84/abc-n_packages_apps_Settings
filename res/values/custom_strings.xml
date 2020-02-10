@@ -106,10 +106,12 @@
 
     <string name="smallest_tick_label">Full screen</string>
     <string name="greatest_tick_label">Half screen</string>
+    <string name="slowest_timeout_label">5000ms</string>
+    <string name="fastest_timeout_label">2000ms</string>
     <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Back Sensitivity and DeadZone</string>
+    <string name="back_sensitivity_dialog_title_cust">Back sensitivity and more</string>
     <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first seekbar to configure back swipe sensitivity, the second seekbar to set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first seekbar to configure back swipe sensitivity, the second seekbar to set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures, the last seekbar to set the timeout before killing foreground app after a long swipe.</string>
 
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar clock</string>
