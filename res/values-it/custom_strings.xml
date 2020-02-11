@@ -159,7 +159,7 @@
     <string name="active_edge_sensitivity_title">Sensibilità squeeze</string>
     <string name="active_edge_wake_title">Azioni a schermo spento</string>
     <string name="active_edge_wake_summary">Esegui le azioni anche a schermo spento</string>
-    <string name="active_edge_footer_info">Non tutte le azioni dell\'Active Edge hanno la possibilità di attivare lo schermo</string>
+    <string name="active_edge_footer_info">Non tutte le azioni dell\'Active Edge hanno la possibilità di attivare lo schermo.\n\nPer selezionare una activity specifica come azione, premi a lungo su un\'app nell\'app picker.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Disattivato</string>
     <string name="action_search">Assistente</string>
