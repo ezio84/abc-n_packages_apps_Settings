@@ -108,7 +108,7 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="back_sensitivity_dialog_title_cust">Sensibilità e zona morta Indietro</string>
     <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima seekbar per configurare la sensibilità del gesto Indietro, la seconda per impostare l\'area dello schermo dove il gesto Indietro funzionerà, in modo da evitare conflitti con i gesti delle app, la terza per impostare il timeout per terminare l\'app in primo piano dopo uno swipe indietro prolungato</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima seekbar per configurare la sensibilità del gesto Indietro, la seconda per impostare l\'area dello schermo dove il gesto Indietro funzionerà, in modo da evitare conflitti con i gesti delle app.</string>
 
     <string name="clock_date_settings_title">Orologio barra di stato</string>
     <string name="status_bar_clock">Ora e data</string>

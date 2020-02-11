@@ -69,7 +69,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     @VisibleForTesting
     static final String PREFS_BACK_SENSITIVITY_KEY = "system_navigation_back_sensitivity";
     static final String PREFS_BACK_DEAD_Y_ZONE_KEY = "system_navigation_back_sensitivity";
-    static final String KEY_KILL_APP_TIMEOUT = "system_navigation_kill_app_timeout";
 
     @VisibleForTesting
     static final String KEY_SYSTEM_NAV_3BUTTONS = "system_nav_3buttons";
@@ -163,7 +162,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         if (info.getKey() == KEY_SYSTEM_NAV_GESTURAL) {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
-                    .show(this, getBackSensitivity(getContext(), mOverlayManager), getBackDeadZoneMode(getContext()), getKillAppTimeout(getContext())));
+                    .show(this, getBackSensitivity(getContext(), mOverlayManager), getBackDeadZoneMode(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -248,19 +247,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     static void setBackDeadYZone(Context context, int backDeadYZoneMode) {
         Settings.System.putIntForUser(context.getContentResolver(),
                 Settings.System.EDGE_GESTURE_Y_DEAD_ZONE, backDeadYZoneMode,
-                USER_CURRENT);
-    }
-
-    static int getKillAppTimeout(Context context) {
-        int value = Settings.System.getIntForUser(context.getContentResolver(),
-                Settings.System.KILL_APP_LONGSWIPE_TIMEOUT, 0,
-                USER_CURRENT);
-        return value;
-    }
-
-    static void setKillAppTimeout(Context context, int timeout) {
-        Settings.System.putIntForUser(context.getContentResolver(),
-                Settings.System.KILL_APP_LONGSWIPE_TIMEOUT, timeout,
                 USER_CURRENT);
     }
 

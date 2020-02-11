@@ -83,6 +83,8 @@
     <string name="greatest_tick_label">Yarım ekran</string>
     <!-- [CHAR LIMIT=60] -->
     <string name="back_sensitivity_dialog_title_cust">Geri Hassasiyeti ve Ölü Bölge</string>
+    <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nGeri kaydırma hassasiyetini yapılandırmak için ilk arama çubuğunu, uygulama içi hareketlerle çakışmaları önlemek üzere ekranın kaydırmanın tetiklenebileceği alanını ayarlamak için ikinci arama çubuğunu kullanın.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Durum çubuğu saati</string>
     <string name="status_bar_clock">Saat ve Tarih</string>
