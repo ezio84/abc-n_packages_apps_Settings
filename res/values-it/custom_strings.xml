@@ -169,6 +169,10 @@
     <string name="action_volume_panel">Volume</string>  
     <string name="action_screen_off">Spegni schermo</string>
     <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">App</string>
+    <string name="active_edge_ss_app_select_title">Seleziona app per squeeze breve</string>
+    <string name="active_edge_ls_app_select_title">Seleziona app per squeeze lungo</string>
+    <string name="active_edge_app_select_summary">Seleziona app da lanciare con lo squeeze</string>
 
     <string name="powermenu_lockscreen_title">Visibilità menu power</string>
     <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
