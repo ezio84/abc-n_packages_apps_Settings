@@ -173,6 +173,10 @@
     <string name="active_edge_ss_app_select_title">Seleziona app per squeeze breve</string>
     <string name="active_edge_ls_app_select_title">Seleziona app per squeeze lungo</string>
     <string name="active_edge_app_select_summary">Seleziona app da lanciare con lo squeeze</string>
+    <string name="action_qs_panel">Pannello QS</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_clear_notifications">Cancella notifiche</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
 
     <string name="powermenu_lockscreen_title">Visibilità menu power</string>
     <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
