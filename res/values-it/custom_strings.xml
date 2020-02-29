@@ -184,4 +184,14 @@
     <string name="power_menu_gestures_title">Azioni menu Power</string>
     <string name="partial_screenshot_as_default_title">Screenshot parziale come default</string>
     <string name="partial_screenshot_as_default_summary">Imposta lo screenshot parziale come azione default per il pulsante Screenshot del menu Power. Altrimenti l\'azione è richiamabile tramite pressione lunga sullo stesso.</string>
+
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza gesti e azioni</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="long_back_swipe_timeout_title">Timeout swipe lungo</string>
+    <string name="left_swipe_actions_title">Azione swipe lungo da sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona app per swipe lungo da sinistra</string>
+    <string name="right_swipe_actions_title">Azione swipe lungo da destra</string>
+    <string name="right_swipe_app_action_title">Seleziona app per swipe lungo da destra</string>
+    <string name="gesture_nav_tweaks_footer_info">Per selezionare una activity specifica come azione, premi a lungo su un\'app nell\'app picker.</string>
 </resources>
