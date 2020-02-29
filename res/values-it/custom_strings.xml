@@ -108,4 +108,45 @@
     <string name="greatest_tick_label">Metà schermo</string>
     <string name="gesture_back_deadzone_label">Zona morta</string>
     <string name="back_sensitivity_dialog_message_cust">\nUsa le prime due seekbar per configurare la sensibilità dello swipe indietro, la terza seekbar per impostare una zona morta nella parte superiore dello schermo, per evitare conflitti con i gesti delle app.</string>
+
+    <string name="action_nothing">Disattivato</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_volume_panel">Volume</string>  
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">App</string>
+    <string name="active_edge_ss_app_select_title">Seleziona app per squeeze breve</string>
+    <string name="active_edge_ls_app_select_title">Seleziona app per squeeze lungo</string>
+    <string name="active_edge_app_select_summary">Seleziona app da lanciare con lo squeeze</string>
+    <string name="action_qs_panel">Pannello QS</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_clear_notifications">Cancella notifiche</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="powermenu_lockscreen_title">Visibilità menu power</string>
+    <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
+    <string name="skip_song">Salta traccia</string>
+    <string name="prev_song">Traccia precedente</string> 
+    <string name="show_powermenu">Power menu</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <string name="hush_mute">Silenzia notifiche</string>
+
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza gesti e azioni</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="long_back_swipe_timeout_title">Timeout swipe lungo</string>
+    <string name="left_swipe_actions_title">Azione swipe lungo da sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona app per swipe lungo da sinistra</string>
+    <string name="right_swipe_actions_title">Azione swipe lungo da destra</string>
+    <string name="right_swipe_app_action_title">Seleziona app per swipe lungo da destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione swipe verticale da sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona app per swipe verticale da sinistra</string>
+    <string name="right_vertical_swipe_actions_title">Azione swipe verticale da destra</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona app per swipe verticale da destra</string>
+    <string name="gesture_nav_tweaks_footer_info">Per selezionare una activity specifica come azione, premi a lungo su un\'app nell\'app picker.\n\nSe il launcher è in primo piano, lo swipe per le azioni è disponibile nella parte più bassa dello schermo.</string>
+    <string name="back_swipe_extended_title">Swipe esteso per azioni</string>
+    <string name="back_swipe_extended_summary">Esegui le azioni con uno swipe esteso (più di metà display), o uno swipe a L (sufficientemente lungo in verticale)</string>
 </resources>
