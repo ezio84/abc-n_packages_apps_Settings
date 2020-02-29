@@ -39,6 +39,8 @@ import android.text.TextUtils;
 import android.view.accessibility.AccessibilityManager;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.SettingsTutorialDialogWrapperActivity;
@@ -103,6 +105,11 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
     private VideoPreference mVideoPreference;
 
+    private static final String KEY_GESTURE_NAV_TWEAKS_CAT = "gesture_nav_tweaks_category";
+    private static final String KEY_GESTURE_NAV_TWEAKS_PREF = "gesture_nav_custom_options";
+    private PreferenceCategory mGestureTweaksCategory;
+    private Preference mTweaksPreference;
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -119,6 +126,18 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         mVideoPreference.setHeight( /* Illustration height in dp */
                 getResources().getDimension(R.dimen.system_navigation_illustration_height)
                         / getResources().getDisplayMetrics().density);
+
+        // Gesture tweaks category
+        mGestureTweaksCategory = new PreferenceCategory(context);
+        mGestureTweaksCategory.setKey(KEY_GESTURE_NAV_TWEAKS_CAT);
+        mGestureTweaksCategory.setTitle(R.string.navbar_gesture_tweaks_cat_title);
+
+        mTweaksPreference = new Preference(context);
+        mTweaksPreference.setIconSpaceReserved(true);
+        mTweaksPreference.setTitle(R.string.navbar_gesture_tweaks_pref_title);
+        mTweaksPreference.setSummary(R.string.navbar_gesture_tweaks_pref_summary);
+        mTweaksPreference.setKey(KEY_GESTURE_NAV_TWEAKS_PREF);
+        mTweaksPreference.setFragment("com.android.settings.gestures.GestureTweaksSettings");
     }
 
     @Override
@@ -145,6 +164,17 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             bindPreferenceExtra(pref, info.getKey(), info, defaultKey, systemDefaultKey);
             screen.addPreference(pref);
         }
+
+        // Gesture tweaks category
+        if (getCurrentSystemNavigationMode(getContext()) == KEY_SYSTEM_NAV_GESTURAL) {
+            screen.addPreference(mGestureTweaksCategory);
+            mGestureTweaksCategory.addPreference(mTweaksPreference);
+            //mTweaksPreference.setEnabled(true);
+        } else {
+            mGestureTweaksCategory.removePreference(mTweaksPreference);
+            screen.removePreference(mGestureTweaksCategory);
+        }
+
         mayCheckOnlyRadioButton();
     }
 

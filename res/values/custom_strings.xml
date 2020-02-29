@@ -229,4 +229,15 @@
     <string name="power_menu_gestures_title">Power menu actions</string>
     <string name="partial_screenshot_as_default_title">Partial screenshot as default action</string>
     <string name="partial_screenshot_as_default_summary">Set partial screenshot as default action for Screenshot button in power menu. Otherwise a long press action triggers it.</string>
+
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">If you want to choose a specific app activity for the action, long press on any app in the apps picker.</string>
 </resources>
