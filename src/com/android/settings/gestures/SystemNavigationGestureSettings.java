@@ -40,8 +40,9 @@ import android.view.accessibility.AccessibilityManager;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
+
+import com.abc.support.preferences.CustomPreferenceCategory;
 
 import com.android.settings.SettingsTutorialDialogWrapperActivity;
 import com.android.settings.R;
@@ -107,7 +108,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
     private static final String KEY_GESTURE_NAV_TWEAKS_CAT = "gesture_nav_tweaks_category";
     private static final String KEY_GESTURE_NAV_TWEAKS_PREF = "gesture_nav_custom_options";
-    private PreferenceCategory mGestureTweaksCategory;
+    private CustomPreferenceCategory mGestureTweaksCategory;
     private Preference mTweaksPreference;
 
     @Override
@@ -128,7 +129,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
                         / getResources().getDisplayMetrics().density);
 
         // Gesture tweaks category
-        mGestureTweaksCategory = new PreferenceCategory(context);
+        mGestureTweaksCategory = new CustomPreferenceCategory(context);
         mGestureTweaksCategory.setKey(KEY_GESTURE_NAV_TWEAKS_CAT);
         mGestureTweaksCategory.setTitle(R.string.navbar_gesture_tweaks_cat_title);
 
