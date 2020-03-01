@@ -177,7 +177,7 @@
     <string name="action_notifications">Notifiche</string>
     <string name="action_clear_notifications">Cancella notifiche</string>
     <string name="action_ringer_modes">Modalità suoneria</string>
-
+    <string name="kill_app">Termina app in primo piano</string>
     <string name="powermenu_lockscreen_title">Visibilità menu power</string>
     <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
 
