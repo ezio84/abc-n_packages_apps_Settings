@@ -157,6 +157,10 @@
     <string name="active_edge_ss_app_select_title">App für kurzes Drücken</string>
     <string name="active_edge_ls_app_select_title">App für langes Drücken</string>
     <string name="active_edge_app_select_summary">App auswählen für Active Edge Drücken</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_ringer_modes">Klingelton-Modus</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Motion Sense</string>
     <string name="aware_settings_summary">Motion Sense konfigurieren</string>
@@ -200,4 +204,16 @@
     <string name="power_menu_gestures_title">Power-Menü Aktionen</string>
     <string name="partial_screenshot_as_default_title">Partielles Bildschirmfoto als Standard-Aktion</string>
     <string name="partial_screenshot_as_default_summary">Lege partielles Bildschirmfoto als Standard-Aktion für die Bildschirmfoto-Schaltfläche fest im Power-Menü. Ansonsten löst ein langes Drücken die Aktion aus.</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
+    <string name="long_back_swipe_timeout_title">Timeout für langes Wischen</string>
+    <string name="left_swipe_actions_title">Lange links wischen Aktion</string>
+    <string name="left_swipe_app_action_title">Lange links wischen App auswählen</string>
+    <string name="right_swipe_actions_title">Lange rechts wischen Aktion</string>
+    <string name="right_swipe_app_action_title">Lange rechts wischen App auswählen</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine beliebige App im App-Picker.\n\nWenn der Launcher angezeigt wird, wischen Sie am unteren Bildschirmrand, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischen Aktion</string>
+    <string name="back_swipe_extended_summary">Aktion auslösen, wenn das Wischen horizontal größer als 3\/4 der Anzeigegröße ist</string>
 </resources>

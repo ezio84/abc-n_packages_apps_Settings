@@ -17,18 +17,52 @@
     <string name="background_processes_settings_title">Taustaprosessi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- ABC version in About phone -->
+    <string name="rom_version_title">ABC-versio</string>
     <string name="fp_swipe_to_dismiss_notifications_title">Pyyhkäise sormenjälkilukijassa vasemmalle tai oikealle poistaaksesi ilmoitukset</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Hylkää ilmoitukset pyyhkäisemällä vasemmalle tai oikealle sormenjälkitunnistin on puhelimen takapuolella.</string>
     <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Aktivoi taskulamppu</string>
+    <string name="double_tap_power_flashlight_title">Näyttö pois päältä virtapainiketta taskulamppu</string>
     <string name="torch_power_button_gesture_none">Pois käytöstä</string>
+    <string name="torch_power_button_gesture_dt">Double tap valtaa vaihtaa taskulamppu</string>
+    <string name="torch_power_button_gesture_lp">Pitkä paina power toggle taskulamppu</string>
     <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Ohittaa musiikkikappaleita</string>
+    <string name="volume_skiptrack_title">Tilavuus rokkari ohita kappaleita</string>
+    <string name="volume_skiptrack_summary">Pitkän paina äänenvoimakkuuden rokkari ohita kappaleita, kun toistat musiikkia, edes etäisesti tv: stä tai PC, jossa on esim. Spotify (sovellus on käynnissä puhelimessa ja näytä ilmoitus).</string>
+    <string name="ambient_wake_gestures_title">Ympäristön herätä eleet</string>
+    <string name="ambient_wake_gestures_summary">Näyttää Ympäristön Näytöllä sen sijaan, että normaali lukitusnäyttö herätä eleet</string>
     <string name="pulse_on_new_tracks_title">Ambient ticker musiikille</string>
+    <string name="pulse_on_new_tracks_summary">Näyttää Ympäristön Näytöllä, kun uutta musiikkia raita toistetaan. Double koskettamalla track info siirtyä seuraavaan kappaleeseen.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Näyttää Ympäristön Näytöllä, kun uutta musiikkia rata pelataan</string>
+    <string name="doubletap_lockscreen_screen_title">Kytke näyttö pois päältä</string>
     <string name="doubletap_lockscreen_title">Tuplanapauta nukkumaan lukitusnäytössä</string>
+    <string name="doubletap_lockscreen_summary">Napauta lukitusnäyttö tyhjiä alueita kytkeä näytön pois päältä</string>
+    <string name="swap_volume_keys_on_rotation_title">Swap äänenvoimakkuuden painikkeita, kun pyörivä laite</string>
     <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Network monitor</string>
+    <string name="network_traffic_state_title">Enable network monitor</string>
+    <string name="network_traffic_state_sb_title">Aina osoittaa net monitor</string>
+    <string name="network_traffic_state_summary">Näytä net ladata toimintaa, tai ladata, jos isompi, laajennettu statusbar</string>
+    <string name="network_traffic_state_sb_summary">Pitää osoittaa net toiminta myös normaalin statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net toiminta autohide kynnys (KB/s)</string>
     <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS-paneelin asetukset</string>
+    <string name="qs_columns_rows_category_title">QS sarakkeet ja rivit</string>
+    <string name="qs_rows_columns_title">QS rivejä ja sarakkeita</string>
+    <string name="qs_rows_portrait_title">Laatat krs muotokuva</string>
+    <string name="qs_rows_landscape_title">Laatat rivit maisema</string>
+    <string name="qs_columns_portrait_title">Laattojen sarakkeita muotokuva</string>
+    <string name="qs_columns_landscape_title">Laatat, pylväät, maisema</string>
     <string name="qs_tile_title_visibility_title">Näytä laattojen otsikko</string>
+    <string name="status_bar_quick_qs_pulldown">Nopea QS pulldown</string>
     <string name="quick_pulldown_none">Pois käytöstä</string>
+    <string name="quick_pulldown_right">Pulldown statusbar oikealta puolelta</string>
+    <string name="quick_pulldown_left">Pulldown statusbar vasemmalta puolelta</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Valon väri</string>
+    <string name="custom_light_on_time_title">Valon aikana led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Valo POIS aikana led pulse (ms)\"</string>
     <!-- Battery light -->
     <string name="battery_light_settings_pref_title">Akun latauksen ilmotusvalo</string>
     <string name="battery_light_allow_on_dnd_title">Valot Älä häiritse-tilassa</string>
@@ -37,11 +71,27 @@
     <string name="battery_light_low_color">Alhainen akun varaus</string>
     <string name="battery_light_medium_color">Akku puolivälissä</string>
     <string name="battery_light_full_color">Melkein täysi akku</string>
+    <string name="battery_light_reallyfull_color">Täyden akun (100)</string>
+    <string name="less_boring_heads_up_title">Vähemmän tylsää heads up</string>
+    <string name="less_boring_heads_up_summary">Nopeasti poistaa heads up kaikki sovellukset, mutta pitää ne käytössä dialer-ja viestit-sovellukset</string>
+    <string name="notification_sound_vib_screen_on_title">Ilmoituksen ääni jos aktiivinen</string>
+    <string name="notification_sound_vib_screen_on_summary">Toistaa äänen ja värähtelyn ilmoitukset, kun näyttö on päällä</string>
+    <string name="screenshot_sound_title">Kuvakaappaus ääni</string>
+    <string name="lockscreen_media_blur_title">Media art hämärtää tasolla</string>
+    <string name="show_lockscreen_media_art_title">Näyttää media art</string>
+    <string name="lockscreen_media_art_options_title">Lukitusnäyttö media art</string>
+    <string name="doze_on_charge_title">Aina, kun lataus</string>
+    <string name="doze_on_charge_summary">Näytä Aina Ambient-näyttö, kun lataus</string>
     <string name="smallest_tick_label">Kokoruutu</string>
+    <string name="greatest_tick_label">Puoli näytön</string>
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Takaisin Herkkyys ja DeadZone</string>
     <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nKäyttää ensimmäistä seekbar määrittää takaisin pyyhkäisemällä herkkyys, toinen seekbar asettaa näytön alueen, jossa pyyhkäisemällä voidaan laukaista, välttää konflikteja in-app eleitä.</string>
     <!-- Status bar clock options -->
+    <string name="clock_date_settings_title">Statusbar kello</string>
     <string name="status_bar_clock">Kello ja päivämäärä</string>
+    <string name="status_bar_clock_summary">Määritä statusbar kello ja päivämäärä ulkonäkö</string>
     <string name="clock_title_enable">Tasaus</string>
     <string name="clock_enabled">Käytössä</string>
     <string name="clock_disabled">Pois käytöstä</string>
@@ -71,12 +121,97 @@
     <string name="clock_date_style_lowercase">Pieni kirjainkoko</string>
     <string name="clock_date_style_uppercase">Suuri kirjainkoko</string>
     <string name="clock_date_format_custom">Mukautettu java muoto</string>
+    <string name="clock_date_right">Oikea aika</string>
+    <string name="clock_date_left">Jäljellä aikaa</string>
+    <string name="clock_date_position">Päivämäärä asemassa</string>
     <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Lukitusnäyttö kello</string>
+    <string name="lockscreen_clock_summary">Tyyli kellon lukitusnäyttö ja Ympäristön näyttö</string>
+    <string name="lockscreen_clock_dialog_title">Valitse kellon tyyli</string>
     <string name="lockscreen_clock_hide">Piilota</string>
     <string name="lockscreen_clock_default">Oletusarvo</string>
+    <string name="lockscreen_clock_default_bold">Default (rohkea)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (rohkea)</string>
     <!-- Active Edge -->
+    <string name="active_edge_title">Aktiivinen Reuna</string>
+    <string name="active_edge_summary">Määritä Aktiivinen Reuna vaihtoehtoja</string>
+    <string name="active_edge_short_actions_title">Lyhyt puristaa toiminta</string>
+    <string name="active_edge_long_actions_title">Pitkä purista toiminta</string>
+    <string name="active_edge_sensitivity_title">Purista herkkyys</string>
+    <string name="active_edge_wake_title">Anna, kun näyttö on pois päältä</string>
+    <string name="active_edge_wake_summary">Käynnistää toimintaa, kun näyttö on pois päältä</string>
+    <string name="active_edge_footer_info">Kaikki eivät purista toimia Aktiivisen Reuna on kyky aktivoida näytön.\n\nJos haluat valita tietyn sovelluksen toimintaa toiminta, pitkä painallus tahansa sovelluksen sovellukset-poimija.</string>
     <!-- Custom actions -->
-    <string name="action_screenshot">Ruutukaappaus</string>
+    <string name="action_nothing">Ei toimenpiteitä</string>
+    <string name="action_search">Avustaja</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_flashlight">Taskulamppu</string>
+    <string name="action_volume_panel">Tilavuus paneeli</string>
+    <string name="action_screen_off">Näyttö pois</string>
+    <string name="action_screenshot">Kuvakaappaus</string>
+    <string name="action_app_action">Sovellus</string>
+    <string name="active_edge_ss_app_select_title">Valitse lyhyt puristaa app</string>
+    <string name="active_edge_ls_app_select_title">Valitse pitkä purista app</string>
+    <string name="active_edge_app_select_summary">Valitse sovellus käynnistää purista toiminta</string>
+    <string name="action_qs_panel">QS-paneeli</string>
+    <string name="action_notifications">Ilmoitukset</string>
+    <string name="action_clear_notifications">Selkeät ilmoitukset</string>
+    <string name="action_ringer_modes">Ringer tilat</string>
     <!-- Motion Sense -->
+    <string name="aware_settings_title">Motion Sense</string>
+    <string name="aware_settings_summary">Määritä Motion Sense vaihtoehtoja</string>
+    <string name="ambient_display_wake_screen_summary">Voit tarkistaa kellonajan, ilmoitukset ja muut tiedot, päästä puhelimeen</string>
+    <string name="ambient_display_wake_screen_summary_on">Päälle</string>
+    <string name="aware_category_display">Ambient-Näyttö</string>
+    <string name="aware_category_gesture">Nopea Eleet</string>
+    <string name="aware_disabled_preference_action">Liikkeen Tunne Asetuksia</string>
+    <string name="aware_disabled_preference_dialog_content">Voit käyttää tätä ominaisuutta, ota Motion Sense</string>
+    <string name="aware_disabled_preference_dialog_title">Tämä toiminto on pois päältä</string>
+    <string name="aware_disabled_preference_neutral">Ei nyt</string>
+    <string name="aware_display_settings_title">Tyhjäkäynnillä lukita näytön</string>
+    <string name="aware_settings_description">Uudet anturit, Pikseli voi tunnistaa etäisyyden ja liikkeen ympärillä puhelin</string>
+    <string name="aware_settings_disabled_info_dialog_content">Motion Sense ominaisuuksia, kuten Nopeita Eleitä, näyttää, näyttää, kun lähistöllä ja tavoittaa puhelinta ei tueta tässä maassa</string>
+    <string name="aware_settings_disabled_info_dialog_title">Motion Sense on pois päältä</string>
+    <string name="aware_settings_enabled_info_dialog_content">Motion Sense ominaisuuksia, kuten Nopeita Eleitä, näyttää, näyttää, kun lähistöllä, ja päästä tarkistaa, puhelin ovat tuettuja tässä maassa</string>
+    <string name="aware_settings_enabled_info_dialog_title">Motion Sense on</string>
+    <string name="aware_wake_display_summary">Näyttää aika, ilmoitus kuvakkeet, ja muita tietoja, kun olet lähellä</string>
+    <string name="aware_wake_display_summary_aod_off">Ole käytettävissä, koska aina-on-näyttö on pois päältä</string>
+    <string name="aware_wake_display_title">Näyttää näytön, kun lähistöllä</string>
+    <string name="dialog_aware_settings_message">Jos sammutat Motion Sense, et voi käyttää Nopeita Eleitä, näyttää, näyttää, kun lähistöllä ja tavoittaa tarkistaa puhelimen</string>
+    <string name="dialog_aware_settings_title">Sammuta Motion Sense?</string>
+    <string name="gesture_aware_confirmation_action_button">On se</string>
+    <string name="gesture_aware_disabled_info_dialog_content">Nopea Eleet ja muut Motion Sense ominaisuuksia ei tueta tässä maassa.</string>
+    <string name="gesture_aware_off_dialog_content">Käyttää Nopeita Eleitä, päälle Motion Sense.</string>
+    <string name="gesture_aware_off_dialog_title">Nopea Eleet ovat pois</string>
+    <string name="gesture_silence_on_summary">Päälle / Torkku hälytykset ja hiljaisuus puhelut</string>
+    <string name="gesture_silence_summary">Torkku hälytykset ja hiljaisuus puhelut</string>
+    <string name="gesture_silence_title">Hiljaisuus keskeytyksiä</string>
+    <string name="gesture_skip_direction_ltr">Pyyhkäise vasemmalle, oikealle seuraava kappale</string>
+    <string name="gesture_skip_direction_rtl">Pyyhkäisemällä oikealta vasemmalle seuraavan laulun</string>
+    <string name="gesture_skip_direction_title">Pyyhkäise suuntaan</string>
+    <string name="gesture_skip_on_summary">Päälle / Siirry seuraavaan tai edelliseen kappaleeseen</string>
+    <string name="gesture_skip_summary">Siirry seuraavaan tai edelliseen kappaleeseen</string>
+    <string name="gesture_skip_title">Ohita kappaleita</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content">Reach tarkistaa puhelimen ja muiden Motion Sense ominaisuuksia ei tueta tässä maassa</string>
+    <string name="wake_screen_aware_off_dialog_content">Käyttää Reach tarkistaa puhelimen, kytke Motion Sense</string>
+    <string name="wake_screen_aware_off_dialog_title">Reach tarkistaa puhelin on pois päältä</string>
+    <string name="powermenu_lockscreen_title">Virta-valikko näkyvyyttä</string>
+    <string name="powermenu_lockscreen_summary">Näyttö virta-valikko on suojattu lukitusnäyttö</string>
+    <string name="power_menu_gestures_title">Power-valikon toiminnot</string>
+    <string name="partial_screenshot_as_default_title">Osittainen kuvakaappaus oletuksena toimia</string>
+    <string name="partial_screenshot_as_default_summary">Aseta osittainen kuvakaappaus kuin oletustoimintoa Kuvakaappaus-painiketta virta-valikko. Muuten pitkä painallus toiminta laukaisee sen.</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced eleitä</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Muokata eleitä ja määrittää mukautettuja toimia</string>
+    <string name="navbar_gesture_tweaks_cat_title">Lisäasetukset</string>
+    <string name="long_back_swipe_timeout_title">Pitkä pyyhkäisemällä toiminta timeout</string>
+    <string name="left_swipe_actions_title">Pitkä vasemmalle pyyhkäisemällä toiminta</string>
+    <string name="left_swipe_app_action_title">Valitse pitkä vasemmalle pyyhkäisemällä app</string>
+    <string name="right_swipe_actions_title">Pitkä oikealle pyyhkäisemällä toiminta</string>
+    <string name="right_swipe_app_action_title">Valitse pitkä oikealle pyyhkäisemällä app</string>
+    <string name="gesture_nav_tweaks_footer_info">Valita tietyn sovelluksen toimintaa toiminta, pitkä painallus tahansa sovelluksen sovellukset-poimija.\n\nJos launcher ei näy, tee pyyhkäisemällä alareunassa näytön alueen laukaista toimintaa.</string>
+    <string name="back_swipe_extended_title">Laajennettu pyyhkäisemällä toiminta</string>
+    <string name="back_swipe_extended_summary">Liipaisimella, jos pyyhkäisemällä on vaakatasossa laajempi kuin 3\/4 näytön koko</string>
 </resources>

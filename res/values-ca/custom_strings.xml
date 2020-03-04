@@ -23,13 +23,34 @@
     <string name="fp_swipe_to_dismiss_notifications_summary">Per descartar les notificacions, feu lliscar el dit cap a l\'esquerra o cap a la dreta al sensor d\'empremta digital a la part posterior del telèfon.</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Activa la llanterna</string>
+    <string name="double_tap_power_flashlight_title">Pantalla desactivar el botó d\'encesa de la torxa</string>
     <string name="torch_power_button_gesture_none">Desactivat</string>
+    <string name="torch_power_button_gesture_dt">Aixeta doble poder per canviar la torxa</string>
+    <string name="torch_power_button_gesture_lp">La premsa de llarg el poder per canviar la torxa</string>
     <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Saltar pistes de música</string>
+    <string name="volume_skiptrack_title">Volum rocker saltar pistes</string>
+    <string name="volume_skiptrack_summary">La premsa de llarg el volum de control per saltar pistes durant la reproducció de música, fins i tot de manera remota a la televisió o PC amb per exemple, Spotify (aplicació ha de funcionar el telèfon i mostrar la notificació).</string>
+    <string name="ambient_wake_gestures_title">Ambient servei de gestos</string>
+    <string name="ambient_wake_gestures_summary">Mostra Ambient Mostrar en lloc de la normalitat de la pantalla de bloqueig en el servei de gestos</string>
     <string name="pulse_on_new_tracks_title">Teletip de música ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra Ambient de Mostrar quan una nova pista de música es reprodueix. Aixeta doble a la pista d\'informació per passar a la pista següent.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Mostra Ambient de Mostrar quan una nova pista de música es juga</string>
+    <string name="doubletap_lockscreen_screen_title">Canvieu la pantalla de fora</string>
     <string name="doubletap_lockscreen_title">Fes dos tocs per apagar a la pantalla de bloqueig</string>
+    <string name="doubletap_lockscreen_summary">Doble puntegeu en la pantalla de bloqueig buit zones per canviar la pantalla de descompte</string>
+    <string name="swap_volume_keys_on_rotation_title">Intercanvi botons de volum en girar el dispositiu</string>
     <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Xarxa de monitor</string>
+    <string name="network_traffic_state_title">Activar la xarxa de monitor</string>
+    <string name="network_traffic_state_sb_title">Mostra sempre net monitor</string>
+    <string name="network_traffic_state_summary">Mostra net descarregar activitat, o per pujar si més gran, ampliat en la barra d\'estat</string>
+    <string name="network_traffic_state_sb_summary">Seguir presentant net de l\'activitat en condicions normals de la barra d\'estat</string>
     <string name="network_traffic_autohide_threshold_title">Llindar de autoamagatall activitat xarxa (KB/s)</string>
     <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS panell de configuració</string>
+    <string name="qs_columns_rows_category_title">QS columnes i files</string>
+    <string name="qs_rows_columns_title">QS files i columnes</string>
     <string name="qs_rows_portrait_title">Nombre de files en mode vertical</string>
     <string name="qs_rows_landscape_title">Files d\'icones en mode horitzontal</string>
     <string name="qs_columns_portrait_title">Columnes d\'icones en mode vertical</string>
@@ -41,19 +62,34 @@
     <string name="quick_pulldown_left">Barra d\'estat desplegable des del costat esquerre</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Color del LED</string>
+    <string name="custom_light_on_time_title">La llum EN el temps durant led pols (ms)</string>
+    <string name="custom_light_off_time_title">La llum de FORA de temps durant el led de pols (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Battery light -->
+    <string name="battery_light_settings_pref_title">Llum de càrrega de la bateria</string>
     <string name="battery_light_allow_on_dnd_title">Llum de la bateria al mode No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitent quan la bateria s\'està esgotant</string>
     <string name="battery_light_cat">Color durant la càrrega de bateria</string>
     <string name="battery_light_low_color">Bateria baixa</string>
     <string name="battery_light_medium_color">Bateria a mitjes</string>
     <string name="battery_light_full_color">Bateria gairebé plena</string>
+    <string name="battery_light_reallyfull_color">El ple de la bateria (100)</string>
+    <string name="less_boring_heads_up_title">Menys avorrit de la mà</string>
+    <string name="less_boring_heads_up_summary">Ràpidament desactivar la mà per a totes les aplicacions, però mantenir-les activades per marcador i aplicacions de missatgeria</string>
+    <string name="notification_sound_vib_screen_on_title">So de notificació si activa</string>
     <string name="notification_sound_vib_screen_on_summary">Sona i vibra per a notificacions quan la pantalla està encesa</string>
     <string name="screenshot_sound_title">So de la captura</string>
+    <string name="lockscreen_media_blur_title">Media art blur nivell</string>
+    <string name="show_lockscreen_media_art_title">Mostra d\'art multimèdia</string>
+    <string name="lockscreen_media_art_options_title">Pantalla de bloqueig media art</string>
+    <string name="doze_on_charge_title">Sempre En el moment de la càrrega</string>
+    <string name="doze_on_charge_summary">Mostra Sempre En l\'Ambient de visualització quan la càrrega</string>
     <string name="smallest_tick_label">Pantalla completa</string>
+    <string name="greatest_tick_label">La meitat de la pantalla</string>
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">De tornada Sensibilitat i DeadZone</string>
     <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nUtilitzar la primera seekbar per configurar de nou fes lliscar el dit cap sensibilitat, la segona seekbar per establir la zona de la pantalla on l\'fes lliscar el dit cap es pot activar, per evitar conflictes amb en aplicació de gestos.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Rellotge de la barra d\'estat</string>
     <string name="status_bar_clock">Data i hora</string>
@@ -91,11 +127,93 @@
     <string name="clock_date_left">A la esquerra de l\'hora</string>
     <string name="clock_date_position">Posició de la data</string>
     <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Pantalla de bloqueig rellotge</string>
+    <string name="lockscreen_clock_summary">L\'estil del rellotge en pantalla de bloqueig i Ambiental de display</string>
+    <string name="lockscreen_clock_dialog_title">Seleccioneu estil del rellotge</string>
     <string name="lockscreen_clock_hide">Amaga</string>
     <string name="lockscreen_clock_default">Predeterminat</string>
+    <string name="lockscreen_clock_default_bold">Per defecte (en negreta)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (en negreta)</string>
     <!-- Active Edge -->
+    <string name="active_edge_title">Activa Vora</string>
+    <string name="active_edge_summary">Configurar Activa Vora opcions</string>
+    <string name="active_edge_short_actions_title">Curt squeeze acció</string>
+    <string name="active_edge_long_actions_title">Llarg squeeze acció</string>
+    <string name="active_edge_sensitivity_title">Premeu la sensibilitat</string>
+    <string name="active_edge_wake_title">Permeten quan la pantalla estigui desactivada</string>
+    <string name="active_edge_wake_summary">Activar una acció quan la pantalla estigui desactivada</string>
+    <string name="active_edge_footer_info">No tots els squeeze actuacions en Actiu Vora tenen la capacitat per activar la pantalla.\n\nSi voleu triar un específic l\'activitat de l\'aplicació per a l\'acció, la premsa de llarg a qualsevol aplicació en les aplicacions selector.</string>
     <!-- Custom actions -->
+    <string name="action_nothing">Cap acció</string>
+    <string name="action_search">Seu auxiliar</string>
+    <string name="action_voice_search">La cerca per veu</string>
+    <string name="action_launch_camera">Càmera</string>
+    <string name="action_flashlight">Llanterna</string>
+    <string name="action_volume_panel">Volum tauler</string>
+    <string name="action_screen_off">Pantalla de fora</string>
     <string name="action_screenshot">Captura de pantalla</string>
+    <string name="action_app_action">Aplicació</string>
+    <string name="active_edge_ss_app_select_title">Seleccioneu curt squeeze aplicació</string>
+    <string name="active_edge_ls_app_select_title">Seleccioneu llarg squeeze aplicació</string>
+    <string name="active_edge_app_select_summary">Seleccioneu una aplicació per llançar amb la pressió de l\'acció</string>
+    <string name="action_qs_panel">QS tauler</string>
+    <string name="action_notifications">Notificacions</string>
+    <string name="action_clear_notifications">Clar notificacions</string>
+    <string name="action_ringer_modes">Timbre modes</string>
     <!-- Motion Sense -->
+    <string name="aware_settings_title">Moviment Sentit</string>
+    <string name="aware_settings_summary">Configurar Moviment Sentit opcions</string>
+    <string name="ambient_display_wake_screen_summary">Per comprovar el temps, les notificacions, i altra informació, arribar per telèfon</string>
+    <string name="ambient_display_wake_screen_summary_on">En</string>
+    <string name="aware_category_display">Ambient De Display</string>
+    <string name="aware_category_gesture">Ràpid Els Gestos</string>
+    <string name="aware_disabled_preference_action">Moviment Sentit Configuració</string>
+    <string name="aware_disabled_preference_dialog_content">Per utilitzar aquesta funció, gira en Sentit de Moviment</string>
+    <string name="aware_disabled_preference_dialog_title">Aquesta funció està desactivada</string>
+    <string name="aware_disabled_preference_neutral">Ara no</string>
+    <string name="aware_display_settings_title">El repòs de la pantalla de bloqueig</string>
+    <string name="aware_settings_description">Amb nous sensors, Píxel pot reconèixer la distància i el moviment al voltant del telèfon</string>
+    <string name="aware_settings_disabled_info_dialog_content">Moviment Sentit característiques com Ràpid els Gestos, la mostra de mostrar quan propers, i arribar a comprovar telèfon no estan suportats en aquest país</string>
+    <string name="aware_settings_disabled_info_dialog_title">Moviment Sentit és fora</string>
+    <string name="aware_settings_enabled_info_dialog_content">Moviment Sentit característiques com Ràpid els Gestos, la mostra de mostrar quan propers, i arribar a comprovar telèfon estan suportats en aquest país</string>
+    <string name="aware_settings_enabled_info_dialog_title">Moviment Sentit és en</string>
+    <string name="aware_wake_display_summary">Mostra el temps, les icones de notificació, i altres dades quan estàs a prop</string>
+    <string name="aware_wake_display_summary_aod_off">No disponible perquè sempre-a la pantalla és fora</string>
+    <string name="aware_wake_display_title">Mostrar a pantalla quan propers</string>
+    <string name="dialog_aware_settings_message">Si desactiveu Moviment Sentit, no es pot utilitzar Ràpid els Gestos, la mostra de mostrar quan propers, i arribar a comprovar telèfon</string>
+    <string name="dialog_aware_settings_title">Desactivar el Moviment Sentit?</string>
+    <string name="gesture_aware_confirmation_action_button">Va</string>
+    <string name="gesture_aware_disabled_info_dialog_content">Ràpid els Gestos i altres Moviment Sentit característiques no estan suportats en aquest país.</string>
+    <string name="gesture_aware_off_dialog_content">Per utilitzar Ràpid els Gestos, activar Moviment Sentit.</string>
+    <string name="gesture_aware_off_dialog_title">Ràpid els Gestos són fora</string>
+    <string name="gesture_silence_on_summary">A / Repetició de les alarmes i el silenci trucades</string>
+    <string name="gesture_silence_summary">Repetició de les alarmes i el silenci trucades</string>
+    <string name="gesture_silence_title">Silenci interrupcions</string>
+    <string name="gesture_skip_direction_ltr">Fes lliscar el dit d\'esquerra a dreta, per a la propera cançó</string>
+    <string name="gesture_skip_direction_rtl">Fes lliscar el dit cap a la dreta a esquerra per a la propera cançó</string>
+    <string name="gesture_skip_direction_title">Fes lliscar el dit cap direcció</string>
+    <string name="gesture_skip_on_summary">A / a Saltar a la següent o anterior cançó</string>
+    <string name="gesture_skip_summary">Saltar a la següent o anterior cançó</string>
+    <string name="gesture_skip_title">Saltar cançons</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content">Arribar a comprovar telèfon i altres Moviment Sentit característiques no estan suportats en aquest país</string>
+    <string name="wake_screen_aware_off_dialog_content">Per utilitzar Arribar a comprovar telèfon, gira en Sentit de Moviment</string>
+    <string name="wake_screen_aware_off_dialog_title">Arribar a comprovar el telèfon està apagat</string>
+    <string name="powermenu_lockscreen_title">Poder menú visibilitat</string>
+    <string name="powermenu_lockscreen_summary">Exhibició de poder menú en un assegurat de la pantalla de bloqueig</string>
+    <string name="power_menu_gestures_title">Poder menú d\'accions</string>
+    <string name="partial_screenshot_as_default_title">Captura de pantalla parcial com a acció predeterminada</string>
+    <string name="partial_screenshot_as_default_summary">Conjunt parcial captura de pantalla per defecte d\'acció per a la Captura de pantalla botó al menú d\'alimentació. En cas contrari un llarg premsa acció activa-la.</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Avançada gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalitzar els gestos i establir accions personalitzades</string>
+    <string name="navbar_gesture_tweaks_cat_title">Configuració avançada</string>
+    <string name="long_back_swipe_timeout_title">Llarg fes lliscar el dit cap acció timeout</string>
+    <string name="left_swipe_actions_title">Llarg esquerra fes lliscar el dit cap acció</string>
+    <string name="left_swipe_app_action_title">Seleccioneu llarg fes lliscar el dit cap a l\'esquerra aplicació</string>
+    <string name="right_swipe_actions_title">Llarg fes lliscar el dit cap a la dreta acció</string>
+    <string name="right_swipe_app_action_title">Seleccioneu llarg fes lliscar el dit cap a la dreta aplicació</string>
+    <string name="gesture_nav_tweaks_footer_info">Per escollir una aplicació d\'activitat per a l\'acció, la premsa de llarg a qualsevol aplicació en les aplicacions selector.\n\nSi selector és mostrar, fer la fes lliscar el dit cap a la part inferior de la pantalla per activar l\'acció.</string>
+    <string name="back_swipe_extended_title">Ampliar fes lliscar el dit cap acció</string>
+    <string name="back_swipe_extended_summary">Activar acció, si la fes lliscar el dit cap és la línia horitzontal més gran que 3\/4 de mida</string>
 </resources>

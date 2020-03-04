@@ -18,6 +18,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
     <!-- ABC version in About phone -->
+    <string name="rom_version_title">ABC έκδοση</string>
     <string name="fp_swipe_to_dismiss_notifications_title">Σάρωση Δακτ. αποτυπ. αριστερά ή δεξιά για απόρριψη ειδοποιήσεων</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Για απόρριψη των ειδοποιήσεων σας, σαρώστε αριστερά ή δεξιά στον αισθητήρα δαχτυλικού αποτυπώματος.</string>
     <!-- Torch Power button gestures -->
@@ -27,18 +28,38 @@
     <string name="torch_power_button_gesture_dt">Διπλό πάτημα πλήκτρου τροφοδοσίας για ενεργοποίηση/απενεργοποίηση φακού</string>
     <string name="torch_power_button_gesture_lp">Παρατεταμένη πίεση στο πλήκτρο ενεργοποίησης για εναλλαγη φακού</string>
     <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Μετάβαση μουσικά κομμάτια</string>
+    <string name="volume_skiptrack_title">Rocker όγκου παραλείψτε κομμάτια</string>
+    <string name="volume_skiptrack_summary">Long πατήστε το volume rocker για παράλειψη κομματιών κατά την αναπαραγωγή μουσικής, ακόμη και εξ αποστάσεως στην τηλεόραση ή το PC σας με π. χ. Spotify (η εφαρμογή πρέπει να τρέχει στο τηλέφωνο και να δείξει την κοινοποίηση).</string>
+    <string name="ambient_wake_gestures_title">Περιβάλλοντος wake χειρονομίες</string>
+    <string name="ambient_wake_gestures_summary">Εμφάνιση Οθόνη Περιβάλλοντος αντί της κανονικής lockscreen για wake χειρονομίες</string>
     <string name="pulse_on_new_tracks_title">Επιλογέας μουσικής Οθόνης Περιβάλλοντος</string>
+    <string name="pulse_on_new_tracks_summary">Εμφάνιση του Περιβάλλοντος Οθόνη, όταν ένα νέο μουσικό κομμάτι παίζεται. Διπλό πατήστε για να παρακολουθείτε πληροφορίες για να μεταβείτε στο επόμενο κομμάτι.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Εμφάνιση του Περιβάλλοντος Οθόνη, όταν ένα νέο μουσικό κομμάτι παίζεται</string>
+    <string name="doubletap_lockscreen_screen_title">Διακόπτης απενεργοποίησης οθόνης</string>
     <string name="doubletap_lockscreen_title">Διπλό χτύπημα στην οθόνη κλειδώματος για απενεργοποίηση οθόνης</string>
+    <string name="doubletap_lockscreen_summary">Διπλό χτύπημα στην lockscreen κενές περιοχές για να μεταβείτε από την οθόνη off</string>
+    <string name="swap_volume_keys_on_rotation_title">Εναλλαγή κουμπιά έντασης όταν περιστρέφεται η συσκευή</string>
     <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Η εποπτεία δικτύου</string>
+    <string name="network_traffic_state_title">Ενεργοποιήσετε την εποπτεία δικτύου</string>
+    <string name="network_traffic_state_sb_title">Δείχνουν πάντα net monitor</string>
+    <string name="network_traffic_state_summary">Δείχνουν καθαρή λήψη δραστηριότητα, ή να ανεβάσετε αν το μεγαλύτερο, σε εκτεταμένη statusbar</string>
+    <string name="network_traffic_state_sb_summary">Συνεχίζουν να εμφανίζουν καθαρές δραστηριότητα, επίσης, σε κανονική γραμμή κατάστασης</string>
     <string name="network_traffic_autohide_threshold_title">\'Οριο απόκριψης δραστηριότητας δικτύου (KB/s)</string>
     <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS ρυθμίσεις του πίνακα</string>
+    <string name="qs_columns_rows_category_title">QS στήλες και γραμμές</string>
     <string name="qs_rows_columns_title">Στήλες και σειρές γρήγορων ρυθμίσεων</string>
     <string name="qs_rows_portrait_title">Σειρές πλακιδίων σε πορτρέτο</string>
     <string name="qs_rows_landscape_title">Σειρές πλακιδίων σε κατακόρυφο</string>
     <string name="qs_columns_portrait_title">Στήλες πλακιδίων σε πορτρέτο</string>
     <string name="qs_columns_landscape_title">Στήλες πλακιδίων σε τοπίο</string>
     <string name="qs_tile_title_visibility_title">Προβολή τίτλων πλακιδίων</string>
+    <string name="status_bar_quick_qs_pulldown">Γρήγορη QS pulldown</string>
     <string name="quick_pulldown_none">Απενεργοποιημένο</string>
+    <string name="quick_pulldown_right">Pulldown statusbar από την δεξιά πλευρά</string>
+    <string name="quick_pulldown_left">Pulldown statusbar από την αριστερή πλευρά</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Χρώμα φωτός</string>
     <string name="custom_light_on_time_title">Ενεργό LED όταν η οθόνη είναι ενεργή</string>
@@ -52,14 +73,25 @@
     <string name="battery_light_low_color">Χαμηλή μπαταρία</string>
     <string name="battery_light_medium_color">Μέτρια μπαταρία</string>
     <string name="battery_light_full_color">Σχεδόν πλήρης μπαταρία</string>
+    <string name="battery_light_reallyfull_color">Η πλήρης μπαταρία (100)</string>
     <string name="less_boring_heads_up_title">Λιγότερο βαρετες αναδυόμενες ειδοποιήσεις</string>
+    <string name="less_boring_heads_up_summary">Γρήγορα να απενεργοποιήσετε heads-up για όλες τις εφαρμογές, αλλά να τους κρατήσει ενεργοποιημένη για το dialer και εφαρμογές ανταλλαγής μηνυμάτων</string>
+    <string name="notification_sound_vib_screen_on_title">Ήχο ειδοποίησης αν είναι ενεργό</string>
     <string name="notification_sound_vib_screen_on_summary">Ήχος και δόνηση ειδοποιήσεων όταν η οθόνη είναι ενεργή</string>
     <string name="screenshot_sound_title">Ηχος στιγμιότυπου οθόνης</string>
+    <string name="lockscreen_media_blur_title">Media art επίπεδο θαμπάδα</string>
+    <string name="show_lockscreen_media_art_title">Show media art</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Οθόνη πάντα ενεργή κατά την φόρτιση</string>
+    <string name="doze_on_charge_summary">Δείχνουν Πάντα Περιβάλλοντος οθόνη κατά τη φόρτιση</string>
     <string name="smallest_tick_label">Πλήρης οθόνη</string>
+    <string name="greatest_tick_label">Μισή οθόνη</string>
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Πίσω Ευαισθησία και DeadZone</string>
     <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nΧρησιμοποιήσετε την πρώτη seekbar να ρυθμίσετε πίσω κτύπημα ευαισθησία, η δεύτερη seekbar να ορίσετε την περιοχή της οθόνης όπου το άγγιγμα μπορεί να ενεργοποιηθεί, για να αποφευχθούν συγκρούσεις με in-app χειρονομίες.</string>
     <!-- Status bar clock options -->
+    <string name="clock_date_settings_title">Statusbar ρολόι</string>
     <string name="status_bar_clock">Ώρα και Ημερομηνία</string>
     <string name="status_bar_clock_summary">Διαμόρφωση ρολογιού και εμφάνιση της ημερομηνίας στην γραμμή κατάστασης</string>
     <string name="clock_title_enable">Ευθυγράμμιση</string>
@@ -83,10 +115,10 @@
     <string name="clock_date_string_edittext_summary">Πληκτρολογήστε συμβολοσειρά</string>
     <string name="am_pm_clock_normal">Κανονικό μέγεθος γραμματοσειράς</string>
     <string name="am_pm_clock_small">Μικρό μέγεθος γραμματοσειράς</string>
-    <string name="am_pm_clock_none">Να μην εμφανίζεται</string>
-    <string name="clock_date_display_none">Να μην εμφανίζεται</string>
+    <string name="am_pm_clock_none">Δεν δείχνουν</string>
+    <string name="clock_date_display_none">Δεν δείχνουν</string>
     <string name="clock_date_display_small">Μικρό μέγεθος γραμματοσειράς</string>
-    <string name="clock_date_display_normal">Κανονικό μέγεθος γραμματοσειράς</string>
+    <string name="clock_date_display_normal">Το κανονικό μέγεθος της γραμματοσειράς</string>
     <string name="clock_date_style_normal">Κανονικό</string>
     <string name="clock_date_style_lowercase">Πεζά</string>
     <string name="clock_date_style_uppercase">Κεφαλαία</string>
@@ -96,12 +128,92 @@
     <string name="clock_date_position">Θέση ημερομηνίας</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Ρολόι κλειδώματος οθόνης</string>
+    <string name="lockscreen_clock_summary">Το στυλ του ρολογιού στην lockscreen και Περιβάλλοντος επίδειξης</string>
+    <string name="lockscreen_clock_dialog_title">Επιλέξτε το στυλ του ρολογιού</string>
     <string name="lockscreen_clock_hide">Απόκρυψη</string>
     <string name="lockscreen_clock_default">Προεπιλογή</string>
+    <string name="lockscreen_clock_default_bold">Προεπιλογή (bold)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (έντονο)</string>
     <!-- Active Edge -->
+    <string name="active_edge_title">Ενεργό Άκρο</string>
+    <string name="active_edge_summary">Να ρυθμίσετε την Ενεργό Άκρο επιλογές</string>
+    <string name="active_edge_short_actions_title">Short squeeze δράση</string>
+    <string name="active_edge_long_actions_title">Πολύ αποσπάσουν δράση</string>
+    <string name="active_edge_sensitivity_title">Συμπίεση ευαισθησία</string>
+    <string name="active_edge_wake_title">Επιτρέπουν, όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="active_edge_wake_summary">Προκαλέσει μια ενέργεια όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="active_edge_footer_info">Δεν είναι όλα αποσπάσουν δράσεις στο Ενεργό Άκρο έχει τη δυνατότητα να ενεργοποιήσετε την οθόνη.\n\nΑν θέλετε να επιλέξετε μια συγκεκριμένη εφαρμογή δραστηριοτήτων για τη δράση, πατήστε παρατεταμένα οποιαδήποτε εφαρμογή σε εφαρμογές επιλογέα.</string>
     <!-- Custom actions -->
-    <string name="action_screenshot">Στιγμιότυπο οθόνης</string>
+    <string name="action_nothing">Καμία ενέργεια</string>
+    <string name="action_search">Βοηθός</string>
+    <string name="action_voice_search">Φωνητική αναζήτηση</string>
+    <string name="action_launch_camera">Κάμερα</string>
+    <string name="action_flashlight">Φακός</string>
+    <string name="action_volume_panel">Ένταση πίνακα</string>
+    <string name="action_screen_off">Οθόνη off</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">Εφαρμογή</string>
+    <string name="active_edge_ss_app_select_title">Επιλέξτε short squeeze app</string>
+    <string name="active_edge_ls_app_select_title">Επιλέξτε καιρό να αποσπάσουν το app</string>
+    <string name="active_edge_app_select_summary">Επιλέξτε μια εφαρμογή για να ξεκινήσει με το squeeze δράση</string>
+    <string name="action_qs_panel">QS πίνακα</string>
+    <string name="action_notifications">Ειδοποιήσεις</string>
+    <string name="action_clear_notifications">Σαφείς ειδοποιήσεις</string>
+    <string name="action_ringer_modes">Ringer λειτουργίες</string>
     <!-- Motion Sense -->
+    <string name="aware_settings_title">Κίνηση Λογική</string>
+    <string name="aware_settings_summary">Ρυθμίστε τις παραμέτρους Κίνησης Αίσθηση επιλογές</string>
+    <string name="ambient_display_wake_screen_summary">Για να ελέγξετε το χρόνο, τις ειδοποιήσεις και άλλες πληροφορίες, να φθάσει για το τηλέφωνό σας</string>
+    <string name="ambient_display_wake_screen_summary_on">Στις</string>
+    <string name="aware_category_display">Περιβαλλοντική Επίδειξη</string>
+    <string name="aware_category_gesture">Γρήγορες Χειρονομίες</string>
+    <string name="aware_disabled_preference_action">Κίνηση Λογική Ρυθμίσεις</string>
+    <string name="aware_disabled_preference_dialog_content">Για να χρησιμοποιήσετε αυτή τη λειτουργία, ενεργοποιήστε την Κίνηση Αίσθηση</string>
+    <string name="aware_disabled_preference_dialog_title">Αυτή η δυνατότητα είναι απενεργοποιημένη</string>
+    <string name="aware_disabled_preference_neutral">Όχι τώρα</string>
+    <string name="aware_display_settings_title">Αδρανής οθόνη κλειδώματος</string>
+    <string name="aware_settings_description">Με νέα αισθητήρες, Pixel μπορεί να αναγνωρίσει την απόσταση και την κίνηση γύρω από το τηλέφωνο</string>
+    <string name="aware_settings_disabled_info_dialog_content">Κίνηση Λογική χαρακτηριστικά, όπως Γρήγορη Χειρονομίες, επίδειξη, όταν σε κοντινή απόσταση, και να φτάσει για να ελέγξετε το τηλέφωνο δεν υποστηρίζονται σε αυτή τη χώρα</string>
+    <string name="aware_settings_disabled_info_dialog_title">Κίνηση Λογική είναι off</string>
+    <string name="aware_settings_enabled_info_dialog_content">Κίνηση Λογική χαρακτηριστικά, όπως Γρήγορη Χειρονομίες, επίδειξη, όταν σε κοντινή απόσταση, και να φτάσει για να ελέγξετε το τηλέφωνο υποστηρίζονται σε αυτή την χώρα</string>
+    <string name="aware_settings_enabled_info_dialog_title">Κίνηση Λογική είναι με</string>
+    <string name="aware_wake_display_summary">Ώρα για σόου, εικονίδια ειδοποίησης και άλλες πληροφορίες όταν είσαι κοντά</string>
+    <string name="aware_wake_display_summary_aod_off">Διαθέσιμη, επειδή πάντα-στην οθόνη είναι απενεργοποιημένη</string>
+    <string name="aware_wake_display_title">Επίδειξη όταν κοντινή απόσταση</string>
+    <string name="dialog_aware_settings_message">Εάν απενεργοποιήσετε την Κίνηση Λογική, δεν μπορείτε να χρησιμοποιήσετε Γρήγορες Κινήσεις, επίδειξη, όταν σε κοντινή απόσταση, και να φτάσει για να ελέγξετε το τηλέφωνο</string>
+    <string name="dialog_aware_settings_title">Απενεργοποιήστε την Κίνηση Νόημα;</string>
+    <string name="gesture_aware_confirmation_action_button">Το έχω</string>
+    <string name="gesture_aware_disabled_info_dialog_content">Γρήγορες Χειρονομίες και άλλες κινήσεις Αίσθηση δυνατότητες δεν υποστηρίζονται σε αυτή τη χώρα.</string>
+    <string name="gesture_aware_off_dialog_content">Για να χρησιμοποιήσετε Γρήγορες Κινήσεις, ενεργοποιήστε την Κίνηση Νόημα.</string>
+    <string name="gesture_aware_off_dialog_title">Γρήγορες Χειρονομίες είναι off</string>
+    <string name="gesture_silence_on_summary">On / ειδοποιήσεων Αναβολής αφύπνισης και σίγαση κλήσεων</string>
+    <string name="gesture_silence_summary">Την αναβολή του ξυπνητηριού και σίγαση κλήσεων</string>
+    <string name="gesture_silence_title">Σιωπή διακοπές</string>
+    <string name="gesture_skip_direction_ltr">Περάστε αριστερά προς τα δεξιά για το επόμενο τραγούδι</string>
+    <string name="gesture_skip_direction_rtl">Σαρώστε προς τα δεξιά προς τα αριστερά για το επόμενο τραγούδι</string>
+    <string name="gesture_skip_direction_title">Σύρετε προς την κατεύθυνση</string>
+    <string name="gesture_skip_on_summary">On / μετάβαση στο επόμενο ή το προηγούμενο τραγούδι</string>
+    <string name="gesture_skip_summary">Μεταβείτε στο επόμενο ή το προηγούμενο τραγούδι</string>
+    <string name="gesture_skip_title">Skip τραγούδια</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content">Reach για να ελέγξετε το τηλέφωνο και άλλη Πρόταση Αίσθηση δυνατότητες δεν υποστηρίζονται σε αυτή τη χώρα</string>
+    <string name="wake_screen_aware_off_dialog_content">Να χρησιμοποιήσει το Reach να ελέγξετε το τηλέφωνο, ενεργοποιήστε την Κίνηση Αίσθηση</string>
+    <string name="wake_screen_aware_off_dialog_title">Reach για να ελέγξετε το τηλέφωνο είναι απενεργοποιημένο</string>
+    <string name="powermenu_lockscreen_title">Δύναμη μενού προβολή</string>
+    <string name="powermenu_lockscreen_summary">Επίδειξη δύναμης μενού σε ένα ασφαλές lockscreen</string>
+    <string name="power_menu_gestures_title">Δύναμη μενού ενέργειες</string>
+    <string name="partial_screenshot_as_default_title">Μερική screenshot ως προεπιλεγμένη ενέργεια</string>
+    <string name="partial_screenshot_as_default_summary">Σύνολο μερική screenshot ως προεπιλεγμένη ενέργεια για το κουμπί Screenshot στην εξουσία μενού. Διαφορετικά, πατήστε παρατεταμένα δράση ενεργοποιεί.</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Προηγμένη χειρονομίες</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Προσαρμόστε τις χειρονομίες και να ορίσετε προσαρμοσμένες ενέργειες</string>
+    <string name="navbar_gesture_tweaks_cat_title">Για προχωρημένους</string>
+    <string name="long_back_swipe_timeout_title">Μακρά δράση ισχυρό κτύπημα χρονικό όριο</string>
+    <string name="left_swipe_actions_title">Πολύ δράση ισχυρό κτύπημα</string>
+    <string name="left_swipe_app_action_title">Επιλέξτε αριστερά περάστε το app</string>
+    <string name="right_swipe_actions_title">Πολύ σωστά δράση ισχυρό κτύπημα</string>
+    <string name="right_swipe_app_action_title">Επιλέξτε δεξιά περάστε το app</string>
+    <string name="gesture_nav_tweaks_footer_info">Για να επιλέξετε μια συγκεκριμένη εφαρμογή δραστηριοτήτων για τη δράση, πατήστε παρατεταμένα οποιαδήποτε εφαρμογή σε εφαρμογές επιλογέα.\n\nΑν launcher δείχνει, κάνει το άγγιγμα στο κάτω μέρος της οθόνης για να προκαλέσει τη δράση.</string>
+    <string name="back_swipe_extended_title">Εκτεταμένη δράση ισχυρό κτύπημα</string>
+    <string name="back_swipe_extended_summary">Δράση σκανδάλης αν η κίνηση είναι οριζόντια ευρύτερο από 3\/4 μέγεθος της οθόνης</string>
 </resources>

@@ -43,7 +43,7 @@
     <string name="net_monitor_category_title">通信量モニター</string>
     <string name="network_traffic_state_title">通信量モニターの有効化</string>
     <string name="network_traffic_state_sb_title">常に通信量モニターを表示</string>
-    <string name="network_traffic_state_summary">速度が大きくなったら拡張ステータスバーにダウンロード、アップロード速度を表示する</string>
+    <string name="network_traffic_state_summary">速度が大きくなったら拡張ステータスバーにダウンロード/アップロード速度を表示する</string>
     <string name="network_traffic_state_sb_summary">標準ステータスバーにも常に通信速度を表示する</string>
     <string name="network_traffic_autohide_threshold_title">通信速度のしきい値 (KB/s)</string>
     <!-- QS rows and columns -->
@@ -75,7 +75,7 @@
     <string name="less_boring_heads_up_title">邪魔な Heads Up を減らす</string>
     <string name="less_boring_heads_up_summary">素早く全てのアプリの Heads Up 通知を無効化しますが電話とメッセージアプリは無効化されません</string>
     <string name="notification_sound_vib_screen_on_title">画面点灯中の通知の音楽</string>
-    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信したとき、通知音とバイブを鳴らします</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音とバイブを鳴らす</string>
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <string name="lockscreen_media_blur_title">メディアアートのぼかしレベル</string>
     <string name="show_lockscreen_media_art_title">メディアアートを表示</string>
@@ -85,7 +85,7 @@
     <string name="smallest_tick_label">全画面</string>
     <string name="greatest_tick_label">半画面</string>
     <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">戻るアクションの感度と認識ゾーン</string>
+    <string name="back_sensitivity_dialog_title_cust">戻るアクションの感度と画面認識エリア</string>
     <!-- [CHAR LIMIT=NONE] -->
     <string name="back_sensitivity_dialog_message_cust">\n最初のシークバーを使用して戻るスワイプ感度を編集し、2番目のシークバーを使用してスワイプを認識できる画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
     <!-- Status bar clock options -->
@@ -115,7 +115,7 @@
     <string name="am_pm_clock_small">小さいフォントサイズ</string>
     <string name="am_pm_clock_none">非表示</string>
     <string name="clock_date_display_none">非表示</string>
-    <string name="clock_date_display_small">小さいフォントサイズ</string>
+    <string name="clock_date_display_small">フォントサイズ小</string>
     <string name="clock_date_display_normal">通常のフォントサイズ</string>
     <string name="clock_date_style_normal">標準</string>
     <string name="clock_date_style_lowercase">小文字</string>
@@ -129,7 +129,7 @@
     <string name="lockscreen_clock_summary">ロック画面とアンビエント画面の時計のスタイル</string>
     <string name="lockscreen_clock_dialog_title">時計のスタイルを選択</string>
     <string name="lockscreen_clock_hide">非表示</string>
-    <string name="lockscreen_clock_default">デフォルト</string>
+    <string name="lockscreen_clock_default">既定</string>
     <string name="lockscreen_clock_default_bold">既定 (太字)</string>
     <string name="lockscreen_clock_sammy">デジタル二列</string>
     <string name="lockscreen_clock_sammy_bold">デジタル二列 (太字)</string>
@@ -155,6 +155,10 @@
     <string name="active_edge_ss_app_select_title">短い握りのアクションのアプリを選択</string>
     <string name="active_edge_ls_app_select_title">長い握りのアクションのアプリを選択</string>
     <string name="active_edge_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_ringer_modes">着信モード</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Motion Sense</string>
     <string name="aware_settings_summary">Motion Sense の設定を編集する</string>
@@ -163,7 +167,7 @@
     <string name="aware_category_display">アンビエント表示</string>
     <string name="aware_category_gesture">Quick Gestures</string>
     <string name="aware_disabled_preference_action">Motion Sense の設定</string>
-    <string name="aware_disabled_preference_dialog_content">使用するにはを Motion Sense 有効化してください</string>
+    <string name="aware_disabled_preference_dialog_content">使用するにはを Motion Sense 有効化して下さい</string>
     <string name="aware_disabled_preference_dialog_title">この機能は無効になっています</string>
     <string name="aware_disabled_preference_neutral">後で</string>
     <string name="aware_display_settings_title">ロック画面を消灯</string>
@@ -198,4 +202,16 @@
     <string name="power_menu_gestures_title">電源メニューのアクション</string>
     <string name="partial_screenshot_as_default_title">既定動作として部分スクリーンショット</string>
     <string name="partial_screenshot_as_default_summary">電源メニューのスクリーンショットボタンの既定動作として部分スクリーンショットを設定します。それ以外の場合は電源長押しで動作します。</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">スワイプの高さが画面サイズの75%以上ならアクションを起動する</string>
 </resources>

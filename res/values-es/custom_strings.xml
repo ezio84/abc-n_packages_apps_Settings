@@ -29,14 +29,27 @@
     <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender la linterna</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Saltar pistas de música</string>
+    <string name="volume_skiptrack_title">Volumen rockero saltar pistas</string>
+    <string name="volume_skiptrack_summary">Pulsación larga, el rockero de volumen para saltar pistas durante la reproducción de música, incluso de forma remota en la tv o en la PC con, por ejemplo, Spotify (la aplicación se debe ejecutar en el teléfono y muestra la notificación).</string>
     <string name="ambient_wake_gestures_title">Gestos de la pantalla ambiente</string>
     <string name="ambient_wake_gestures_summary">Mostrar pantalla ambiente en lugar de la pantalla de bloqueo normal al despertar con gestos</string>
     <string name="pulse_on_new_tracks_title">Indicador de música de ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar Ambiental de la Pantalla cuando una nueva pista de música que se está reproduciendo. Doble toque en la información de las pistas para saltar a la siguiente pista.</string>
     <string name="pulse_on_new_tracks_soli_summary">Mostrar visualización ambiental cuando se reproduce una nueva pista de música</string>
+    <string name="doubletap_lockscreen_screen_title">Interruptor de apagado de pantalla</string>
     <string name="doubletap_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
+    <string name="doubletap_lockscreen_summary">Doble toque en lockscreen áreas vacías para cambiar la pantalla de apagado</string>
+    <string name="swap_volume_keys_on_rotation_title">Intercambiar botones de volumen al girar el dispositivo</string>
     <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">El monitor de red</string>
+    <string name="network_traffic_state_title">Habilitar el monitor de red</string>
+    <string name="network_traffic_state_sb_title">Mostrar siempre net monitor</string>
+    <string name="network_traffic_state_summary">Mostrar neto de la actividad de descarga o de carga si más grande, en la ampliación de la barra de estado</string>
+    <string name="network_traffic_state_sb_summary">Seguir mostrando neto de la actividad normal de la barra de estado</string>
     <string name="network_traffic_autohide_threshold_title">Tráfico de red mínimo para ocultar actividad (KB/s)</string>
     <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS panel de configuración</string>
+    <string name="qs_columns_rows_category_title">QS columnas y filas</string>
     <string name="qs_rows_columns_title">Columnas y filas QS</string>
     <string name="qs_rows_portrait_title">Filas de cuadrilla en modo vertical</string>
     <string name="qs_rows_landscape_title">Filas en modo apaisado</string>
@@ -61,12 +74,21 @@
     <string name="battery_light_full_color">Carga casi completa</string>
     <string name="battery_light_reallyfull_color">Batería completa (100)</string>
     <string name="less_boring_heads_up_title">Notificaciones flotantes menos aburridas</string>
+    <string name="less_boring_heads_up_summary">Desactivar rápidamente el heads up para todas las aplicaciones, pero mantener habilitadas para el marcador y aplicaciones de mensajería</string>
+    <string name="notification_sound_vib_screen_on_title">Sonido de notificación si activa</string>
     <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibrar al recibir notificaciones cuando la pantalla está encendida</string>
     <string name="screenshot_sound_title">Sonido de captura</string>
+    <string name="lockscreen_media_blur_title">Los medios de comunicación de arte de nivel de desenfoque</string>
+    <string name="show_lockscreen_media_art_title">Show de arte en los medios</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Always on mientras se carga</string>
+    <string name="doze_on_charge_summary">Mostrar Siempre En el Ambiente de la pantalla cuando se está cargando</string>
+    <string name="smallest_tick_label">Pantalla completa</string>
     <string name="greatest_tick_label">Media pantalla</string>
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">De nuevo la Sensibilidad y la zona muerta</string>
     <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nel Uso de la primera seekbar para configurar de nuevo pase de la sensibilidad, la segunda seekbar para establecer el área de la pantalla donde el barrido puede ser activado, para evitar conflictos en la aplicación de los gestos.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Reloj de la barra de estado</string>
     <string name="status_bar_clock">Reloj y fecha</string>
@@ -80,6 +102,7 @@
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">El reloj de 24 horas está habilitado</string>
     <string name="enable_clock_weekday">Día de la semana</string>
+    <string name="enable_clock_weekday_summary">Abreviado del día de la semana antes de la hora</string>
     <string name="right_clock">Reloj derecha</string>
     <string name="left_clock">Reloj a la izquierda</string>
     <string name="dont_show">No mostrar</string>
@@ -94,7 +117,7 @@
     <string name="am_pm_clock_none">No mostrar</string>
     <string name="clock_date_display_none">No mostrar</string>
     <string name="clock_date_display_small">Pequeño</string>
-    <string name="clock_date_display_normal">Tamaño de la letra Normal</string>
+    <string name="clock_date_display_normal">Normal el tamaño de la fuente</string>
     <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Minúscula</string>
     <string name="clock_date_style_uppercase">Mayúscula</string>
@@ -104,6 +127,7 @@
     <string name="clock_date_position">Posición de la fecha</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Reloj de la pantalla de bloqueo</string>
+    <string name="lockscreen_clock_summary">Estilo del reloj en el lockscreen y Ambiental de la pantalla</string>
     <string name="lockscreen_clock_dialog_title">Seleccionar estilo de reloj</string>
     <string name="lockscreen_clock_hide">Ocultar</string>
     <string name="lockscreen_clock_default">Por defecto</string>
@@ -111,7 +135,84 @@
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (negrita)</string>
     <!-- Active Edge -->
+    <string name="active_edge_title">Active Edge</string>
+    <string name="active_edge_summary">Configurar opciones de Borde</string>
+    <string name="active_edge_short_actions_title">Breve apretón de acción</string>
+    <string name="active_edge_long_actions_title">Largo apretón de acción</string>
+    <string name="active_edge_sensitivity_title">Apriete la sensibilidad</string>
+    <string name="active_edge_wake_title">Permitir que cuando la pantalla está apagada</string>
+    <string name="active_edge_wake_summary">Desencadenar una acción cuando la pantalla está apagada</string>
+    <string name="active_edge_footer_info">No todos los exprimir acciones dentro de Active Edge tiene la capacidad para activar la pantalla.\n\nSi desea elegir una aplicación específica de la actividad para la acción, pulsación larga en cualquier aplicación en el selector de aplicaciones.</string>
     <!-- Custom actions -->
+    <string name="action_nothing">Ninguna acción</string>
+    <string name="action_search">Ayudante de</string>
+    <string name="action_voice_search">La búsqueda por voz</string>
+    <string name="action_launch_camera">Cámara</string>
+    <string name="action_flashlight">Linterna</string>
+    <string name="action_volume_panel">Volumen del panel</string>
+    <string name="action_screen_off">Apagado de pantalla</string>
     <string name="action_screenshot">Captura de pantalla</string>
+    <string name="action_app_action">Aplicación</string>
+    <string name="active_edge_ss_app_select_title">Seleccione corto apretón de aplicación</string>
+    <string name="active_edge_ls_app_select_title">Seleccione largo apretón de aplicación</string>
+    <string name="active_edge_app_select_summary">Seleccione una aplicación para iniciar con el apretón de acción</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_notifications">Las notificaciones</string>
+    <string name="action_clear_notifications">Claro notificaciones</string>
+    <string name="action_ringer_modes">Timbre modos</string>
     <!-- Motion Sense -->
+    <string name="aware_settings_title">Movimiento De Sentido</string>
+    <string name="aware_settings_summary">Configurar el Sentido de Movimiento de las opciones de</string>
+    <string name="ambient_display_wake_screen_summary">Para verificar el tiempo, notificaciones y demás información, para llegar a su teléfono</string>
+    <string name="ambient_display_wake_screen_summary_on">En</string>
+    <string name="aware_category_display">Ambiente De Pantalla</string>
+    <string name="aware_category_gesture">Rápido Gestos</string>
+    <string name="aware_disabled_preference_action">Movimiento De Sentido Configuración</string>
+    <string name="aware_disabled_preference_dialog_content">Para utilizar esta función, gire en Sentido de Movimiento</string>
+    <string name="aware_disabled_preference_dialog_title">Esta característica está desactivada</string>
+    <string name="aware_disabled_preference_neutral">No ahora</string>
+    <string name="aware_display_settings_title">De inactividad de la pantalla de bloqueo</string>
+    <string name="aware_settings_description">Con nuevos sensores, Píxel puede reconocer la distancia y el movimiento de todo el teléfono</string>
+    <string name="aware_settings_disabled_info_dialog_content">Movimiento de Sentido características como Quick Gestos, mostrar la pantalla cuando la cerca, y llegar a la verificación de teléfono no son compatibles en este país</string>
+    <string name="aware_settings_disabled_info_dialog_title">Movimiento de Sentido está apagado</string>
+    <string name="aware_settings_enabled_info_dialog_content">Movimiento de Sentido características como Quick Gestos, mostrar la pantalla cuando la cerca, y llegar a la verificación de teléfono que son compatibles en este país</string>
+    <string name="aware_settings_enabled_info_dialog_title">Movimiento de Sentido es en</string>
+    <string name="aware_wake_display_summary">Mostrar la hora, los iconos de notificación, y otra información cuando usted está cerca</string>
+    <string name="aware_wake_display_summary_aod_off">No está disponible porque siempre-en la pantalla está apagada</string>
+    <string name="aware_wake_display_title">Mostrar pantalla cuando se cercanos</string>
+    <string name="dialog_aware_settings_message">Si desactiva el Movimiento de Sentido, no se puede utilizar Quick Gestos, mostrar la pantalla cuando la cerca, y llegar a comprobar teléfono</string>
+    <string name="dialog_aware_settings_title">Apague el Movimiento de Sentido?</string>
+    <string name="gesture_aware_confirmation_action_button">Tengo</string>
+    <string name="gesture_aware_disabled_info_dialog_content">Rápido y Gestos de los otros Sentido de Movimiento características no se admiten en este país.</string>
+    <string name="gesture_aware_off_dialog_content">Para el uso Rápido de los Gestos, gire en Sentido de Movimiento.</string>
+    <string name="gesture_aware_off_dialog_title">Rápido Gestos están fuera de</string>
+    <string name="gesture_silence_on_summary">En / Posponer las alarmas y el silencio de llamadas</string>
+    <string name="gesture_silence_summary">Posponer las alarmas y el silencio de llamadas</string>
+    <string name="gesture_silence_title">El silencio interrupciones</string>
+    <string name="gesture_skip_direction_ltr">Desliza el dedo de izquierda a derecha para la siguiente canción</string>
+    <string name="gesture_skip_direction_rtl">Desliza el dedo de derecha a izquierda para la siguiente canción</string>
+    <string name="gesture_skip_direction_title">Dirección de deslizamiento</string>
+    <string name="gesture_skip_on_summary">En / Saltar a la canción siguiente o anterior</string>
+    <string name="gesture_skip_summary">Saltar a la canción siguiente o anterior</string>
+    <string name="gesture_skip_title">Saltar canciones</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content">Llegar a la verificación de teléfono y otra Moción Sentido características no se admiten en este país</string>
+    <string name="wake_screen_aware_off_dialog_content">El uso de Alcanzar para comprobar teléfono, gire en Sentido de Movimiento</string>
+    <string name="wake_screen_aware_off_dialog_title">Llegar a comprobar el teléfono está apagado</string>
+    <string name="powermenu_lockscreen_title">Power menu visibilidad</string>
+    <string name="powermenu_lockscreen_summary">De energía de la pantalla de menú garantizada lockscreen</string>
+    <string name="power_menu_gestures_title">El poder del menú de acciones</string>
+    <string name="partial_screenshot_as_default_title">Captura de pantalla parcial como acción predeterminada</string>
+    <string name="partial_screenshot_as_default_summary">Establecer captura de pantalla parcial como la acción predeterminada para el botón de Captura de pantalla en el menú power. De lo contrario, una pulsación larga de la acción se dispara.</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Avanzado gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar los gestos y el conjunto de acciones personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzada</string>
+    <string name="long_back_swipe_timeout_title">Largo tiempo de espera de las acciones con el dedo</string>
+    <string name="left_swipe_actions_title">Durante mucho tiempo de las acciones con el dedo</string>
+    <string name="left_swipe_app_action_title">Seleccione largo pase el dedo a la izquierda de la aplicación</string>
+    <string name="right_swipe_actions_title">Derecha larga acciones con el dedo</string>
+    <string name="right_swipe_app_action_title">Seleccione largo pase el dedo a la derecha de la aplicación</string>
+    <string name="gesture_nav_tweaks_footer_info">Para elegir una aplicación específica de la actividad para la acción, pulsación larga en cualquier aplicación en el selector de aplicaciones.\n\nSi el lanzador está mostrando, hacer el pase en el área inferior de la pantalla para activar la acción.</string>
+    <string name="back_swipe_extended_title">Extendió las acciones con el dedo</string>
+    <string name="back_swipe_extended_summary">Acción de disparo si el barrido horizontal más amplio de 3\/4 de tamaño de la pantalla</string>
 </resources>
