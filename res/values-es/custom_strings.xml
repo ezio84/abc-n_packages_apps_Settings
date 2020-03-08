@@ -160,6 +160,7 @@
     <string name="action_notifications">Las notificaciones</string>
     <string name="action_clear_notifications">Claro notificaciones</string>
     <string name="action_ringer_modes">Timbre modos</string>
+    <string name="kill_app">Cerrar aplicación en primer plano</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Movimiento De Sentido</string>
     <string name="aware_settings_summary">Configurar el Sentido de Movimiento de las opciones de</string>
@@ -195,6 +196,10 @@
     <string name="gesture_skip_on_summary">En / Saltar a la canción siguiente o anterior</string>
     <string name="gesture_skip_summary">Saltar a la canción siguiente o anterior</string>
     <string name="gesture_skip_title">Saltar canciones</string>
+    <string name="gesture_tap_off_summary">Apagar / Pausar o reanudar música</string>
+    <string name="gesture_tap_on_summary">En / Pausar o reanudar música</string>
+    <string name="gesture_tap_summary">Pausar o reanudar la música tocando el aire sobre el teléfono</string>
+    <string name="gesture_tap_title">Pausar música</string>
     <string name="wake_screen_aware_disabled_info_dialog_content">Llegar a la verificación de teléfono y otra Moción Sentido características no se admiten en este país</string>
     <string name="wake_screen_aware_off_dialog_content">El uso de Alcanzar para comprobar teléfono, gire en Sentido de Movimiento</string>
     <string name="wake_screen_aware_off_dialog_title">Llegar a comprobar el teléfono está apagado</string>

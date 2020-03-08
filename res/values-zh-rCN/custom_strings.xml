@@ -159,6 +159,7 @@
     <string name="action_notifications">的通知</string>
     <string name="action_clear_notifications">明确的通知</string>
     <string name="action_ringer_modes">林格模式</string>
+    <string name="kill_app">关闭前景应用</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">运动传感器</string>
     <string name="aware_settings_summary">配置运动传感器选项</string>
@@ -194,6 +195,10 @@
     <string name="gesture_skip_on_summary">打开/跳至下一首或上一首歌曲</string>
     <string name="gesture_skip_summary">跳到下一首或上一首歌曲</string>
     <string name="gesture_skip_title">跳过歌曲</string>
+    <string name="gesture_tap_off_summary">关闭/暂停或继续音乐</string>
+    <string name="gesture_tap_on_summary">开启/暂停或继续音乐</string>
+    <string name="gesture_tap_summary">通过点击手机上方的空气暂停或恢复音乐</string>
+    <string name="gesture_tap_title">暂停音乐</string>
     <string name="wake_screen_aware_disabled_info_dialog_content">这个国家不支持检查手机和其他运动传感器功能</string>
     <string name="wake_screen_aware_off_dialog_content">要使用快乐来检查手机，请开启移动传感器。</string>
     <string name="wake_screen_aware_off_dialog_title">到达检查手机已关闭</string>
