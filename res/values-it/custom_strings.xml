@@ -180,6 +180,8 @@
     <string name="kill_app">Termina app in primo piano</string>
     <string name="powermenu_lockscreen_title">Visibilità menu power</string>
     <string name="powermenu_lockscreen_summary">Mostra il menu power se la schermata di blocco è attiva</string>
+    <string name="skip_song">Salta traccia</string>
+    <string name="prev_song">Traccia precedente</string> 
 
     <string name="power_menu_gestures_title">Azioni menu Power</string>
     <string name="partial_screenshot_as_default_title">Screenshot parziale come default</string>
