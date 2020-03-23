@@ -160,6 +160,8 @@
     <string name="action_clear_notifications">Notificări clare</string>
     <string name="action_ringer_modes">Moduri de sonerie</string>
     <string name="kill_app">Ucide app prim-plan</string>
+    <string name="skip_song">Sări peste piesa</string>
+    <string name="prev_song">Melodia anterioară</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Motion Sense</string>
     <string name="aware_settings_summary">Configurați Motion Sense opțiuni</string>

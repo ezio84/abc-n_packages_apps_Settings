@@ -160,6 +160,8 @@
     <string name="action_clear_notifications">Désactivez les notifications</string>
     <string name="action_ringer_modes">Modes de sonnerie</string>
     <string name="kill_app">Tuer l\'application en premier plan</string>
+    <string name="skip_song">Skip chanson</string>
+    <string name="prev_song">Chanson précédente</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Sens du mouvement</string>
     <string name="aware_settings_summary">Configurer les options de sens de mouvement</string>

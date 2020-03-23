@@ -162,6 +162,8 @@
     <string name="action_clear_notifications">Vymazat oznámení</string>
     <string name="action_ringer_modes">Režimy vyzvánění</string>
     <string name="kill_app">Ukončit aplikaci na popředí</string>
+    <string name="skip_song">Přeskočit skladbu</string>
+    <string name="prev_song">Předchozí skladba</string>
     <!-- Motion Sense -->
     <string name="aware_settings_title">Motion Sense</string>
     <string name="aware_settings_summary">Konfigurovat možnosti Motion Sense</string>
@@ -199,7 +201,7 @@
     <string name="gesture_skip_title">Přeskočit skladby</string>
     <string name="gesture_tap_off_summary">Vypnuto / Pozastavit nebo pokračovat v hudbě</string>
     <string name="gesture_tap_on_summary">Zapnuto / Pozastavit nebo pokračovat v hudbě</string>
-    <string name="gesture_tap_summary">Pozastavit nebo obnovit hudbu klepnutím na vzduch nad telefonem</string>
+    <string name="gesture_tap_summary">Pozastavte nebo obnovte hudbu klepnutím nad telefonem</string>
     <string name="gesture_tap_title">Pozastavit hudbu</string>
     <string name="wake_screen_aware_disabled_info_dialog_content">Ověření telefonu při přiblížení a další funkce Motion Sense nejsou v této zemi podporovány</string>
     <string name="wake_screen_aware_off_dialog_content">Chcete-li použít funkci Ověření telefonu při přiblížení, zapněte Motion Sense</string>
