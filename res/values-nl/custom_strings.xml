@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Om te kiezen voor een specifieke app activiteit voor de actie, een lange druk op alle apps in de apps-picker.\n\nAls launcher wordt weergegeven, doet u het veeg op het onderste gedeelte van het scherm voor het activeren van de actie.</string>
     <string name="back_swipe_extended_title">Uitgebreide veegactie</string>
     <string name="back_swipe_extended_summary">Actie moet worden ondernomen als de veeg horizontaal breder dan 3\/4 van de grootte van de vertoning</string>
+    <string name="show_media_heads_up_title">Toon media heads-up</string>
+    <string name="show_media_heads_up_summary">Laat media heads-up zien wanneer een nieuw nummer wordt afgespeeld, als de speler nog niet op de voorgrond is</string>
 </resources>

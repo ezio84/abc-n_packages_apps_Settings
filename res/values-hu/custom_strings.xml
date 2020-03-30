@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Válasszon egy adott alkalmazás esetében a tevékenység, a cselekvés, a hosszú nyomja meg a minden alkalmazás apps picker.\n\nHa launcher mutatja, a swipe legalján terület a képernyőn, hogy a ravaszt a cselekvés.</string>
     <string name="back_swipe_extended_title">Kiterjesztett ellop akció</string>
     <string name="back_swipe_extended_summary">Beavatkozást, ha a lapozás vízszintesen szélesebb, mint 3\/4, kijelző méret</string>
+    <string name="show_media_heads_up_title">Mutasd meg a média figyelem</string>
+    <string name="show_media_heads_up_summary">Mutasd meg a média fejüket, amikor egy új pályán játszott, ha a játékos nem már az előtérben</string>
 </resources>

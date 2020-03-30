@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Pentru a alege o anumită activitate app pentru acțiune, apăsați lung pe orice aplicație în aplicații selector.\n\nDacă lansator dă, nu treceți la zona de jos a ecranului pentru a declanșa acțiunea.</string>
     <string name="back_swipe_extended_title">Extins acțiune bețivan</string>
     <string name="back_swipe_extended_summary">Declanșa acțiune în cazul în care treceți este orizontal mai mare decât 3\/4 de dimensiunea de afișare</string>
+    <string name="show_media_heads_up_title">Arata atentionari media</string>
+    <string name="show_media_heads_up_summary">Arată atenționări media atunci când este redată o piesă nouă, dacă jucătorul nu este deja în prim-plan</string>
 </resources>

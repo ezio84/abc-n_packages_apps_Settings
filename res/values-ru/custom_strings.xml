@@ -222,4 +222,6 @@
     <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать приложение на действие, удерживайте нажатие на любом приложении в меню выбора приложений.\n\nВ лончере выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
     <string name="back_swipe_extended_summary">Активировать действие, если свайп по горизонтали шире, чем 3\/4 размера дисплея</string>
+    <string name="show_media_heads_up_title">Показать уведомления медиа</string>
+    <string name="show_media_heads_up_summary">Показывать всплывающие уведомления при воспроизведении нового трека, если плеер еще не находится в переднем плане</string>
 </resources>

@@ -222,4 +222,6 @@
     <string name="gesture_nav_tweaks_footer_info">For at vælge en specifik app aktivitet for handlingen, skal du trykke længe på en app i app-picker.\n\nHvis launcher viser, må du knalde på det nederste område af skærmen for at udløse handling.</string>
     <string name="back_swipe_extended_title">Udvidet stryg til handling</string>
     <string name="back_swipe_extended_summary">Udløser handling, hvis de stryg er vandret bredere end 3\/4 af display størrelse</string>
+    <string name="show_media_heads_up_title">Vis medier heads up</string>
+    <string name="show_media_heads_up_summary">Vis medier heads up, når et nyt spor er afspillet, hvis spilleren ikke allerede er i forgrunden</string>
 </resources>

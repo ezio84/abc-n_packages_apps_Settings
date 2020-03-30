@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">لاختيار التطبيق محددة نشاط العمل ، اضغط لفترة طويلة على أي التطبيق في تطبيقات المنتقى.\n\nإذا قاذفة يظهر هل انتقاد في أسفل منطقة من الشاشة لتحريك العمل.</string>
     <string name="back_swipe_extended_title">تمديد العمل انتقاد</string>
     <string name="back_swipe_extended_summary">العمل الزناد إذا كان انتقاد أفقيا أوسع من 3\4/من حجم الشاشة</string>
+    <string name="show_media_heads_up_title">إظهار التنبيهات العلوية</string>
+    <string name="show_media_heads_up_summary">إظهار تنبيهات الوسائط عند تشغيل مسار جديد، إذا لم يكن المشغل بالفعل في المقدمة</string>
 </resources>

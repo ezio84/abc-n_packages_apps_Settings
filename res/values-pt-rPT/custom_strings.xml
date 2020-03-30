@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Para escolher uma aplicação específica de atividade para a ação, pressione e segure qualquer aplicativo em aplicações de elevação.\n\nSe launcher é mostrar, fazer o deslize o dedo bem no fundo da área da tela para disparar a ação.</string>
     <string name="back_swipe_extended_title">Estendido deslize para a ação</string>
     <string name="back_swipe_extended_summary">Ação de disparo se a passagem for na horizontal maior do que 3\/4 do tamanho do visor</string>
+    <string name="show_media_heads_up_title">Mostrar heads up de mídia</string>
+    <string name="show_media_heads_up_summary">Mostrar mídia pop-up quando uma nova música for tocada, se o player não estiver em primeiro plano</string>
 </resources>

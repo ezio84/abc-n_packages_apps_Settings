@@ -222,4 +222,6 @@
     <string name="gesture_nav_tweaks_footer_info">Para elegir una aplicación específica de la actividad para la acción, pulsación larga en cualquier aplicación en el selector de aplicaciones.\n\nSi el lanzador está mostrando, hacer el pase en el área inferior de la pantalla para activar la acción.</string>
     <string name="back_swipe_extended_title">Extendió las acciones con el dedo</string>
     <string name="back_swipe_extended_summary">Acción de disparo si el barrido horizontal más amplio de 3\/4 de tamaño de la pantalla</string>
+    <string name="show_media_heads_up_title">Mostrar avisos multimedia</string>
+    <string name="show_media_heads_up_summary">Mostrar avisos multimedia cuando se reproduzca una nueva pista, si el reproductor no está ya en primer plano</string>
 </resources>

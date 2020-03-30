@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Aby wybrać określoną aktywność aplikacji do działania, długie naciśnięcie na aplikacji w menu wyboru aplikacji.\n\njeśli launcher pokazuje, przesunąć w dolnej części ekranu, aby wywołać akcję.</string>
     <string name="back_swipe_extended_title">Rozszerzony zakres działań</string>
     <string name="back_swipe_extended_summary">Wyzwalacz czynności, jeżeli przesuń palcem w poziomie szerszy niż 3\/4 rozmiar wyświetlacza</string>
+    <string name="show_media_heads_up_title">Pokaż wyskakujące powiadomienia</string>
+    <string name="show_media_heads_up_summary">Pokaż wyskakujące powiadomienia multimediów, gdy zostanie odtworzony nowy utwór, jeśli odtwarzacze nie jest jeszcze na pierwszym planie</string>
 </resources>

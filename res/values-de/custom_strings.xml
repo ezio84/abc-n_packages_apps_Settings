@@ -223,4 +223,6 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine beliebige App im App-Picker.\n\nWenn der Launcher angezeigt wird, wischen Sie am unteren Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischen Aktion</string>
     <string name="back_swipe_extended_summary">Aktion auslösen, wenn das Wischen horizontal größer als 3\/4 der Anzeigegröße ist</string>
+    <string name="show_media_heads_up_title">Medien als Heads-Up Benachrichtigung anzeigen</string>
+    <string name="show_media_heads_up_summary">Medien als Heads-Up Benachrichtigung anzeigen, wenn ein neuer Track abgespielt ist, falls der Player nicht bereits im Vordergrund ist</string>
 </resources>

@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">For å velge en bestemt app aktivitet for handlingen, trykk lenge på et program på apps-velgeren.\n\nHvis programlisten vises, gjør du stryker på den aller nederste delen av skjermen for å utløse handling.</string>
     <string name="back_swipe_extended_title">Utvidet sveip handling</string>
     <string name="back_swipe_extended_summary">Trigger handling dersom sveip er horisontalt bredere enn 3\/4 av skjermstørrelsen</string>
+    <string name="show_media_heads_up_title">Vis media-topptekster opp</string>
+    <string name="show_media_heads_up_summary">Vis mediehoder opp når et nytt spor spilles, hvis spilleren ikke allerede er i forgrunnen</string>
 </resources>

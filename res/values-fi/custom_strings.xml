@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Valita tietyn sovelluksen toimintaa toiminta, pitkä painallus tahansa sovelluksen sovellukset-poimija.\n\nJos launcher ei näy, tee pyyhkäisemällä alareunassa näytön alueen laukaista toimintaa.</string>
     <string name="back_swipe_extended_title">Laajennettu pyyhkäisemällä toiminta</string>
     <string name="back_swipe_extended_summary">Liipaisimella, jos pyyhkäisemällä on vaakatasossa laajempi kuin 3\/4 näytön koko</string>
+    <string name="show_media_heads_up_title">Näyttää media heads up</string>
+    <string name="show_media_heads_up_summary">Näyttää media heads up, kun uusi kappale on ollut, jos pelaaja ei ole jo etualalla</string>
 </resources>

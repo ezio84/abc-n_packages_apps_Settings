@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">För att välja en specifik app aktivitet för åtgärden, tryck länge på en app i appar picker.\n\nOm launcher visar, att göra svep på den mycket nedre området på skärmen för att utlösa åtgärder.</string>
     <string name="back_swipe_extended_title">Utökad svep åtgärder</string>
     <string name="back_swipe_extended_summary">Utlösa åtgärder om ett svep är horisontellt bredare än 3\/4 av bildskärmens storlek</string>
+    <string name="show_media_heads_up_title">Visa media heads up</string>
+    <string name="show_media_heads_up_summary">Visa media när ett nytt spår spelas, om spelaren inte redan är i förgrunden</string>
 </resources>

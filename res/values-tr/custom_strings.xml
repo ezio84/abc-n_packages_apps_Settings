@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Uygulamalar seçici uygulama herhangi bir eylem için belirli bir uygulama etkinliği, uzun tuşuna basın.\n\nEğer başlatıcısı gösteriyor, eylemi tetiklemek için ekranın en alt alanda kaydırın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş tokatlamak eylem</string>
     <string name="back_swipe_extended_summary">Tetik hareketi eğer tokatlamak yatay olarak daha geniş Daha 3\/4 ekran boyutu</string>
+    <string name="show_media_heads_up_title">Haritayı medya başlar Yukarı</string>
+    <string name="show_media_heads_up_summary">Yeni bir parça çalınırken medya kafaları göstermek, eğer bir oyuncu olduğunu zaten ön planda</string>
 </resources>

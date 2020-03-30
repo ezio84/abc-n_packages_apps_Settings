@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Щоб вибрати певну активність програми для дій, довге натискання на додаток до меню вибору програм.\n\nякщо лаунчер показує, зробити свайп в нижній частині екрана, щоб викликати дію.</string>
     <string name="back_swipe_extended_title">Розширений розмах дій</string>
     <string name="back_swipe_extended_summary">Тригер дії, якщо свайп по горизонталі ширше, ніж 3\/4 розмір дисплея</string>
+    <string name="show_media_heads_up_title">Показувати спливаючі сповіщення</string>
+    <string name="show_media_heads_up_summary">Показувати спливаючі нотифікації, коли відтворюється новий трек, якщо програвач ще не на передньому плані</string>
 </resources>

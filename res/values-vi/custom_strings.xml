@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Để chọn một ứng dụng cụ thể hoạt động cho những hành động, báo chí trên bất kỳ ứng dụng trong các ứng dụng chọn.\n\nNếu phóng đang làm trượt xuống đáy vực của màn hình để kích hoạt các hành động.</string>
     <string name="back_swipe_extended_title">Mở rộng vuốt hành động</string>
     <string name="back_swipe_extended_summary">Hành động kích hoạt nếu các vuốt là chiều rộng hơn 3\/4 màn hình kích thước</string>
+    <string name="show_media_heads_up_title">Show truyền thông heads up</string>
+    <string name="show_media_heads_up_summary">Show truyền thông đứng lên khi một ca khúc mới được chơi, nếu các người đã không ở phía sau</string>
 </resources>

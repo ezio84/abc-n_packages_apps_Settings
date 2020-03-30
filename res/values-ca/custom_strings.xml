@@ -223,4 +223,6 @@
     <string name="gesture_nav_tweaks_footer_info">Per escollir una aplicació d\'activitat per a l\'acció, la premsa de llarg a qualsevol aplicació en les aplicacions selector.\n\nSi selector és mostrar, fer la fes lliscar el dit cap a la part inferior de la pantalla per activar l\'acció.</string>
     <string name="back_swipe_extended_title">Ampliar fes lliscar el dit cap acció</string>
     <string name="back_swipe_extended_summary">Activar acció, si la fes lliscar el dit cap és la línia horitzontal més gran que 3\/4 de mida</string>
+    <string name="show_media_heads_up_title">Mostra mitjans de comunicació de la mà</string>
+    <string name="show_media_heads_up_summary">Mostra mitjans de comunicació de la mà quan una nova pista es reprodueix, si el jugador no està en primer pla</string>
 </resources>

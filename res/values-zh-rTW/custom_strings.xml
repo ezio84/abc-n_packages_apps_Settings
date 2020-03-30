@@ -221,4 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">选择的具体应用活动的行动，长按任何应用程序的应用程序选择器。\n\n如果启动是表示，执刷卡在最底部区域的屏幕上触发的行动。</string>
     <string name="back_swipe_extended_title">延长滑行动</string>
     <string name="back_swipe_extended_summary">触发行动，如果刷卡是水平更广泛于3\/4显示的尺寸</string>
+    <string name="show_media_heads_up_title">显示媒体的头了</string>
+    <string name="show_media_heads_up_summary">显示媒体抬起头来的时候一个新的轨道，如果游戏者是不是已经在前台</string>
 </resources>
