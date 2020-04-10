@@ -195,9 +195,13 @@
     <string name="left_swipe_app_action_title">Seleziona app per swipe lungo da sinistra</string>
     <string name="right_swipe_actions_title">Azione swipe lungo da destra</string>
     <string name="right_swipe_app_action_title">Seleziona app per swipe lungo da destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione swipe verticale da sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona app per swipe verticale da sinistra</string>
+    <string name="right_vertical_swipe_actions_title">Azione swipe verticale da destra</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona app per swipe verticale da destra</string>
     <string name="gesture_nav_tweaks_footer_info">Per selezionare una activity specifica come azione, premi a lungo su un\'app nell\'app picker.\n\nSe il launcher è in primo piano, lo swipe per le azioni è disponibile nella parte più bassa dello schermo.</string>
     <string name="back_swipe_extended_title">Swipe esteso per azioni</string>
-    <string name="back_swipe_extended_summary">Esegui le azioni con uno swipe lungo orizzontalmente più di 3\/4 della larghezza del display</string>
+    <string name="back_swipe_extended_summary">Esegui le azioni con uno swipe esteso (più di metà display), o uno swipe a L (sufficientemente lungo in verticale)</string>
 
     <string name="show_media_heads_up_title">Mostra heads up multimediali</string>
     <string name="show_media_heads_up_summary">Mostra le heads up multimediali quando una nuova traccia viene riprodotta, se il player non è già in primo piano</string>
