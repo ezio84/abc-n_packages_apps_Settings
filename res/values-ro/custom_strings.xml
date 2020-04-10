@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen mass-media de artă</string>
     <string name="doze_on_charge_title">Întotdeauna atunci când încărcarea</string>
     <string name="doze_on_charge_summary">Arăta Întotdeauna Pe afișare Ambient atunci când încărcarea</string>
-    <string name="smallest_tick_label">Ecran complet</string>
-    <string name="greatest_tick_label">Jumătate de ecran</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Înapoi Sensibilitate și DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nFolosi prima seekbar pentru a configura înapoi treceți sensibilitate, cel de-al doilea seekbar pentru a seta zona de pe ecran unde treceți poate fi declanșat, pentru a evita conflictele cu in-app de gesturi.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Stare ceas</string>
     <string name="status_bar_clock">Ceas și Data</string>

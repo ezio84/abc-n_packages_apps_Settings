@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Sztuka multimediów na ekranie blokady</string>
     <string name="doze_on_charge_title">Zawsze włączony podczas ładowania</string>
     <string name="doze_on_charge_summary">Pokaż zawsze na ekranie dostosowanym do otoczenia podczas ładowania</string>
-    <string name="smallest_tick_label">Pełny ekran</string>
-    <string name="greatest_tick_label">Połowa ekranu</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Czułość wstecz i Strefa DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nSkonfiguruj wrażliwość przesunięcia wstecznego na pierwszy pasek suwaka, drugi pasek przełączania, aby ustawić obszar ekranu, w którym można uruchomić przesunięcie, aby uniknąć konfliktów z gestami w aplikacji.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Zegar na pasku stanu</string>
     <string name="status_bar_clock">Zegar i data</string>

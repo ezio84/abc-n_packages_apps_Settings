@@ -84,12 +84,6 @@
     <string name="lockscreen_media_art_options_title">Obal interpreta na zamykací obrazovce</string>
     <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
     <string name="doze_on_charge_summary">Při nabíjení vždy zobrazovat Ambientní displej</string>
-    <string name="smallest_tick_label">Celá obrazovka</string>
-    <string name="greatest_tick_label">Polovina obrazovky</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Citlivost na „přejetí zpět“ a neaktivní oblasti</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nPomocí prvního vyhledávacího panelu nakonfigurujte citlivost přejetí zpět, druhým vyhledávacím panelem nastavte oblast obrazovky, na které lze použít přejetím prstem, aby nedocházelo ke konfliktům s gesty v aplikacích.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Hodiny na stavové liště</string>
     <string name="status_bar_clock">Hodiny a datum</string>

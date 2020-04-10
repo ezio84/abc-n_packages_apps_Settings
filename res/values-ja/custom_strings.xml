@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">ロック画面のメディアアート</string>
     <string name="doze_on_charge_title">充電時は常に表示</string>
     <string name="doze_on_charge_summary">充電時は Always On アンビエント表示を表示する</string>
-    <string name="smallest_tick_label">全画面</string>
-    <string name="greatest_tick_label">半画面</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">戻るアクションの感度と画面認識エリア</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\n最初のシークバーを使用して戻るスワイプ感度を編集し、2番目のシークバーを使用してスワイプを認識できる画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">ステータスバーの時計</string>
     <string name="status_bar_clock">時計と日付</string>

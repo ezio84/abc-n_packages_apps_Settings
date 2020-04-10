@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Теме медија-уметност</string>
     <string name="doze_on_charge_title">Увек при пуњењу</string>
     <string name="doze_on_charge_summary">Показују увек на екран животне средине при пуњењу</string>
-    <string name="smallest_tick_label">Пуном екрану</string>
-    <string name="greatest_tick_label">Половину екрана</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Осетљивост и мртва зона</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nкористите први сеекбар да подесите осетљивост марамице, други сеекбар да поставим област екрана, где марамице могу бити изазване да избегне сукобе са у-апп гестове.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Статусбар сат</string>
     <string name="status_bar_clock">Сат и датум</string>

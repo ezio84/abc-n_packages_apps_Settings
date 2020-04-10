@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Khóa phương tiện truyền thông nghệ thuật</string>
     <string name="doze_on_charge_title">Luôn luôn khi sạc</string>
     <string name="doze_on_charge_summary">Luôn Luôn hiển thị Trên màn hình xung Quanh khi sạc</string>
-    <string name="smallest_tick_label">Màn hình đầy đủ</string>
-    <string name="greatest_tick_label">Một nửa màn hình</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Trở lại Nhạy cảm và DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nSử dụng đầu tiên trượt để cấu hình lại vuốt nhạy cảm, thứ hai trượt để thiết lập khu vực của màn hình mà các vuốt có thể được kích hoạt, để tránh xung đột với ứng cử chỉ.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Trạng thái đồng hồ</string>
     <string name="status_bar_clock">Đồng hồ và Ngày</string>

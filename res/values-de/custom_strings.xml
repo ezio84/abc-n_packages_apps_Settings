@@ -84,12 +84,6 @@
     <string name="lockscreen_media_art_options_title">Sperrbildschirm Cover-Art</string>
     <string name="doze_on_charge_title">Always On beim Laden</string>
     <string name="doze_on_charge_summary">Always On Ambient-Anzeige anzeigen beim Laden</string>
-    <string name="smallest_tick_label">Ganzer Bildschirm</string>
-    <string name="greatest_tick_label">Halber Bildschirm</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Empfindlichkeit bezüglich \"Streichen für Zurück\" und nicht aktiver Bereich</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nVerwenden Sie den oberen Regler, um die Zurück-Wischempfindlichkeit zu konfigurieren, und den unteren Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusleisten-Uhr</string>
     <string name="status_bar_clock">Uhr und Datum</string>

@@ -84,12 +84,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Οθόνη πάντα ενεργή κατά την φόρτιση</string>
     <string name="doze_on_charge_summary">Δείχνουν Πάντα Περιβάλλοντος οθόνη κατά τη φόρτιση</string>
-    <string name="smallest_tick_label">Πλήρης οθόνη</string>
-    <string name="greatest_tick_label">Μισή οθόνη</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Πίσω Ευαισθησία και DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nΧρησιμοποιήσετε την πρώτη seekbar να ρυθμίσετε πίσω κτύπημα ευαισθησία, η δεύτερη seekbar να ορίσετε την περιοχή της οθόνης όπου το άγγιγμα μπορεί να ενεργοποιηθεί, για να αποφευχθούν συγκρούσεις με in-app χειρονομίες.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar ρολόι</string>
     <string name="status_bar_clock">Ώρα και Ημερομηνία</string>

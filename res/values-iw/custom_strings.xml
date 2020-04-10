@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen אמנות מדיה</string>
     <string name="doze_on_charge_title">תמיד כאשר טעינה</string>
     <string name="doze_on_charge_summary">להראות תמיד על הסביבה להציג בעת טעינה</string>
-    <string name="smallest_tick_label">מסך מלא</string>
-    <string name="greatest_tick_label">חצי מסך</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">חזרה רגישות, DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nלהשתמש הראשונה seekbar כדי להגדיר חזרה לסחוב רגישות, השני seekbar כדי להגדיר את אזור המסך שבו את החלק יכול להיות מופעל, כדי למנוע התנגשויות עם ב-app מחוות.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">שורת המצב השעון</string>
     <string name="status_bar_clock">שעון ותאריך</string>

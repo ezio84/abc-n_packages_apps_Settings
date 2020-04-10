@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Art multimédia de l\'écran de verrouillage</string>
     <string name="doze_on_charge_title">Toujours allumé lors de la charge</string>
     <string name="doze_on_charge_summary">Toujours afficher l\'affichage en mode Veille lors de la charge</string>
-    <string name="smallest_tick_label">Plein écran</string>
-    <string name="greatest_tick_label">Demi-écran</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Sensibilité au dos et à la mort</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUtiliser la première barre de recherche pour configurer la sensibilité du glissement arrière, la seconde barre de recherche pour définir la zone de l\'écran où le balayage peut être déclenché, pour éviter les conflits avec les gestes de l\'application.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Horloge de la barre d\'état</string>
     <string name="status_bar_clock">Horloge et date</string>

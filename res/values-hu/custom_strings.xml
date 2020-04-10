@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Mindig, amikor töltés</string>
     <string name="doze_on_charge_summary">Mutasd meg, hogy Mindig A Környezeti kijelző töltés közben</string>
-    <string name="smallest_tick_label">Teljes képernyő</string>
-    <string name="greatest_tick_label">Fél képernyő</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Vissza Érzékenység, DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nHasználja az első seekbar beállításához lapozzunk vissza érzékenység, a második seekbar beállíthatjuk, hogy a terület a képernyőn, hol a csúsztatás lehet indítani, a konfliktusok elkerülése in-app gesztusok.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar óra</string>
     <string name="status_bar_clock">Óra, Dátum</string>

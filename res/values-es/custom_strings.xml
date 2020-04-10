@@ -83,12 +83,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Always on mientras se carga</string>
     <string name="doze_on_charge_summary">Mostrar Siempre En el Ambiente de la pantalla cuando se está cargando</string>
-    <string name="smallest_tick_label">Pantalla completa</string>
-    <string name="greatest_tick_label">Media pantalla</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">De nuevo la Sensibilidad y la zona muerta</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nel Uso de la primera seekbar para configurar de nuevo pase de la sensibilidad, la segunda seekbar para establecer el área de la pantalla donde el barrido puede ser activado, para evitar conflictos en la aplicación de los gestos.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Reloj de la barra de estado</string>
     <string name="status_bar_clock">Reloj y fecha</string>

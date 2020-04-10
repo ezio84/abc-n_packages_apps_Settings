@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Vergrendelscherm media art</string>
     <string name="doze_on_charge_title">Altijd aan tijdens opladen</string>
     <string name="doze_on_charge_summary">Altijd op Ambient weergeven tijdens opladen</string>
-    <string name="smallest_tick_label">Volledig scherm</string>
-    <string name="greatest_tick_label">Halve scherm</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Gevoeligheid en DeadZone achter</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nGebruik de eerste zoekbalk om de achtergrondgevoeligheid terug te configureren, de tweede zoekbalk om het gebied van het scherm in te stellen waar het vegen kan worden geactiveerd, om conflicten met in-app gebaren te voorkomen.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbalk klok</string>
     <string name="status_bar_clock">Klok en Datum</string>

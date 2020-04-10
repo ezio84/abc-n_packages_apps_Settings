@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lukitusnäyttö media art</string>
     <string name="doze_on_charge_title">Aina, kun lataus</string>
     <string name="doze_on_charge_summary">Näytä Aina Ambient-näyttö, kun lataus</string>
-    <string name="smallest_tick_label">Kokoruutu</string>
-    <string name="greatest_tick_label">Puoli näytön</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Takaisin Herkkyys ja DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nKäyttää ensimmäistä seekbar määrittää takaisin pyyhkäisemällä herkkyys, toinen seekbar asettaa näytön alueen, jossa pyyhkäisemällä voidaan laukaista, välttää konflikteja in-app eleitä.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar kello</string>
     <string name="status_bar_clock">Kello ja päivämäärä</string>

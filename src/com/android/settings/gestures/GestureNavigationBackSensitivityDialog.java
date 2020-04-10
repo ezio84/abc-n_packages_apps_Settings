@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.os.ServiceManager;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -36,8 +37,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_DEAD_Y_ZONE = "back_dead_y_zone";
+    private static final String KEY_SHOW_NAV = "show_nav";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int backDeadYZoneMode) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int backDeadYZoneMode,
+            boolean showNav) {
         if (!parent.isAdded()) {
             return;
         }
@@ -47,6 +50,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         final Bundle bundle = new Bundle();
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_DEAD_Y_ZONE, backDeadYZoneMode);
+        bundle.putBoolean(KEY_SHOW_NAV, showNav);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -65,9 +69,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         sensitivitySeekBar.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
         final SeekBar backDeadzoneSeekbar = view.findViewById(R.id.back_deadzone_seekbar);
         backDeadzoneSeekbar.setProgress(getArguments().getInt(KEY_BACK_DEAD_Y_ZONE));
+        final Switch showNavSwitch = view.findViewById(R.id.show_gestures_navbar);
+        showNavSwitch.setChecked(getArguments().getBoolean(KEY_SHOW_NAV));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_sensitivity_dialog_title_cust)
-                .setMessage(R.string.back_sensitivity_dialog_message_cust)
                 .setView(view)
                 .setPositiveButton(R.string.okay, (dialog, which) -> {
                     int sensitivity = sensitivitySeekBar.getProgress();
@@ -78,6 +83,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_DEAD_Y_ZONE, backDeadYZoneMode);
                     SystemNavigationGestureSettings.setBackDeadYZone(getActivity(),
                             backDeadYZoneMode);
+                    boolean showNav = showNavSwitch.isChecked();
+                    getArguments().putBoolean(KEY_SHOW_NAV, showNav);
+                    SystemNavigationGestureSettings.setShowNav(getActivity(),
+                            showNav);
                 })
                 .create();
     }

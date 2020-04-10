@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media konst</string>
     <string name="doze_on_charge_title">Alltid på vid laddning</string>
     <string name="doze_on_charge_summary">Visa alltid på Ambient display vid laddning</string>
-    <string name="smallest_tick_label">Helskärm</string>
-    <string name="greatest_tick_label">Halvskärm</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Bakåt känslighet och dödzon</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nAnvänd det första sökfältet för att konfigurera bakåtsvep känslighet, den andra sökfältet för att ställa in området på skärmen där svepet kan utlösas, för att undvika konflikter med i-app-gester.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusfält klocka</string>
     <string name="status_bar_clock">Klocka och datum</string>

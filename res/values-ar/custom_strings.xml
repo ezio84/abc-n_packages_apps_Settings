@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen وسائل الإعلام الفن</string>
     <string name="doze_on_charge_title">دائما عند الشحن</string>
     <string name="doze_on_charge_summary">تظهر دائما في عرض المحيط عند الشحن</string>
-    <string name="smallest_tick_label">كامل الشاشة</string>
-    <string name="greatest_tick_label">نصف الشاشة</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">تعود حساسية DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nاستخدام أول seekbar لتكوين مرة أخرى انتقد حساسية الثانية seekbar إلى مجموعة من مساحة الشاشة حيث انتقد يمكن أن تسبب لتجنب النزاعات مع التطبيق الإيماءات.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">شريط الحالة على مدار الساعة</string>
     <string name="status_bar_clock">على مدار الساعة و التاريخ</string>

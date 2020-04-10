@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">잠 미디어 아트</string>
     <string name="doze_on_charge_title">에 항상 있을 때 충전</string>
     <string name="doze_on_charge_summary">표시에 항상 주변을 표시할 때 충전</string>
-    <string name="smallest_tick_label">전체 화면</string>
-    <string name="greatest_tick_label">반면</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">다시 감고 데드존</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\n사용하는 첫 번째 검색 막대를 구성을 다시 강타 감도,두 번째 검색 막대를 설정 화면의 영역을 강타 트리거 될 수 있습니다,충돌을 방지하기 위해 응용 프로그램 내 몸짓입니다.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">시계 상태 표시</string>
     <string name="status_bar_clock">계 및 날짜</string>

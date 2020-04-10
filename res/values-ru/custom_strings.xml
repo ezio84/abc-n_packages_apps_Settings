@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Медиа-арт на экране блокировки</string>
     <string name="doze_on_charge_title">Always on при зарядке</string>
     <string name="doze_on_charge_summary">Показывать Always On Ambient во время зарядки</string>
-    <string name="smallest_tick_label">На весь экран</string>
-    <string name="greatest_tick_label">Половина экрана</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Чувствительность свайпа и мёртвая зона</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую панель поиска для настройки чувствительности свайпа, вторую панель поиска, чтобы установить область экрана, где можно вызвать свайп, во избежание конфликтов с жестами внутри приложений.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Часы в строке состояния</string>
     <string name="status_bar_clock">Время и дата</string>

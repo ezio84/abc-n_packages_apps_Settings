@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Ярлики екрану блокування</string>
     <string name="doze_on_charge_title">Завжди ввімкнено під час зарядки</string>
     <string name="doze_on_charge_summary">Показувати Always On на Ambient Display під час зарядки</string>
-    <string name="smallest_tick_label">На весь екран</string>
-    <string name="greatest_tick_label">Половина екрана</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Чутливість Назад і DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nВикористовуйте перший пошуковий рядок для налаштування чутливості назад, друга пошукова панель, що визначає область екрану, в якій можна використовувати свайп, щоб уникнути конфліктів з жестами в програмах.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Годинник</string>
     <string name="status_bar_clock">Годинник і дата</string>

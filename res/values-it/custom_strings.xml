@@ -103,13 +103,6 @@
     <string name="doze_on_charge_title">Always On in carica</string>
     <string name="doze_on_charge_summary">Mostra l\'Ambient display durante la carica</string>
 
-    <string name="smallest_tick_label">Schermo pieno</string>
-    <string name="greatest_tick_label">Metà schermo</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Sensibilità e zona morta Indietro</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima seekbar per configurare la sensibilità del gesto Indietro, la seconda per impostare l\'area dello schermo dove il gesto Indietro funzionerà, in modo da evitare conflitti con i gesti delle app.</string>
-
     <string name="clock_date_settings_title">Orologio barra di stato</string>
     <string name="status_bar_clock">Ora e data</string>
     <string name="status_bar_clock_summary">Configura lo stile dell\'orologio e la data nella barra di stato</string>
@@ -205,4 +198,15 @@
 
     <string name="show_media_heads_up_title">Mostra heads up multimediali</string>
     <string name="show_media_heads_up_summary">Mostra le heads up multimediali quando una nuova traccia viene riprodotta, se il player non è già in primo piano</string>
+
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Impostazione fine</string>
+    <string name="back_gesture_sensitivity_dialog_message">Una maggiore sensibilità potrebbe essere in conflitto con eventuali gesti dell\'app lungo i bordi dello schermo.</string>
+    <string name="back_gesture_area_dead_zone_title">Zona morta</string>
+    <string name="back_gesture_area_dead_zone_message">Imposta l\'area dello schermo in cui lo swipe indietro può essere attivato, per evitare conflitti con le gestures delle app.</string>
+    <string name="smallest_tick_label">Schermo pieno</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <string name="show_gestures_navbar_title_text">Mostra o nascondi barra</string>
+    <string name="show_gestures_navbar_switch_text">Mostra la barra di navigazione</string>
 </resources>

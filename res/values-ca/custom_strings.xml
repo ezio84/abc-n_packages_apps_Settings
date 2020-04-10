@@ -84,12 +84,6 @@
     <string name="lockscreen_media_art_options_title">Pantalla de bloqueig media art</string>
     <string name="doze_on_charge_title">Sempre En el moment de la càrrega</string>
     <string name="doze_on_charge_summary">Mostra Sempre En l\'Ambient de visualització quan la càrrega</string>
-    <string name="smallest_tick_label">Pantalla completa</string>
-    <string name="greatest_tick_label">La meitat de la pantalla</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">De tornada Sensibilitat i DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUtilitzar la primera seekbar per configurar de nou fes lliscar el dit cap sensibilitat, la segona seekbar per establir la zona de la pantalla on l\'fes lliscar el dit cap es pot activar, per evitar conflictes amb en aplicació de gestos.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Rellotge de la barra d\'estat</string>
     <string name="status_bar_clock">Data i hora</string>

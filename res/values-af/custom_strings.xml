@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media kuns</string>
     <string name="doze_on_charge_title">Altyd Op wanneer laai</string>
     <string name="doze_on_charge_summary">Wys Altyd Op die Omringende vertoon wanneer laai</string>
-    <string name="smallest_tick_label">Volle skerm</string>
-    <string name="greatest_tick_label">Die helfte van die skerm</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Terug Sensitiwiteit en DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nGebruik die eerste seekbar te stel terug vee sensitiwiteit, die tweede seekbar te stel die gebied van die skerm waar die vee kan veroorsaak word, om te verhoed dat konflik met in-app gebare.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar klok</string>
     <string name="status_bar_clock">Klok en Datum</string>
