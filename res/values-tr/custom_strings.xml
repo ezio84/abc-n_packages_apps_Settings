@@ -214,7 +214,11 @@
     <string name="right_swipe_app_action_title">Uzun sağa kaydırın uygulamasını seçin</string>
     <string name="gesture_nav_tweaks_footer_info">Uygulamalar seçici uygulama herhangi bir eylem için belirli bir uygulama etkinliği, uzun tuşuna basın.\n\nEğer başlatıcısı gösteriyor, eylemi tetiklemek için ekranın en alt alanda kaydırın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş tokatlamak eylem</string>
-    <string name="back_swipe_extended_summary">Tetik hareketi eğer tokatlamak yatay olarak daha geniş Daha 3\/4 ekran boyutu</string>
     <string name="show_media_heads_up_title">Haritayı medya başlar Yukarı</string>
     <string name="show_media_heads_up_summary">Yeni bir parça çalınırken medya kafaları göstermek, eğer bir oyuncu olduğunu zaten ön planda</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">Tam ekran</string>
+    <string name="greatest_tick_label">Yarım ekran</string>
 </resources>

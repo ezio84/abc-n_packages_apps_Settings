@@ -214,7 +214,11 @@
     <string name="right_swipe_app_action_title">선택 긴로그</string>
     <string name="gesture_nav_tweaks_footer_info">선택하는 특정 응용 프로그램 활동에 대한 액션,길게 누르면 모든 응용 프로그램에서 앱을 선택합니다.\n\n경우 런처를 보여주는,하프에서 매우 아래 화면의 영역을 트리거합니다.</string>
     <string name="back_swipe_extended_title">확장 슬쩍 작업</string>
-    <string name="back_swipe_extended_summary">트리거 동작하는 경우 와이프가 수평으로 보다 넓은 3\/4 의 디스플레이 크기</string>
     <string name="show_media_heads_up_title">쇼 미디어 헤드</string>
     <string name="show_media_heads_up_summary">쇼 미디어 머리를 때 새로운 트랙을 재생하는 경우,플레이어미에서 전경</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">전체 화면</string>
+    <string name="greatest_tick_label">반면</string>
 </resources>

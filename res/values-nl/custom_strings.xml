@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">Selecteer lange links vegen app</string>
     <string name="right_swipe_actions_title">Lang recht veegactie</string>
     <string name="right_swipe_app_action_title">Selecteer een lang recht veeg app</string>
+    <string name="left_vertical_swipe_actions_title">Verticaal veeg naar links</string>
+    <string name="left_vertical_swipe_app_action_title">Selecteer verticaal links veeg app</string>
+    <string name="right_vertical_swipe_actions_title">Verticale actie naar rechts vegen</string>
+    <string name="right_vertical_swipe_app_action_title">Selecteer verticale rechter swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">Om te kiezen voor een specifieke app activiteit voor de actie, een lange druk op alle apps in de apps-picker.\n\nAls launcher wordt weergegeven, doet u het veeg op het onderste gedeelte van het scherm voor het activeren van de actie.</string>
     <string name="back_swipe_extended_title">Uitgebreide veegactie</string>
-    <string name="back_swipe_extended_summary">Actie moet worden ondernomen als de veeg horizontaal breder dan 3\/4 van de grootte van de vertoning</string>
+    <string name="back_swipe_extended_summary">Trigger actie op bredere swipe (meer dan de helft van weergavegrootte), of een L swipe (verticaal langer genoeg)</string>
     <string name="show_media_heads_up_title">Toon media heads-up</string>
     <string name="show_media_heads_up_summary">Laat media heads-up zien wanneer een nieuw nummer wordt afgespeeld, als de speler nog niet op de voorgrond is</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Verbetert aanraking bij het gebruik van scherm beschermers</string>
+    <string name="touch_sensitivity_title">Aanraakgevoeligheid verhogen</string>
+    <string name="keywords_touch_sensitivity">aangeraakt, gevoeligheid, gevoeligheid, gevoeligheid, schermbeveiliging, film, reactievermogen</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navigatiebalk afstemmen</string>
+    <string name="back_gesture_sensitivity_dialog_message">Hogere gevoeligheid kan botsen met alle app-gebaren langs de randen van het scherm.</string>
+    <string name="back_gesture_area_dead_zone_title">Achterkant dode zone</string>
+    <string name="back_gesture_area_dead_zone_message">Stel het gebied van het scherm in waar het vegen kan worden geactiveerd, om conflicten met in-app gebaren te voorkomen.</string>
+    <string name="smallest_tick_label">Volledig scherm</string>
+    <string name="greatest_tick_label">Halve scherm</string>
+    <string name="show_gestures_navbar_title_text">Navigatiebalk in-/uitschakelen</string>
+    <string name="show_gestures_navbar_switch_text">Toon gebaren navigatiebalk</string>
 </resources>

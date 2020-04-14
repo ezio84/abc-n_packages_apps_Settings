@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">锁媒体艺术的</string>
     <string name="doze_on_charge_title">总是在当充电</string>
     <string name="doze_on_charge_summary">显示总是对环境显示在充电</string>
-    <string name="smallest_tick_label">全屏幕</string>
-    <string name="greatest_tick_label">半屏幕</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">回敏感性和盲区</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\n使用第一个搜索栏配置背面滑动的敏感性，第二搜索栏集区域的屏幕上的滑动可以触发，以避免冲突，在应用程序的手势。</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">状态时钟</string>
     <string name="status_bar_clock">时钟和日期</string>
@@ -220,7 +214,11 @@
     <string name="right_swipe_app_action_title">选择长正确刷的应用程序</string>
     <string name="gesture_nav_tweaks_footer_info">选择的具体应用活动的行动，长按任何应用程序的应用程序选择器。\n\n如果启动是表示，执刷卡在最底部区域的屏幕上触发的行动。</string>
     <string name="back_swipe_extended_title">延长滑行动</string>
-    <string name="back_swipe_extended_summary">触发行动，如果刷卡是水平更广泛于3\/4显示的尺寸</string>
     <string name="show_media_heads_up_title">显示媒体的头了</string>
     <string name="show_media_heads_up_summary">显示媒体抬起头来的时候一个新的轨道，如果游戏者是不是已经在前台</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">全屏幕</string>
+    <string name="greatest_tick_label">半屏幕</string>
 </resources>

@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">Selectați timp glisați spre stânga app</string>
     <string name="right_swipe_actions_title">Mult timp dreptul de acțiune bețivan</string>
     <string name="right_swipe_app_action_title">Selectați dreapta glisați aplicația</string>
+    <string name="left_vertical_swipe_actions_title">Acțiune de glisare verticală stânga</string>
+    <string name="left_vertical_swipe_app_action_title">Selectați aplicația verticală de glisare spre stânga</string>
+    <string name="right_vertical_swipe_actions_title">Acțiune de glisare verticală dreapta</string>
+    <string name="right_vertical_swipe_app_action_title">Selectați aplicația de glisare verticală dreapta</string>
     <string name="gesture_nav_tweaks_footer_info">Pentru a alege o anumită activitate app pentru acțiune, apăsați lung pe orice aplicație în aplicații selector.\n\nDacă lansator dă, nu treceți la zona de jos a ecranului pentru a declanșa acțiunea.</string>
     <string name="back_swipe_extended_title">Extins acțiune bețivan</string>
-    <string name="back_swipe_extended_summary">Declanșa acțiune în cazul în care treceți este orizontal mai mare decât 3\/4 de dimensiunea de afișare</string>
+    <string name="back_swipe_extended_summary">Acțiune de declanșare pe o glisare mai largă (mai mult de jumătate din dimensiunea afișatului) sau o glisare L (pe verticală suficient de lungă)</string>
     <string name="show_media_heads_up_title">Arata atentionari media</string>
     <string name="show_media_heads_up_summary">Arată atenționări media atunci când este redată o piesă nouă, dacă jucătorul nu este deja în prim-plan</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Îmbunătățește atingerea atunci când se utilizează protectori de ecran</string>
+    <string name="touch_sensitivity_title">Crește sensibilitatea tactilă</string>
+    <string name="keywords_touch_sensitivity">atingere, sensibilitate, sensibilitate, protecţie ecran, film, responsiv</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Tuning cu bară</string>
+    <string name="back_gesture_sensitivity_dialog_message">O sensibilitate mai mare poate intra în conflict cu orice gest al aplicației de-a lungul muchilor ecranului.</string>
+    <string name="back_gesture_area_dead_zone_title">Zona din spate</string>
+    <string name="back_gesture_area_dead_zone_message">Setați zona ecranului unde se poate declanșa glisarea, pentru a evita conflictele cu gesturile din aplicație.</string>
+    <string name="smallest_tick_label">Ecran complet</string>
+    <string name="greatest_tick_label">Jumătate de ecran</string>
+    <string name="show_gestures_navbar_title_text">Comutare bară de navigare</string>
+    <string name="show_gestures_navbar_switch_text">Arată bara de navigare gesturi</string>
 </resources>

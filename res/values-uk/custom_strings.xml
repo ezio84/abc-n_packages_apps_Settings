@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">Виберіть довгий лівий свайп додатком</string>
     <string name="right_swipe_actions_title">Довгий правий розмах дій</string>
     <string name="right_swipe_app_action_title">Виберіть довгий правий свайп додатком</string>
+    <string name="left_vertical_swipe_actions_title">Вертикальна дія свайпу вліво</string>
+    <string name="left_vertical_swipe_app_action_title">Виберіть вертикальний свайп вліво</string>
+    <string name="right_vertical_swipe_actions_title">Вертикальна дія свайпу вправо</string>
+    <string name="right_vertical_swipe_app_action_title">Оберіть вертикальний свайп справа</string>
     <string name="gesture_nav_tweaks_footer_info">Щоб вибрати певну активність програми для дій, довге натискання на додаток до меню вибору програм.\n\nякщо лаунчер показує, зробити свайп в нижній частині екрана, щоб викликати дію.</string>
     <string name="back_swipe_extended_title">Розширений розмах дій</string>
-    <string name="back_swipe_extended_summary">Тригер дії, якщо свайп по горизонталі ширше, ніж 3\/4 розмір дисплея</string>
+    <string name="back_swipe_extended_summary">Запуск дії при широкому свайпі (більше половини розміру екрану), або свайп з L (вертикально довше достатньо)</string>
     <string name="show_media_heads_up_title">Показувати спливаючі сповіщення</string>
     <string name="show_media_heads_up_summary">Показувати спливаючі нотифікації, коли відтворюється новий трек, якщо програвач ще не на передньому плані</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Вдосконалює дотик при використанні захищених екранів</string>
+    <string name="touch_sensitivity_title">Збільшення чутливості дотику</string>
+    <string name="keywords_touch_sensitivity">дотик, чутливість, чутливість, захист екрану, фільм, чуйність, чутливість</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Налаштування навігаційної панелі</string>
+    <string name="back_gesture_sensitivity_dialog_message">Більша чутливість може конфліктувати з будь-якими рухами по краях екрану.</string>
+    <string name="back_gesture_area_dead_zone_title">Задня зона померла</string>
+    <string name="back_gesture_area_dead_zone_message">Встановіть область екрану, де можна використовувати свайп, щоб уникнути конфліктів із жестами у програмі.</string>
+    <string name="smallest_tick_label">На весь екран</string>
+    <string name="greatest_tick_label">Половина екрана</string>
+    <string name="show_gestures_navbar_title_text">Перемикач панелі навігації</string>
+    <string name="show_gestures_navbar_switch_text">Показувати панель навігації жестами</string>
 </resources>

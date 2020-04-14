@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">Sélectionnez long balayez vers la gauche app</string>
     <string name="right_swipe_actions_title">Long de balayage à droite d\'action</string>
     <string name="right_swipe_app_action_title">Sélectionnez long de balayage à droite de l\'app</string>
+    <string name="left_vertical_swipe_actions_title">Action de glissement vers la gauche verticale</string>
+    <string name="left_vertical_swipe_app_action_title">Sélectionnez l\'application de balayage vertical vers la gauche</string>
+    <string name="right_vertical_swipe_actions_title">Action de glissement vers la droite verticale</string>
+    <string name="right_vertical_swipe_app_action_title">Sélectionnez l\'application de balayage vertical vers la droite</string>
     <string name="gesture_nav_tweaks_footer_info">Pour choisir une application spécifique de l\'activité pour l\'action, appuyez longuement sur une application dans les applications de sélecteur.\n\nSi le lanceur est de montrer, de faire le coup à la zone inférieure de l\'écran pour déclencher l\'action.</string>
     <string name="back_swipe_extended_title">Étendue action de balayage</string>
-    <string name="back_swipe_extended_summary">Déclencher une action si le passage à l\'horizontale, large de plus de 3\/4 de la taille de l\'affichage</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
     <string name="show_media_heads_up_title">Afficher les notifications flottantes des médias</string>
     <string name="show_media_heads_up_summary">Afficher les notifications flottantes quand une nouvelle piste est lue, si le lecteur n\'est pas déjà au premier plan</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Améliore le toucher lorsque vous utilisez des protecteurs d\'écran</string>
+    <string name="touch_sensitivity_title">Augmenter la sensibilité au toucher</string>
+    <string name="keywords_touch_sensitivity">toucher, sensibilité, sensible, protecteur d\'écran, film, réactif, réactivité</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Réglage de la barre de navigation</string>
+    <string name="back_gesture_sensitivity_dialog_message">Une sensibilité élevée peut entrer en conflit avec n\'importe quel geste d\'application le long des bords de l\'écran.</string>
+    <string name="back_gesture_area_dead_zone_title">Zone morte de la zone arrière</string>
+    <string name="back_gesture_area_dead_zone_message">Définissez la zone de l\'écran où le balayage peut être déclenché, pour éviter les conflits avec les gestes de l\'application.</string>
+    <string name="smallest_tick_label">Plein écran</string>
+    <string name="greatest_tick_label">Demi-écran</string>
+    <string name="show_gestures_navbar_title_text">Activer/désactiver la barre de navigation</string>
+    <string name="show_gestures_navbar_switch_text">Afficher la barre de navigation des gestes</string>
 </resources>

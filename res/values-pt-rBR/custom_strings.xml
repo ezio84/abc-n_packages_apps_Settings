@@ -84,12 +84,6 @@
     <string name="lockscreen_media_art_options_title">Arte do álbum na tela de bloqueio</string>
     <string name="doze_on_charge_title">Always On durante o carregamento</string>
     <string name="doze_on_charge_summary">Mostra Always On Ambient display quando carregando</string>
-    <string name="smallest_tick_label">Tela cheia</string>
-    <string name="greatest_tick_label">Tela dividida</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Sensibilidade traseira e zona morta</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUse a primeira barra de busca para configurar a sensibilidade do deslize para trás, a segunda barra de busca para definir a área da tela onde o deslize pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Relógio da barra de status</string>
     <string name="status_bar_clock">Relógio e Data</string>
@@ -222,5 +216,9 @@
     <string name="right_swipe_app_action_title">Selecione longo direita, deslize para a aplicação</string>
     <string name="gesture_nav_tweaks_footer_info">Para escolher uma aplicação específica de atividade para a ação, pressione e segure qualquer aplicativo em aplicações de elevação.\n\nSe launcher é mostrar, fazer o deslize o dedo bem no fundo da área da tela para disparar a ação.</string>
     <string name="back_swipe_extended_title">Estendido deslize para a ação</string>
-    <string name="back_swipe_extended_summary">Ação de disparo se a passagem for na horizontal maior do que 3\/4 do tamanho do visor</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">Tela cheia</string>
+    <string name="greatest_tick_label">Tela dividida</string>
 </resources>

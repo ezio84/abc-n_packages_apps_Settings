@@ -216,7 +216,11 @@
     <string name="right_swipe_app_action_title">Επιλέξτε δεξιά περάστε το app</string>
     <string name="gesture_nav_tweaks_footer_info">Για να επιλέξετε μια συγκεκριμένη εφαρμογή δραστηριοτήτων για τη δράση, πατήστε παρατεταμένα οποιαδήποτε εφαρμογή σε εφαρμογές επιλογέα.\n\nΑν launcher δείχνει, κάνει το άγγιγμα στο κάτω μέρος της οθόνης για να προκαλέσει τη δράση.</string>
     <string name="back_swipe_extended_title">Εκτεταμένη δράση ισχυρό κτύπημα</string>
-    <string name="back_swipe_extended_summary">Δράση σκανδάλης αν η κίνηση είναι οριζόντια ευρύτερο από 3\/4 μέγεθος της οθόνης</string>
     <string name="show_media_heads_up_title">Show media heads up</string>
     <string name="show_media_heads_up_summary">Show media κεφάλια όταν ένα νέο κομμάτι παίζεται, αν ο παίκτης δεν είναι ήδη στο προσκήνιο</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">Πλήρης οθόνη</string>
+    <string name="greatest_tick_label">Μισή οθόνη</string>
 </resources>

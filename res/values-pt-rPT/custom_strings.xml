@@ -82,12 +82,6 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
     <string name="doze_on_charge_title">Sempre quando a carga</string>
     <string name="doze_on_charge_summary">Mostrar Sempre No Ambiente de visualização ao carregar</string>
-    <string name="smallest_tick_label">Tela cheia</string>
-    <string name="greatest_tick_label">Metade da tela</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">De volta a Sensibilidade e a DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUsar a primeira seekbar para configurar volta deslize para a sensibilidade, a segunda seekbar para definir a área da tela onde o deslize pode ser acionado, para evitar conflitos com a app-gestos.</string>
     <!-- Status bar clock options -->
     <string name="clock_date_settings_title">Statusbar relógio</string>
     <string name="status_bar_clock">Relógio e Data</string>
@@ -218,9 +212,27 @@
     <string name="left_swipe_app_action_title">Selecione longo esquerda, deslize para a aplicação</string>
     <string name="right_swipe_actions_title">Direito ao longo deslize para a ação</string>
     <string name="right_swipe_app_action_title">Selecione longo direita, deslize para a aplicação</string>
+    <string name="left_vertical_swipe_actions_title">Vertical ação de deslizar para esquerda</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar app vertical para esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Vertical ação de deslizar para direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecionar app vertical à direita</string>
     <string name="gesture_nav_tweaks_footer_info">Para escolher uma aplicação específica de atividade para a ação, pressione e segure qualquer aplicativo em aplicações de elevação.\n\nSe launcher é mostrar, fazer o deslize o dedo bem no fundo da área da tela para disparar a ação.</string>
     <string name="back_swipe_extended_title">Estendido deslize para a ação</string>
-    <string name="back_swipe_extended_summary">Ação de disparo se a passagem for na horizontal maior do que 3\/4 do tamanho do visor</string>
+    <string name="back_swipe_extended_summary">Ação do gatilho em um deslize mais amplo (mais de metade do tamanho da exibição) ou um deslize L (verticalmente mais longo o suficiente)</string>
     <string name="show_media_heads_up_title">Mostrar heads up de mídia</string>
     <string name="show_media_heads_up_summary">Mostrar mídia pop-up quando uma nova música for tocada, se o player não estiver em primeiro plano</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
+    <string name="touch_sensitivity_title">Aumentar sensibilidade do toque</string>
+    <string name="keywords_touch_sensitivity">toque, sensibilidade, sensibilidade, protetor de tela, filme, responsivos, capacidade de resposta</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Ajuste da barra</string>
+    <string name="back_gesture_sensitivity_dialog_message">Uma sensibilidade maior pode entrar em conflito com qualquer gesto de app ao longo das bordas da tela.</string>
+    <string name="back_gesture_area_dead_zone_title">Zona traseira morta</string>
+    <string name="back_gesture_area_dead_zone_message">Defina a área da tela onde o deslize pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
+    <string name="smallest_tick_label">Tela cheia</string>
+    <string name="greatest_tick_label">Metade da tela</string>
+    <string name="show_gestures_navbar_title_text">Alternar barra de navegação</string>
+    <string name="show_gestures_navbar_switch_text">Mostrar barra de navegação</string>
 </resources>

@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">选择长左边刷的应用程序</string>
     <string name="right_swipe_actions_title">只要正确的行动滑动</string>
     <string name="right_swipe_app_action_title">选择长正确刷的应用程序</string>
+    <string name="left_vertical_swipe_actions_title">垂直左滑动动作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左滑动应用</string>
+    <string name="right_vertical_swipe_actions_title">垂直右滑动动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择向右垂直滑动应用</string>
     <string name="gesture_nav_tweaks_footer_info">选择的具体应用活动的行动，长按任何应用程序的应用程序选择器。\n\n如果启动是表示，执刷卡在最底部区域的屏幕上触发的行动。</string>
     <string name="back_swipe_extended_title">延长滑行动</string>
-    <string name="back_swipe_extended_summary">触发行动，如果刷卡是水平更广泛于3\/4显示的尺寸</string>
+    <string name="back_swipe_extended_summary">触发宽滑动(超过显示尺寸一半以上)或L 滑动(纵向更长)</string>
     <string name="show_media_heads_up_title">显示媒体浮动通知</string>
     <string name="show_media_heads_up_summary">当播放新音轨时显示媒体浮动，如果玩家尚未进入前台模式</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">使用屏幕保护器时提高触摸效果</string>
+    <string name="touch_sensitivity_title">增加触摸灵敏度</string>
+    <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 胶片、 响应、 响应力</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">导航栏调整</string>
+    <string name="back_gesture_sensitivity_dialog_message">更高的敏感度可能与屏幕边缘的任何应用手势发生冲突。</string>
+    <string name="back_gesture_area_dead_zone_title">后面的区域死亡区域</string>
+    <string name="back_gesture_area_dead_zone_message">设置可以触发滑动的屏幕区域，以避免与应用内手势发生冲突。</string>
+    <string name="smallest_tick_label">全屏显示</string>
+    <string name="greatest_tick_label">半屏幕</string>
+    <string name="show_gestures_navbar_title_text">切换导航栏</string>
+    <string name="show_gestures_navbar_switch_text">显示手势导航栏</string>
 </resources>

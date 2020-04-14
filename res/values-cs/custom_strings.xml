@@ -214,9 +214,29 @@
     <string name="left_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vlevo</string>
     <string name="right_swipe_actions_title">Akce dlouhým přejetím vpravo</string>
     <string name="right_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vpravo</string>
+    <string name="left_vertical_swipe_actions_title">Akce svislým přejetím vlevo</string>
+    <string name="left_vertical_swipe_app_action_title">Vyberte aplikaci svislým přejetím vlevo</string>
+    <string name="right_vertical_swipe_actions_title">Akce svislým přejetím vpravo</string>
+    <string name="right_vertical_swipe_app_action_title">Vyberte aplikaci svislým přejetím vpravo</string>
     <string name="gesture_nav_tweaks_footer_info">Chcete-li vybrat konkrétní aktivitu aplikace pro akci, podržte stisknutou libovolnou aplikaci ve výběru aplikací.\n\nPokud se zobrazuje spouštěč, proveďte akci přejetím prstem v dolní dolní části obrazovky.</string>
     <string name="back_swipe_extended_title">Pokročilé akce přejetím</string>
-    <string name="back_swipe_extended_summary">Spustí akci, pokud je vodorovné přejetí širší než 3/4 šířky obrazovky</string>
+    <string name="back_swipe_extended_summary">Aktivovat akci širším přejetím (více než polovina velikosti displeje) nebo gestem L (dostatečně svisle)</string>
+    <string name="gesture_navbar_browser_action_title">Přesměrování stránky v prohlížeči</string>
+    <string name="gesture_navbar_browser_action_summary">Je-li standardní prohlížeč aktivní, dlouhým přejetím doleva dojde k přesměrování na stránku</string>
     <string name="show_media_heads_up_title">Zobrazit plovoucí oznámení médií</string>
-    <string name="show_media_heads_up_summary">Zobrazit plovoucí média při přehrávání nové skladby, pokud již není přehrávač v popředí</string>
+    <string name="show_media_heads_up_summary">Zobrazit plovoucí oznámení médií při přehrávání nové skladby, pokud již není přehrávač v popředí</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Vylepšuje dotyk při použití ochrany obrazovky</string>
+    <string name="touch_sensitivity_title">Zvýšení citlivosti dotyku</string>
+    <string name="keywords_touch_sensitivity">dotyk, citlivost, citlivý, ochrana obrazovky, film, reagující a reakce</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Vylepšení navigačního panelu</string>
+    <string name="back_gesture_sensitivity_dialog_message">Vyšší citlivost může narušovat gesta v aplikacích prováděná u okrajů obrazovky.</string>
+    <string name="back_gesture_area_dead_zone_title">Zadní část mrtvé zóny</string>
+    <string name="back_gesture_area_dead_zone_message">Nastavte oblast obrazovky, na které lze spustit přejetí prstem, abyste předešli konfliktům s gesty v aplikaci.</string>
+    <string name="smallest_tick_label">Celá obrazovka</string>
+    <string name="greatest_tick_label">Polovina obrazovky</string>
+    <string name="show_gestures_navbar_title_text">Přepnout navigační panel</string>
+    <string name="show_gestures_navbar_switch_text">Zobrazit gesta navigačního panelu</string>
 </resources>

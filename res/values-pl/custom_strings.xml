@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">Wybierz długi lewy przesuwanie aplikacji</string>
     <string name="right_swipe_actions_title">Długi prawy rozmach działań</string>
     <string name="right_swipe_app_action_title">Wybierz długi prawy przesuwanie aplikacji</string>
+    <string name="left_vertical_swipe_actions_title">Akcja przesunięcia w lewo w pionie</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w lewo w pionie</string>
+    <string name="right_vertical_swipe_actions_title">Akcja przesunięcia w prawo w pionie</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w prawo w pionie</string>
     <string name="gesture_nav_tweaks_footer_info">Aby wybrać określoną aktywność aplikacji do działania, długie naciśnięcie na aplikacji w menu wyboru aplikacji.\n\njeśli launcher pokazuje, przesunąć w dolnej części ekranu, aby wywołać akcję.</string>
     <string name="back_swipe_extended_title">Rozszerzony zakres działań</string>
-    <string name="back_swipe_extended_summary">Wyzwalacz czynności, jeżeli przesuń palcem w poziomie szerszy niż 3\/4 rozmiar wyświetlacza</string>
+    <string name="back_swipe_extended_summary">Wyzwalacz na szersze przeciągnięcie (ponad połowa rozmiaru wyświetlacza), lub przesunięcie L (wystarczająco dłużej)</string>
     <string name="show_media_heads_up_title">Pokaż wyskakujące powiadomienia</string>
     <string name="show_media_heads_up_summary">Pokaż wyskakujące powiadomienia multimediów, gdy zostanie odtworzony nowy utwór, jeśli odtwarzacze nie jest jeszcze na pierwszym planie</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Ulepsza dotyk podczas używania ochrony ekranu</string>
+    <string name="touch_sensitivity_title">Zwiększ czułość dotyku</string>
+    <string name="keywords_touch_sensitivity">dotyk, czułość, czułość, osłona ekranu, film, reagujący na działanie</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Dostrajanie paska nawigacji</string>
+    <string name="back_gesture_sensitivity_dialog_message">Wyższa czułość może kolidować z dowolnymi gestami aplikacji wzdłuż krawędzi ekranu.</string>
+    <string name="back_gesture_area_dead_zone_title">Strefa martwej strefy oparcia</string>
+    <string name="back_gesture_area_dead_zone_message">Ustaw obszar ekranu, w którym można uruchomić przesunięcie, aby uniknąć konfliktów z gestami w aplikacji.</string>
+    <string name="smallest_tick_label">Pełny ekran</string>
+    <string name="greatest_tick_label">Połowa ekranu</string>
+    <string name="show_gestures_navbar_title_text">Przełącz pasek nawigacyjny</string>
+    <string name="show_gestures_navbar_switch_text">Pokaż pasek gestów</string>
 </resources>

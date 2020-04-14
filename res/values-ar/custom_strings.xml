@@ -212,9 +212,27 @@
     <string name="left_swipe_app_action_title">حدد طويلة انتقاد اليسار التطبيق</string>
     <string name="right_swipe_actions_title">طويل حق انتقاد العمل</string>
     <string name="right_swipe_app_action_title">حدد طويلة حق انتقاد التطبيق</string>
+    <string name="left_vertical_swipe_actions_title">إجراء السحب الرأسي لليسار</string>
+    <string name="left_vertical_swipe_app_action_title">حدد تطبيق السحب الرأسي لليسار</string>
+    <string name="right_vertical_swipe_actions_title">إجراء السحب العمودي لليمين</string>
+    <string name="right_vertical_swipe_app_action_title">حدد تطبيق السحب الرأسي لليمين</string>
     <string name="gesture_nav_tweaks_footer_info">لاختيار التطبيق محددة نشاط العمل ، اضغط لفترة طويلة على أي التطبيق في تطبيقات المنتقى.\n\nإذا قاذفة يظهر هل انتقاد في أسفل منطقة من الشاشة لتحريك العمل.</string>
     <string name="back_swipe_extended_title">تمديد العمل انتقاد</string>
-    <string name="back_swipe_extended_summary">العمل الزناد إذا كان انتقاد أفقيا أوسع من 3\4/من حجم الشاشة</string>
+    <string name="back_swipe_extended_summary">إجراء التفعيل على التمرير الأوسع (أكثر من نصف حجم العرض)، أو التمرير L (أطول رأسياً بما فيه الكفاية)</string>
     <string name="show_media_heads_up_title">إظهار التنبيهات العلوية</string>
     <string name="show_media_heads_up_summary">إظهار تنبيهات الوسائط عند تشغيل مسار جديد، إذا لم يكن المشغل بالفعل في المقدمة</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">تحسين اللمس عند استخدام حماية الشاشة</string>
+    <string name="touch_sensitivity_title">زيادة حساسية اللمس</string>
+    <string name="keywords_touch_sensitivity">لمس، حساسة، حساسة، حامية الشاشة، فيلم، استجابة، استجابة</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">ضبط شريط التنقل</string>
+    <string name="back_gesture_sensitivity_dialog_message">حساسية أعلى قد تتعارض مع أي إيماءات تطبيق على طول حواف الشاشة.</string>
+    <string name="back_gesture_area_dead_zone_title">المنطقة الخلفية الميتة</string>
+    <string name="back_gesture_area_dead_zone_message">تعيين منطقة الشاشة حيث يمكن تشغيل السحب لتجنب التعارض مع الإيماءات داخل التطبيق. (Automatic Translation)</string>
+    <string name="smallest_tick_label">كامل الشاشة</string>
+    <string name="greatest_tick_label">نصف الشاشة</string>
+    <string name="show_gestures_navbar_title_text">تبديل شريط التنقل</string>
+    <string name="show_gestures_navbar_switch_text">إظهار شريط التنقل للإيماءات</string>
 </resources>

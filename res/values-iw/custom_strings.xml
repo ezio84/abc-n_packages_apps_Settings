@@ -214,7 +214,11 @@
     <string name="right_swipe_app_action_title">בחר זמן נכון לסחוב app</string>
     <string name="gesture_nav_tweaks_footer_info">כדי לבחור באפליקציה הספציפית לפעילות פעולה, לחץ לחיצה ארוכה על כל יישום בחנות האפליקציות בורר.\n\nאם משגר מראה, לעשות את החלק בתחתית אזור של המסך כדי להפעיל את הפעולה.</string>
     <string name="back_swipe_extended_title">המורחבת לסחוב פעולה</string>
-    <string name="back_swipe_extended_summary">ההדק פעולה אם המריחה היא אופקית יותר מאשר 3\/4 גודל תצוגה</string>
     <string name="show_media_heads_up_title">להראות מדיה זהירות</string>
     <string name="show_media_heads_up_summary">להראות מדיה זהירות כאשר מסלול חדש הוא שיחק, אם השחקן הוא כבר לא בחזית</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">מסך מלא</string>
+    <string name="greatest_tick_label">חצי מסך</string>
 </resources>

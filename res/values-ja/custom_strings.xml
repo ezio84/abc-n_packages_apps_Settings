@@ -212,9 +212,29 @@
     <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
     <string name="right_swipe_actions_title">長い右スワイプアクション</string>
     <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">長い左スワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">アプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">長い右スワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">アプリを選択</string>
     <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
     <string name="back_swipe_extended_title">拡張スワイプアクション</string>
-    <string name="back_swipe_extended_summary">スワイプの高さが画面サイズの75%以上ならアクションを起動する</string>
-    <string name="show_media_heads_up_title">ショーメディアヘッドまで</string>
-    <string name="show_media_heads_up_summary">ショーメディアヘッドが新しいトラックとしての活動を続けている場合のプレーヤーになっていない前景</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <string name="gesture_navbar_browser_action_title">ブラウザの次のページ</string>
+    <string name="gesture_navbar_browser_action_summary">既定のブラウザが実行中に左スワイプを伸ばすと次のページへ行くアクションが起動します</string>
+    <string name="show_media_heads_up_title">メディアの Heads Up を表示</string>
+    <string name="show_media_heads_up_summary">プレイヤーが前面に準備できていない場合は、新しい曲を再生時にメディアの Heads Up を表示する。</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">画面フィルム装着時にタッチ感度を改善する</string>
+    <string name="touch_sensitivity_title">タッチ感度の改善</string>
+    <string name="keywords_touch_sensitivity">タッチ感度、画面フィルム、応答性</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">ナビゲーションバーの編集</string>
+    <string name="back_gesture_sensitivity_dialog_message">感度を上げると画面の縁付近でのアプリの操作に影響することがあります</string>
+    <string name="back_gesture_area_dead_zone_title">戻る動作の無反応エリア</string>
+    <string name="back_gesture_area_dead_zone_message">アプリ内のジェスチャーとの競合を避けるために、スワイプを起動できる画面エリアを設定します。</string>
+    <string name="smallest_tick_label">全画面</string>
+    <string name="greatest_tick_label">半画面</string>
+    <string name="show_gestures_navbar_title_text">ナビゲーションバーの切替え</string>
+    <string name="show_gestures_navbar_switch_text">ジェスチャーナビゲーションバーの表示</string>
 </resources>

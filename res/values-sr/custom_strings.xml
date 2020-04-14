@@ -214,7 +214,11 @@
     <string name="right_swipe_app_action_title">Изаберите дуг десно свипе апликације</string>
     <string name="gesture_nav_tweaks_footer_info">Да бисте изабрали одређену активност апликације за акције, дуго притисните на апликацију у менију за избор апликација.\n\nако бацач показује да замах у дну екрана, да се покрене акција.</string>
     <string name="back_swipe_extended_title">Напредна магнетне акције</string>
-    <string name="back_swipe_extended_summary">Окидач акције, ако замах хоризонтално шири од 3\/4 дисплеј величина</string>
     <string name="show_media_heads_up_title">Емисија медија главе</string>
     <string name="show_media_heads_up_summary">Показују, директори медија, када је нова стаза игра, ако играч није у првом плану</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">Пуном екрану</string>
+    <string name="greatest_tick_label">Половину екрана</string>
 </resources>

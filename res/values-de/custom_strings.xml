@@ -214,9 +214,29 @@
     <string name="left_swipe_app_action_title">Lange links wischen App auswählen</string>
     <string name="right_swipe_actions_title">Lange rechts wischen Aktion</string>
     <string name="right_swipe_app_action_title">Lange rechts wischen App auswählen</string>
+    <string name="left_vertical_swipe_actions_title">Aktion für vertikales Wischen von links</string>
+    <string name="left_vertical_swipe_app_action_title">App auswählen für vertikales Wischen von links</string>
+    <string name="right_vertical_swipe_actions_title">Aktion für vertikales Wischen von rechts</string>
+    <string name="right_vertical_swipe_app_action_title">App auswählen für vertikales Wischen von rechts</string>
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine beliebige App im App-Picker.\n\nWenn der Launcher angezeigt wird, wischen Sie am unteren Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischen Aktion</string>
-    <string name="back_swipe_extended_summary">Aktion auslösen, wenn das Wischen horizontal größer als 3\/4 der Anzeigegröße ist</string>
+    <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <string name="gesture_navbar_browser_action_title">Seite für Weiterleitung im Browser</string>
+    <string name="gesture_navbar_browser_action_summary">Wenn der Standardbrowser aktiv ist, löst ein verlängertes Wischen nach links eine Weiterleitung zu einer Seite aus</string>
     <string name="show_media_heads_up_title">Medien als Heads-Up Benachrichtigung anzeigen</string>
     <string name="show_media_heads_up_summary">Medien als Heads-Up Benachrichtigung anzeigen, wenn ein neuer Track abgespielt ist, falls der Player nicht bereits im Vordergrund ist</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Verbessert Berührung bei Verwendung von Bildschirmschutzfolien</string>
+    <string name="touch_sensitivity_title">Touch-Empfindlichkeit erhöhen</string>
+    <string name="keywords_touch_sensitivity">berühren, Empfindlichkeit, empfindlich, Bildschirmschutz, Film, Reaktionsfähigkeit</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Tuning für Navigationsleiste</string>
+    <string name="back_gesture_sensitivity_dialog_message">Höhere Empfindlichkeit kann mit allen App-Gesten am Bildschirmrand in Konflikt geraten.</string>
+    <string name="back_gesture_area_dead_zone_title">Zurück-Gesten toter Bereich </string>
+    <string name="back_gesture_area_dead_zone_message">Legen Sie den Bereich des Bildschirms fest, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <string name="smallest_tick_label">Ganzer Bildschirm</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
+    <string name="show_gestures_navbar_title_text">Navigationsleiste umschalten</string>
+    <string name="show_gestures_navbar_switch_text">Gesten Navigationsleiste anzeigen</string>
 </resources>

@@ -213,9 +213,27 @@
     <string name="left_swipe_app_action_title">Seleccione largo pase el dedo a la izquierda de la aplicación</string>
     <string name="right_swipe_actions_title">Derecha larga acciones con el dedo</string>
     <string name="right_swipe_app_action_title">Seleccione largo pase el dedo a la derecha de la aplicación</string>
+    <string name="left_vertical_swipe_actions_title">Acción vertical del deslizado izquierdo</string>
+    <string name="left_vertical_swipe_app_action_title">Seleccionar aplicación vertical a la izquierda</string>
+    <string name="right_vertical_swipe_actions_title">Acción vertical de deslizamiento derecho</string>
+    <string name="right_vertical_swipe_app_action_title">Seleccionar aplicación vertical de deslizamiento derecho</string>
     <string name="gesture_nav_tweaks_footer_info">Para elegir una aplicación específica de la actividad para la acción, pulsación larga en cualquier aplicación en el selector de aplicaciones.\n\nSi el lanzador está mostrando, hacer el pase en el área inferior de la pantalla para activar la acción.</string>
     <string name="back_swipe_extended_title">Extendió las acciones con el dedo</string>
-    <string name="back_swipe_extended_summary">Acción de disparo si el barrido horizontal más amplio de 3\/4 de tamaño de la pantalla</string>
+    <string name="back_swipe_extended_summary">Acción de activación en un deslizado más ancho (más de la mitad del tamaño de la pantalla), o un deslizado L (lo suficientemente largo verticalmente)</string>
     <string name="show_media_heads_up_title">Mostrar avisos multimedia</string>
     <string name="show_media_heads_up_summary">Mostrar avisos multimedia cuando se reproduzca una nueva pista, si el reproductor no está ya en primer plano</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Mejora el toque táctil al usar protectores de pantalla</string>
+    <string name="touch_sensitivity_title">Aumentar la sensibilidad táctil</string>
+    <string name="keywords_touch_sensitivity">tacto, sensibilidad, sensibilidad, protector de pantalla, película, recepción, receptividad</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Ajuste Navbar</string>
+    <string name="back_gesture_sensitivity_dialog_message">Una mayor sensibilidad puede entrar en conflicto con cualquier gesto de aplicación a lo largo de los bordes de la pantalla.</string>
+    <string name="back_gesture_area_dead_zone_title">Zona muerta del área trasera</string>
+    <string name="back_gesture_area_dead_zone_message">Establece el área de la pantalla donde se puede activar el deslizamiento, para evitar conflictos con los gestos dentro de la aplicación.</string>
+    <string name="smallest_tick_label">Pantalla completa</string>
+    <string name="greatest_tick_label">Media pantalla</string>
+    <string name="show_gestures_navbar_title_text">Cambiar barra de navegación</string>
+    <string name="show_gestures_navbar_switch_text">Mostrar gestos de barra de navegación</string>
 </resources>

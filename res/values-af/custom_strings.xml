@@ -214,7 +214,11 @@
     <string name="right_swipe_app_action_title">Kies lank reg krap app</string>
     <string name="gesture_nav_tweaks_footer_info">Om te kies\'n spesifieke app aktiwiteit vir die aksie, lang druk op enige artikels in die programme plukker.\n\nAs launcher is wys, doen die vee op die heel onderkant van die skerm te aktiveer die aksie.</string>
     <string name="back_swipe_extended_title">Uitgebreide krap aksie</string>
-    <string name="back_swipe_extended_summary">Sneller aksie as die vee is horisontaal wyer as 3\/4 van die skerm grootte</string>
     <string name="show_media_heads_up_title">Wys media koppe</string>
     <string name="show_media_heads_up_summary">Wys media koppe wanneer\'n nuwe baan gespeel word, as die speler is nie reeds in die voorgrond</string>
+    <!-- Touch sensitivity -->
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="smallest_tick_label">Volle skerm</string>
+    <string name="greatest_tick_label">Die helfte van die skerm</string>
 </resources>
