@@ -211,4 +211,21 @@
     <string name="greatest_tick_label">Metà schermo</string>
     <string name="show_gestures_navbar_title_text">Mostra o nascondi barra</string>
     <string name="show_gestures_navbar_switch_text">Mostra la barra di navigazione</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicatore batteria barra di stato</string>
+    <string name="battery_percent_summary">Configura lo stile dell\'icona e il testo dell\'indicatore batteria nella barra di stato</string>
+    <string name="status_bar_battery_style_title">Stile batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_dotted_circle">Cerchio puntato</string>
+    <string name="status_bar_battery_style_filled_circle">Cerchio pieno</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+    <string name="qs_battery_percentage_title">Percentuale batteria barra espansa</string>
+    <string name="qs_battery_percentage_summary">Mostra la percentuale residua anzichè la durata stimata nella barra di stato espansa</string>
 </resources>
