@@ -221,8 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine beliebige App im App-Picker.\n\nWenn der Launcher angezeigt wird, wischen Sie am unteren Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischen Aktion</string>
     <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
-    <string name="gesture_navbar_browser_action_title">Seite für Weiterleitung im Browser</string>
-    <string name="gesture_navbar_browser_action_summary">Wenn der Standardbrowser aktiv ist, löst ein verlängertes Wischen nach links eine Weiterleitung zu einer Seite aus</string>
     <string name="show_media_heads_up_title">Medien als Heads-Up Benachrichtigung anzeigen</string>
     <string name="show_media_heads_up_summary">Medien als Heads-Up Benachrichtigung anzeigen, wenn ein neuer Track abgespielt ist, falls der Player nicht bereits im Vordergrund ist</string>
     <!-- Touch sensitivity -->
@@ -239,4 +237,20 @@
     <string name="greatest_tick_label">Halber Bildschirm</string>
     <string name="show_gestures_navbar_title_text">Navigationsleiste umschalten</string>
     <string name="show_gestures_navbar_switch_text">Gesten Navigationsleiste anzeigen</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Akkuanzeige in der Statusleiste</string>
+    <string name="battery_percent_summary">Konfigurieren Sie Symbol- und Textstile für die Akkuanzeige in der Statusleiste</string>
+    <string name="status_bar_battery_style_title">Akku-Stil</string>
+    <string name="status_bar_battery_style_icon_portrait">Symbol im Hochformat</string>
+    <string name="status_bar_battery_style_circle">Kreis</string>
+    <string name="status_bar_battery_style_dotted_circle">Gepunkteter Kreis</string>
+    <string name="status_bar_battery_style_filled_circle">Gefüllter Kreis</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
+    <string name="status_bar_battery_percentage_title">Ladestandanzeige in Prozent</string>
+    <string name="status_bar_battery_percentage_default">Ausgeblendet</string>
+    <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
+    <string name="qs_battery_percentage_title">QS Akkuanzeige in Prozent</string>
+    <string name="qs_battery_percentage_summary">Zeige Akku-Prozentsatz in der QS-Kopfzeile statt der Akku-Schätzung</string>
 </resources>

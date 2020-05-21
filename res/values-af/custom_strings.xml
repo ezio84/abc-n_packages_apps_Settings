@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">Kies\'n lang links swipe app</string>
     <string name="right_swipe_actions_title">Lank reg krap aksie</string>
     <string name="right_swipe_app_action_title">Kies lank reg krap app</string>
+    <string name="left_vertical_swipe_actions_title">Vertikale swipe links aksie</string>
+    <string name="left_vertical_swipe_app_action_title">Kies vertikale swipe links app</string>
+    <string name="right_vertical_swipe_actions_title">Vertikale reg krap aksie</string>
+    <string name="right_vertical_swipe_app_action_title">Kies vertikale swipe reg app</string>
     <string name="gesture_nav_tweaks_footer_info">Om te kies\'n spesifieke app aktiwiteit vir die aksie, lang druk op enige artikels in die programme plukker.\n\nAs launcher is wys, doen die vee op die heel onderkant van die skerm te aktiveer die aksie.</string>
     <string name="back_swipe_extended_title">Uitgebreide krap aksie</string>
+    <string name="back_swipe_extended_summary">Sneller aksie op wyer krap (meer as die helfte van die vertoning grootte), of\'n L krap (vertikaal meer genoeg nie)</string>
     <string name="show_media_heads_up_title">Wys media koppe</string>
     <string name="show_media_heads_up_summary">Wys media koppe wanneer\'n nuwe baan gespeel word, as die speler is nie reeds in die voorgrond</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Verbeter raak wanneer die gebruik van die skerm beskermers</string>
+    <string name="touch_sensitivity_title">Verhoog touch sensitiwiteit</string>
+    <string name="keywords_touch_sensitivity">touch, sensitiwiteit, sensitief, skerm beskermer, film, reageer, responsiwiteit</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar tuning</string>
+    <string name="back_gesture_sensitivity_dialog_message">Hoër sensitiwiteit kan in konflik met enige inligting gebare langs die kante van die skerm.</string>
+    <string name="back_gesture_area_dead_zone_title">Terug gebied dooie sone</string>
+    <string name="back_gesture_area_dead_zone_message">Stel die gebied van die skerm waar die vee kan veroorsaak word, om te verhoed dat konflik met in-app gebare.</string>
     <string name="smallest_tick_label">Volle skerm</string>
     <string name="greatest_tick_label">Die helfte van die skerm</string>
+    <string name="show_gestures_navbar_title_text">Skakel navbar</string>
+    <string name="show_gestures_navbar_switch_text">Wys gebare navbar</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar battery aanwyser</string>
+    <string name="battery_percent_summary">Instel ikoon en die teks style vir die statusbar battery aanwyser</string>
+    <string name="status_bar_battery_style_title">Battery styl</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikoon portret</string>
+    <string name="status_bar_battery_style_circle">Sirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Stippellyn sirkel</string>
+    <string name="status_bar_battery_style_filled_circle">Gevul sirkel</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Verborge</string>
+    <string name="status_bar_battery_percentage_title">Battery persentasie</string>
+    <string name="status_bar_battery_percentage_default">Verborge</string>
+    <string name="status_bar_battery_percentage_text_inside">Binne-in die ikoon</string>
+    <string name="status_bar_battery_percentage_text_next">Langs die ikoon</string>
+    <string name="qs_battery_percentage_title">QS battery persentasie</string>
+    <string name="qs_battery_percentage_summary">Wys battery persentasie in die QS kop in plaas van die battery skat</string>
 </resources>

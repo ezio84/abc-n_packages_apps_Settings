@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">选择长左边刷的应用程序</string>
     <string name="right_swipe_actions_title">只要正确的行动滑动</string>
     <string name="right_swipe_app_action_title">选择长正确刷的应用程序</string>
+    <string name="left_vertical_swipe_actions_title">垂直的左侧轻扫行动</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左边刷的应用程序</string>
+    <string name="right_vertical_swipe_actions_title">垂直右滑动行动</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直权刷的应用程序</string>
     <string name="gesture_nav_tweaks_footer_info">选择的具体应用活动的行动，长按任何应用程序的应用程序选择器。\n\n如果启动是表示，执刷卡在最底部区域的屏幕上触发的行动。</string>
     <string name="back_swipe_extended_title">延长滑行动</string>
+    <string name="back_swipe_extended_summary">触发行动的更广泛的刷卡(超过一半的显示器大小)，或L刷(垂直再是足够的)</string>
     <string name="show_media_heads_up_title">显示媒体的头了</string>
     <string name="show_media_heads_up_summary">显示媒体抬起头来的时候一个新的轨道，如果游戏者是不是已经在前台</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">提高触时使用屏幕保护程序</string>
+    <string name="touch_sensitivity_title">增加的触摸灵敏度</string>
+    <string name="keywords_touch_sensitivity">触摸、敏感性、敏感、屏幕保护、影响、反应能力</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">导航栏调谐</string>
+    <string name="back_gesture_sensitivity_dialog_message">高灵敏度有可能发生冲突的任何应用程序手势沿着边的屏幕上。</string>
+    <string name="back_gesture_area_dead_zone_title">回区域的死亡区域</string>
+    <string name="back_gesture_area_dead_zone_message">设置区域的屏幕上的滑动可以触发，以避免冲突，在应用程序的手势。</string>
     <string name="smallest_tick_label">全屏幕</string>
     <string name="greatest_tick_label">半屏幕</string>
+    <string name="show_gestures_navbar_title_text">切换航栏</string>
+    <string name="show_gestures_navbar_switch_text">秀姿态导航栏</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">状态的电池指标</string>
+    <string name="battery_percent_summary">配置标和文字的风格对状态的电池指标</string>
+    <string name="status_bar_battery_style_title">电池风格</string>
+    <string name="status_bar_battery_style_icon_portrait">图标肖像</string>
+    <string name="status_bar_battery_style_circle">環形</string>
+    <string name="status_bar_battery_style_dotted_circle">點陣環形</string>
+    <string name="status_bar_battery_style_filled_circle">充满了圆圈</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">隱藏</string>
+    <string name="status_bar_battery_percentage_title">電量百分比</string>
+    <string name="status_bar_battery_percentage_default">隱藏</string>
+    <string name="status_bar_battery_percentage_text_inside">圖示裡</string>
+    <string name="status_bar_battery_percentage_text_next">圖示旁</string>
+    <string name="qs_battery_percentage_title">QS电池的百分比</string>
+    <string name="qs_battery_percentage_summary">显示电池百分比的资源头而不是估计的电池</string>
 </resources>

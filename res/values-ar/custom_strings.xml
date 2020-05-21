@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">نصف الشاشة</string>
     <string name="show_gestures_navbar_title_text">تبديل شريط التنقل</string>
     <string name="show_gestures_navbar_switch_text">إظهار شريط التنقل للإيماءات</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">مؤشر بطارية شريط الحالة</string>
+    <string name="battery_percent_summary">تكوين الأيقونة وأنماط النص لمؤشر بطارية شريط الحالة</string>
+    <string name="status_bar_battery_style_title">نمط البطارية</string>
+    <string name="status_bar_battery_style_icon_portrait">رمز عمودي</string>
+    <string name="status_bar_battery_style_circle">دائرة</string>
+    <string name="status_bar_battery_style_dotted_circle">دائرة منقطة</string>
+    <string name="status_bar_battery_style_filled_circle">دائرة مملوءة</string>
+    <string name="status_bar_battery_style_text">نص</string>
+    <string name="status_bar_battery_style_hidden">مخفي</string>
+    <string name="status_bar_battery_percentage_title">نسبة البطارية</string>
+    <string name="status_bar_battery_percentage_default">مخفي</string>
+    <string name="status_bar_battery_percentage_text_inside">داخل الرمز</string>
+    <string name="status_bar_battery_percentage_text_next">بجانب الرمز</string>
+    <string name="qs_battery_percentage_title">نسبة بطارية الإعدادات السريعة</string>
+    <string name="qs_battery_percentage_summary">إظهار نسبة البطارية في رأس الإعدادات السريعة بدلاً من تقدير البطارية</string>
 </resources>

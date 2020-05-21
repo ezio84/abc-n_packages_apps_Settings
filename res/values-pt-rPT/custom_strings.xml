@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Metade da tela</string>
     <string name="show_gestures_navbar_title_text">Alternar barra de navegação</string>
     <string name="show_gestures_navbar_switch_text">Mostrar barra de navegação</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de bateria</string>
+    <string name="battery_percent_summary">Configure os estilos do ícone e texto para o indicador de bateria na barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Escondido</string>
+    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Escondido</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
+    <string name="qs_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="qs_battery_percentage_summary">Mostrar porcentagem da bateria nas configurações rápidas do cabeçalho ao invés da estimativa da bateria</string>
 </resources>

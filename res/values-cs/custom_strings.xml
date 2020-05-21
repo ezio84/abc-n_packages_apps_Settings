@@ -221,8 +221,6 @@
     <string name="gesture_nav_tweaks_footer_info">Chcete-li vybrat konkrétní aktivitu aplikace pro akci, podržte stisknutou libovolnou aplikaci ve výběru aplikací.\n\nPokud se zobrazuje spouštěč, proveďte akci přejetím prstem v dolní dolní části obrazovky.</string>
     <string name="back_swipe_extended_title">Pokročilé akce přejetím</string>
     <string name="back_swipe_extended_summary">Aktivovat akci širším přejetím (více než polovina velikosti displeje) nebo gestem L (dostatečně svisle)</string>
-    <string name="gesture_navbar_browser_action_title">Přesměrování stránky v prohlížeči</string>
-    <string name="gesture_navbar_browser_action_summary">Je-li standardní prohlížeč aktivní, dlouhým přejetím doleva dojde k přesměrování na stránku</string>
     <string name="show_media_heads_up_title">Zobrazit plovoucí oznámení médií</string>
     <string name="show_media_heads_up_summary">Zobrazit plovoucí oznámení médií při přehrávání nové skladby, pokud již není přehrávač v popředí</string>
     <!-- Touch sensitivity -->
@@ -239,4 +237,20 @@
     <string name="greatest_tick_label">Polovina obrazovky</string>
     <string name="show_gestures_navbar_title_text">Přepnout navigační panel</string>
     <string name="show_gestures_navbar_switch_text">Zobrazit gesta navigačního panelu</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indikátor baterie ve stavovém řádku</string>
+    <string name="battery_percent_summary">Nastavte styly ikon a popisů pro indikátor stavu baterie ve stavovém řádku</string>
+    <string name="status_bar_battery_style_title">Styl baterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Tečkovaný kruh</string>
+    <string name="status_bar_battery_style_filled_circle">Vyplněný kruh</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
+    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_default">Nezobrazovat</string>
+    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <string name="qs_battery_percentage_title">Procenta baterie v QS</string>
+    <string name="qs_battery_percentage_summary">Zobrazit procenta baterie v záhlaví QS namísto odhadu baterie</string>
 </resources>

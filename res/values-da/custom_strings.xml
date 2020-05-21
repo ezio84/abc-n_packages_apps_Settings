@@ -213,13 +213,43 @@
     <string name="left_swipe_app_action_title">Vælg lange stryg til venstre app</string>
     <string name="right_swipe_actions_title">Lange lige stryg til handling</string>
     <string name="right_swipe_app_action_title">Vælg lange stryg til højre app</string>
+    <string name="left_vertical_swipe_actions_title">Lodret venstre stryg til handling</string>
+    <string name="left_vertical_swipe_app_action_title">Vælg lodret stryg til venstre app</string>
+    <string name="right_vertical_swipe_actions_title">Lodrette lige stryg til handling</string>
+    <string name="right_vertical_swipe_app_action_title">Vælg lodrette lige stryge app</string>
     <string name="gesture_nav_tweaks_footer_info">For at vælge en specifik app aktivitet for handlingen, skal du trykke længe på en app i app-picker.\n\nHvis launcher viser, må du knalde på det nederste område af skærmen for at udløse handling.</string>
     <string name="back_swipe_extended_title">Udvidet stryg til handling</string>
+    <string name="back_swipe_extended_summary">Udløser handling på bredere stryg (mere end halvdelen af skærmens størrelse), eller en L stryg (lodret længere nok)</string>
     <string name="show_media_heads_up_title">Vis medier heads up</string>
     <string name="show_media_heads_up_summary">Vis medier heads up, når et nyt spor er afspillet, hvis spilleren ikke allerede er i forgrunden</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Forbedrer touch, når du bruger skærm beskyttere</string>
+    <string name="touch_sensitivity_title">Øge touch følsomhed</string>
+    <string name="keywords_touch_sensitivity">tryk, følsomhed, følsomme, screen protector, film, lydhør, lydhørhed</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar tuning</string>
+    <string name="back_gesture_sensitivity_dialog_message">Højere følsomhed kan være i konflikt med app bevægelser langs kanterne af skærmen.</string>
+    <string name="back_gesture_area_dead_zone_title">Tilbage område dead zone</string>
+    <string name="back_gesture_area_dead_zone_message">Sæt det område af skærmen, hvor de knalde kan blive udløst for at undgå konflikter med in-app fagter.</string>
     <string name="smallest_tick_label">Fuld skærm</string>
     <string name="greatest_tick_label">Halv skærm</string>
+    <string name="show_gestures_navbar_title_text">Skift navbar</string>
+    <string name="show_gestures_navbar_switch_text">Vis fagter navbar</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar batteri indikator</string>
+    <string name="battery_percent_summary">Konfigurere ikon og tekst stilarter for statusbar batteri indikator</string>
+    <string name="status_bar_battery_style_title">Batteri stil</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikonet for stående</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Stiplet cirkel</string>
+    <string name="status_bar_battery_style_filled_circle">Udfyldt cirkel</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Skjult</string>
+    <string name="status_bar_battery_percentage_title">Batteriprocent</string>
+    <string name="status_bar_battery_percentage_default">Skjult</string>
+    <string name="status_bar_battery_percentage_text_inside">Inde i ikonet</string>
+    <string name="status_bar_battery_percentage_text_next">Ved siden af ikonet</string>
+    <string name="qs_battery_percentage_title">QS batteri procentdel</string>
+    <string name="qs_battery_percentage_summary">Vis batteri procentdel i QS header i stedet for batteriet skøn</string>
 </resources>

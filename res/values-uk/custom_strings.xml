@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Половина екрана</string>
     <string name="show_gestures_navbar_title_text">Перемикач панелі навігації</string>
     <string name="show_gestures_navbar_switch_text">Показувати панель навігації жестами</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Індикатор батареї в рядку стану</string>
+    <string name="battery_percent_summary">Налаштування піктограми і стилів тексту індикатора батареї</string>
+    <string name="status_bar_battery_style_title">Стиль значка акумулятора</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальний значок</string>
+    <string name="status_bar_battery_style_circle">Коло</string>
+    <string name="status_bar_battery_style_dotted_circle">Пунктирне коло</string>
+    <string name="status_bar_battery_style_filled_circle">Заповнене коло</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Відсоток заряду батареї</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Всередині значка</string>
+    <string name="status_bar_battery_percentage_text_next">Поруч із значком</string>
+    <string name="qs_battery_percentage_title">Відсоток заряду батареї</string>
+    <string name="qs_battery_percentage_summary">Показувати відсоток заряду батареї в заголовку QS замість орієнтації батареї</string>
 </resources>

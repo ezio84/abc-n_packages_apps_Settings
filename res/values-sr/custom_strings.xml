@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">Изаберите дуг лево пребацивање апликације</string>
     <string name="right_swipe_actions_title">Дуго праву магнетне акције</string>
     <string name="right_swipe_app_action_title">Изаберите дуг десно свипе апликације</string>
+    <string name="left_vertical_swipe_actions_title">Вертикална са леве стране акције</string>
+    <string name="left_vertical_swipe_app_action_title">Изаберите са леве стране вертикално пребацивање апликације</string>
+    <string name="right_vertical_swipe_actions_title">Вертикална десно свипе акцију</string>
+    <string name="right_vertical_swipe_app_action_title">Изаберите вертикални десно свипе апликације</string>
     <string name="gesture_nav_tweaks_footer_info">Да бисте изабрали одређену активност апликације за акције, дуго притисните на апликацију у менију за избор апликација.\n\nако бацач показује да замах у дну екрана, да се покрене акција.</string>
     <string name="back_swipe_extended_title">Напредна магнетне акције</string>
+    <string name="back_swipe_extended_summary">Триггерное акција на широк распон (више од половине величине екрана), или да превучете (вертикално дуже стоп)</string>
     <string name="show_media_heads_up_title">Емисија медија главе</string>
     <string name="show_media_heads_up_summary">Показују, директори медија, када је нова стаза игра, ако играч није у првом плану</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Побољшава додир када користите филм на екрану</string>
+    <string name="touch_sensitivity_title">Повећање осетљивости на додир</string>
+    <string name="keywords_touch_sensitivity">додир, осетљивост, осетљив, заштитник екрана, филм, одговарајући одзив на</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Панел тунинг</string>
+    <string name="back_gesture_sensitivity_dialog_message">Већа осетљивост може да се сукоби са било које апликације гестови на ивицама екрана.</string>
+    <string name="back_gesture_area_dead_zone_title">Задња зона мртва зона</string>
+    <string name="back_gesture_area_dead_zone_message">Подесите област екрана, где марамице могу бити изазване да избегне сукобе са у-апп гестове.</string>
     <string name="smallest_tick_label">Пуном екрану</string>
     <string name="greatest_tick_label">Половину екрана</string>
+    <string name="show_gestures_navbar_title_text">Прекидач за навигацију</string>
+    <string name="show_gestures_navbar_switch_text">Покаже гест навигација</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикатор батерије у својој области</string>
+    <string name="battery_percent_summary">Прилагођавање икона и стилови текста за индикатор стања батерије</string>
+    <string name="status_bar_battery_style_title">Стил батерије</string>
+    <string name="status_bar_battery_style_icon_portrait">Портрет икону</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Пунктирным круг</string>
+    <string name="status_bar_battery_style_filled_circle">Закрашенный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скривене</string>
+    <string name="status_bar_battery_percentage_title">Проценат батерије</string>
+    <string name="status_bar_battery_percentage_default">Скривене</string>
+    <string name="status_bar_battery_percentage_text_inside">Унутар икону</string>
+    <string name="status_bar_battery_percentage_text_next">Поред иконе</string>
+    <string name="qs_battery_percentage_title">СОЗ проценат батерије</string>
+    <string name="qs_battery_percentage_summary">Схов проценат батерије у СОЗ заглавља уместо да процени батерију</string>
 </resources>

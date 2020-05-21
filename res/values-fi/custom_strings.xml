@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">Valitse pitkä vasemmalle pyyhkäisemällä app</string>
     <string name="right_swipe_actions_title">Pitkä oikealle pyyhkäisemällä toiminta</string>
     <string name="right_swipe_app_action_title">Valitse pitkä oikealle pyyhkäisemällä app</string>
+    <string name="left_vertical_swipe_actions_title">Pystysuora vasemmalle pyyhkäisemällä toiminta</string>
+    <string name="left_vertical_swipe_app_action_title">Valitse pystysuora vasemmalle pyyhkäisemällä app</string>
+    <string name="right_vertical_swipe_actions_title">Pystysuora oikealle pyyhkäisemällä toiminta</string>
+    <string name="right_vertical_swipe_app_action_title">Valitse pystysuora oikealle pyyhkäisemällä app</string>
     <string name="gesture_nav_tweaks_footer_info">Valita tietyn sovelluksen toimintaa toiminta, pitkä painallus tahansa sovelluksen sovellukset-poimija.\n\nJos launcher ei näy, tee pyyhkäisemällä alareunassa näytön alueen laukaista toimintaa.</string>
     <string name="back_swipe_extended_title">Laajennettu pyyhkäisemällä toiminta</string>
+    <string name="back_swipe_extended_summary">Laukaista toiminnan laajempi pyyhkäisemällä (enemmän kuin puolet näytön koko), tai L swipe (pystysuunnassa enää riitä)</string>
     <string name="show_media_heads_up_title">Näyttää media heads up</string>
     <string name="show_media_heads_up_summary">Näyttää media heads up, kun uusi kappale on ollut, jos pelaaja ei ole jo etualalla</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Parantaa touch, kun käytät näytön suojainten</string>
+    <string name="touch_sensitivity_title">Lisää touch-herkkyys</string>
+    <string name="keywords_touch_sensitivity">koskettaa, herkkyys, herkkä, näytön suojus, elokuva -, reagoiva, reagointikykyä</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar viritys</string>
+    <string name="back_gesture_sensitivity_dialog_message">Suurempi herkkyys voi olla ristiriidassa sen kanssa minkä tahansa sovelluksen eleet pitkin reunat näytön.</string>
+    <string name="back_gesture_area_dead_zone_title">Takaisin alue kuollut alue</string>
+    <string name="back_gesture_area_dead_zone_message">Asettaa näytön alueen, jossa pyyhkäisemällä voidaan laukaista, välttää konflikteja in-app eleitä.</string>
     <string name="smallest_tick_label">Kokoruutu</string>
     <string name="greatest_tick_label">Puoli näytön</string>
+    <string name="show_gestures_navbar_title_text">Toggle navbar</string>
+    <string name="show_gestures_navbar_switch_text">Osoittavat eleet navbar</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Tilarivi akun ilmaisin</string>
+    <string name="battery_percent_summary">Määritä-kuvaketta ja tekstiä tyylejä statusbar akun ilmaisin</string>
+    <string name="status_bar_battery_style_title">Akun tyyli</string>
+    <string name="status_bar_battery_style_icon_portrait">Kuvake muotokuva</string>
+    <string name="status_bar_battery_style_circle">Ympyrä</string>
+    <string name="status_bar_battery_style_dotted_circle">Pilkullinen ympyrä</string>
+    <string name="status_bar_battery_style_filled_circle">Täytetty ympyrä</string>
+    <string name="status_bar_battery_style_text">Teksti</string>
+    <string name="status_bar_battery_style_hidden">Piilotettu</string>
+    <string name="status_bar_battery_percentage_title">Akun prosenttiosuus</string>
+    <string name="status_bar_battery_percentage_default">Piilotettu</string>
+    <string name="status_bar_battery_percentage_text_inside">Alla olevaa kuvaketta</string>
+    <string name="status_bar_battery_percentage_text_next">Kuvakkeen vieressä</string>
+    <string name="qs_battery_percentage_title">QS-akun prosenttiosuus</string>
+    <string name="qs_battery_percentage_summary">Näytä akun prosenttiosuuden QS header sijaan akku arvio</string>
 </resources>

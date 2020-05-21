@@ -236,4 +236,20 @@
     <string name="greatest_tick_label">Media pantalla</string>
     <string name="show_gestures_navbar_title_text">Cambiar barra de navegación</string>
     <string name="show_gestures_navbar_switch_text">Mostrar gestos de barra de navegación</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
+    <string name="battery_percent_summary">Configurar iconos y estilos de texto para el indicador de batería de la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Circulo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo lleno</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Ocultos</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de bateria</string>
+    <string name="status_bar_battery_percentage_default">Ocultos</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <string name="qs_battery_percentage_title">Porcentaje de batería QS</string>
+    <string name="qs_battery_percentage_summary">Mostrar porcentaje de batería en la cabecera QS en lugar de estimar la batería</string>
 </resources>

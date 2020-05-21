@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Jumătate de ecran</string>
     <string name="show_gestures_navbar_title_text">Comutare bară de navigare</string>
     <string name="show_gestures_navbar_switch_text">Arată bara de navigare gesturi</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicator baterie baterie în statusbar</string>
+    <string name="battery_percent_summary">Configurați stilurile de pictogramă și text pentru indicatorul bateriei barei de stare</string>
+    <string name="status_bar_battery_style_title">Stil baterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Pictograma portret</string>
+    <string name="status_bar_battery_style_circle">Cerc</string>
+    <string name="status_bar_battery_style_dotted_circle">Cerc punctat</string>
+    <string name="status_bar_battery_style_filled_circle">Cerc completat</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Procent baterie</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
+    <string name="status_bar_battery_percentage_text_next">Lângă pictograma</string>
+    <string name="qs_battery_percentage_title">Procentaj baterie setări rapide</string>
+    <string name="qs_battery_percentage_summary">Afișează procentajul bateriei în antetul setărilor rapide în loc de estimarea bateriei</string>
 </resources>

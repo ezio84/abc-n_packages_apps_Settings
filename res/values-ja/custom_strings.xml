@@ -60,7 +60,7 @@
     <string name="quick_pulldown_right">ステータスバーの右端をプルダウン</string>
     <string name="quick_pulldown_left">ステータスバーの左端をプルダウン</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">ライトカラー</string>
+    <string name="custom_light_title">LED の色</string>
     <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
     <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <!-- Battery light -->
@@ -219,8 +219,6 @@
     <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
     <string name="back_swipe_extended_title">拡張スワイプアクション</string>
     <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
-    <string name="gesture_navbar_browser_action_title">ブラウザの次のページ</string>
-    <string name="gesture_navbar_browser_action_summary">既定のブラウザが実行中に左スワイプを伸ばすと次のページへ行くアクションが起動します</string>
     <string name="show_media_heads_up_title">メディアの Heads Up を表示</string>
     <string name="show_media_heads_up_summary">プレイヤーが前面に準備できていない場合は、新しい曲を再生時にメディアの Heads Up を表示する。</string>
     <!-- Touch sensitivity -->
@@ -237,4 +235,20 @@
     <string name="greatest_tick_label">半画面</string>
     <string name="show_gestures_navbar_title_text">ナビゲーションバーの切替え</string>
     <string name="show_gestures_navbar_switch_text">ジェスチャーナビゲーションバーの表示</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">ステータスバーのバッテリー表示</string>
+    <string name="battery_percent_summary">ステータスバーのバッテリー表示のアイコンや文字のスタイルを変更する</string>
+    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_icon_portrait">縦アイコン</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_dotted_circle">点線の円</string>
+    <string name="status_bar_battery_style_filled_circle">塗り潰しの円</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <string name="qs_battery_percentage_title">クイック設定のバッテリー残量</string>
+    <string name="qs_battery_percentage_summary">クイック設定ヘッダーに予想稼働時間の代わりにバッテリー残量を表示する</string>
 </resources>

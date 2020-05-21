@@ -236,4 +236,20 @@
     <string name="greatest_tick_label">Половина экрана</string>
     <string name="show_gestures_navbar_title_text">Переключить панель навигации</string>
     <string name="show_gestures_navbar_switch_text">Показывать панель навигации жестов</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикатор батареи в строке состояния</string>
+    <string name="battery_percent_summary">Настроить стиль значка и текста для индикатора батареи в строке состояния</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_circle">Круглый</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг из точек</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыть</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда</string>
+    <string name="status_bar_battery_percentage_default">Скрыть</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+    <string name="qs_battery_percentage_title">Процент заряда в быстрых настройках</string>
+    <string name="qs_battery_percentage_summary">Показывать процент батареи в шторке быстрых настроек вместо рассчётного времени работы</string>
 </resources>

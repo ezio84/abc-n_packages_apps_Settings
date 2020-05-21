@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Demi-écran</string>
     <string name="show_gestures_navbar_title_text">Activer/désactiver la barre de navigation</string>
     <string name="show_gestures_navbar_switch_text">Afficher la barre de navigation des gestes</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicateur de batterie de la barre d\'état</string>
+    <string name="battery_percent_summary">Configurer les styles d\'icône et de texte pour l\'indicateur de batterie de la barre d\'état</string>
+    <string name="status_bar_battery_style_title">Style de la batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Portrait de l\'icône</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle en pointillés</string>
+    <string name="status_bar_battery_style_filled_circle">Cercle rempli</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Cachée</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Cachée</string>
+    <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
+    <string name="qs_battery_percentage_title">Pourcentage de batterie des réglages rapides</string>
+    <string name="qs_battery_percentage_summary">Afficher le pourcentage de la batterie dans l\'en-tête des réglages rapides au lieu de l\'estimation de la batterie</string>
 </resources>

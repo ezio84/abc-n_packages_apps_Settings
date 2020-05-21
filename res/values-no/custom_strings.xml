@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Halvdel av skjermen</string>
     <string name="show_gestures_navbar_title_text">Veksle navbar</string>
     <string name="show_gestures_navbar_switch_text">Vis bevegelser navnebar</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar batteriindikator</string>
+    <string name="battery_percent_summary">Konfigurer ikon og tekststiler for statuslinjebatteriindikatoren</string>
+    <string name="status_bar_battery_style_title">Batteriet stil</string>
+    <string name="status_bar_battery_style_icon_portrait">Stående batteriikon</string>
+    <string name="status_bar_battery_style_circle">Sirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Prikket sirkel</string>
+    <string name="status_bar_battery_style_filled_circle">Fylt sirkel</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Batteri prosent</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inne i ikonet</string>
+    <string name="status_bar_battery_percentage_text_next">Ved siden av ikonet</string>
+    <string name="qs_battery_percentage_title">QS batteriprosent</string>
+    <string name="qs_battery_percentage_summary">Vis batteri prosent i QS headeren i stedet for batteri estimat</string>
 </resources>

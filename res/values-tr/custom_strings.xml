@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">Seçin uzun sola uygulaması</string>
     <string name="right_swipe_actions_title">Uzun sağa kaydırın eylem</string>
     <string name="right_swipe_app_action_title">Uzun sağa kaydırın uygulamasını seçin</string>
+    <string name="left_vertical_swipe_actions_title">Dikey kaydırma eylem sol</string>
+    <string name="left_vertical_swipe_app_action_title">Seçin dikey kaydırma uygulama sol</string>
+    <string name="right_vertical_swipe_actions_title">Dikey sağa kaydırın eylem</string>
+    <string name="right_vertical_swipe_app_action_title">Seçin dikey sağa kaydırın app</string>
     <string name="gesture_nav_tweaks_footer_info">Uygulamalar seçici uygulama herhangi bir eylem için belirli bir uygulama etkinliği, uzun tuşuna basın.\n\nEğer başlatıcısı gösteriyor, eylemi tetiklemek için ekranın en alt alanda kaydırın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş tokatlamak eylem</string>
+    <string name="back_swipe_extended_summary">Yeterli dikey olarak daha geniş tokatlamak üzerinde tetik hareketi (yarım ekran boyutu daha fazla) ya da L bir tokatlamak ()</string>
     <string name="show_media_heads_up_title">Haritayı medya başlar Yukarı</string>
     <string name="show_media_heads_up_summary">Yeni bir parça çalınırken medya kafaları göstermek, eğer bir oyuncu olduğunu zaten ön planda</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Ekran koruyucuları kullanırken dokunmatik geliştirir</string>
+    <string name="touch_sensitivity_title">Artış dokunma hassasiyeti</string>
+    <string name="keywords_touch_sensitivity">dokunma, duyarlılık, duyarlı, ekran koruyucu, film, duyarlı, tepki</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Gezinti çubuğu ayarlama</string>
+    <string name="back_gesture_sensitivity_dialog_message">Yüksek hassasiyetli ekran kenarları boyunca herhangi bir uygulama hareketleri ile çakışabilir.</string>
+    <string name="back_gesture_area_dead_zone_title">Arka alanda ölü bölge</string>
+    <string name="back_gesture_area_dead_zone_message">Uygulama içi hareketleri ile çatışmaları önlemek için tokatlamak tetiklemiş olabilir ekran alanı ayarlayın.</string>
     <string name="smallest_tick_label">Tam ekran</string>
     <string name="greatest_tick_label">Yarım ekran</string>
+    <string name="show_gestures_navbar_title_text">Geçiş gezinti çubuğu</string>
+    <string name="show_gestures_navbar_switch_text">Haritayı hareketleri gezinti çubuğu</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar pil göstergesi</string>
+    <string name="battery_percent_summary">Statusbar pil göstergesi için yapılandırma simge ve metin stilleri</string>
+    <string name="status_bar_battery_style_title">Pil tarzı</string>
+    <string name="status_bar_battery_style_icon_portrait">Simge portre</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
+    <string name="status_bar_battery_style_filled_circle">Dolu Daire</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizle</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizle</string>
+    <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
+    <string name="qs_battery_percentage_title">K pil yüzdesi</string>
+    <string name="qs_battery_percentage_summary">Bu KAYNAK göster pil yüzdesi yerine pil tahmin Başlığı</string>
 </resources>

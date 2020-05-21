@@ -214,13 +214,43 @@
     <string name="left_swipe_app_action_title">Seleccioneu llarg fes lliscar el dit cap a l\'esquerra aplicació</string>
     <string name="right_swipe_actions_title">Llarg fes lliscar el dit cap a la dreta acció</string>
     <string name="right_swipe_app_action_title">Seleccioneu llarg fes lliscar el dit cap a la dreta aplicació</string>
+    <string name="left_vertical_swipe_actions_title">Verticals esquerra fes lliscar el dit cap acció</string>
+    <string name="left_vertical_swipe_app_action_title">Seleccioneu vertical esquerra, fes lliscar el dit cap aplicació</string>
+    <string name="right_vertical_swipe_actions_title">Vertical fes lliscar el dit cap a la dreta acció</string>
+    <string name="right_vertical_swipe_app_action_title">Seleccioneu vertical fes lliscar el dit cap a la dreta aplicació</string>
     <string name="gesture_nav_tweaks_footer_info">Per escollir una aplicació d\'activitat per a l\'acció, la premsa de llarg a qualsevol aplicació en les aplicacions selector.\n\nSi selector és mostrar, fer la fes lliscar el dit cap a la part inferior de la pantalla per activar l\'acció.</string>
     <string name="back_swipe_extended_title">Ampliar fes lliscar el dit cap acció</string>
+    <string name="back_swipe_extended_summary">Activar l\'acció en més ampli, fes lliscar el dit cap (més de la meitat de la mida), o bé fes lliscar el dit cap a L\' (vertical és suficient)</string>
     <string name="show_media_heads_up_title">Mostra mitjans de comunicació de la mà</string>
     <string name="show_media_heads_up_summary">Mostra mitjans de comunicació de la mà quan una nova pista es reprodueix, si el jugador no està en primer pla</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Millora toca quan s\'utilitza protectors de pantalla</string>
+    <string name="touch_sensitivity_title">Augmentar la sensibilitat tàctil</string>
+    <string name="keywords_touch_sensitivity">el tacte, la sensibilitat, sensible, protector de pantalla, el cinema, la resposta, la resposta</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar afinació</string>
+    <string name="back_gesture_sensitivity_dialog_message">Major sensibilitat poden entrar en conflicte amb qualsevol aplicació gestos al llarg de les vores de la pantalla.</string>
+    <string name="back_gesture_area_dead_zone_title">De tornada zona zona morta</string>
+    <string name="back_gesture_area_dead_zone_message">Definir l\'àrea de la pantalla, on la fes lliscar el dit cap es pot activar, per evitar conflictes amb en aplicació de gestos.</string>
     <string name="smallest_tick_label">Pantalla completa</string>
     <string name="greatest_tick_label">La meitat de la pantalla</string>
+    <string name="show_gestures_navbar_title_text">Canviar navbar</string>
+    <string name="show_gestures_navbar_switch_text">Mostrar gestos navbar</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">La barra d\'estat de la bateria indicador</string>
+    <string name="battery_percent_summary">Configurar icona i estils de text de la barra d\'estat de la bateria indicador</string>
+    <string name="status_bar_battery_style_title">Bateria d\'estil</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona retrat</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle puntejat</string>
+    <string name="status_bar_battery_style_filled_circle">Ple del cercle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ocult</string>
+    <string name="status_bar_battery_percentage_title">Bateria percentatge</string>
+    <string name="status_bar_battery_percentage_default">Ocult</string>
+    <string name="status_bar_battery_percentage_text_inside">Dins la icona</string>
+    <string name="status_bar_battery_percentage_text_next">Al costat de la icona</string>
+    <string name="qs_battery_percentage_title">QS bateria percentatge</string>
+    <string name="qs_battery_percentage_summary">Mostra bateria percentatge en el QS capçalera en lloc de bateria estimació</string>
 </resources>

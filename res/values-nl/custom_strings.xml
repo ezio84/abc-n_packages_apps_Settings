@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">Halve scherm</string>
     <string name="show_gestures_navbar_title_text">Navigatiebalk in-/uitschakelen</string>
     <string name="show_gestures_navbar_switch_text">Toon gebaren navigatiebalk</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbalk batterij indicator</string>
+    <string name="battery_percent_summary">Configureer icoon en tekst stijlen voor de statusbalk batterij indicator</string>
+    <string name="status_bar_battery_style_title">Batterij stijl</string>
+    <string name="status_bar_battery_style_icon_portrait">Pictogram (staand)</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Gestippelde cirkel</string>
+    <string name="status_bar_battery_style_filled_circle">Gevulde cirkel</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Verborgen</string>
+    <string name="status_bar_battery_percentage_title">Accupercentage</string>
+    <string name="status_bar_battery_percentage_default">Verborgen</string>
+    <string name="status_bar_battery_percentage_text_inside">In het pictogram</string>
+    <string name="status_bar_battery_percentage_text_next">Naast het pictogram</string>
+    <string name="qs_battery_percentage_title">QS accu percentage</string>
+    <string name="qs_battery_percentage_summary">Accupercentage weergeven in de QS header in plaats van de schatting van de accu</string>
 </resources>

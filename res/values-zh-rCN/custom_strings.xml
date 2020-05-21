@@ -235,4 +235,20 @@
     <string name="greatest_tick_label">半屏幕</string>
     <string name="show_gestures_navbar_title_text">切换导航栏</string>
     <string name="show_gestures_navbar_switch_text">显示手势导航栏</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">状态栏电池指示器</string>
+    <string name="battery_percent_summary">配置状态栏电量指示图标和文本样式</string>
+    <string name="status_bar_battery_style_title">电量样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖屏图标</string>
+    <string name="status_bar_battery_style_circle">环状图标</string>
+    <string name="status_bar_battery_style_dotted_circle">环形虚线</string>
+    <string name="status_bar_battery_style_filled_circle">填充圆</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">图标旁</string>
+    <string name="qs_battery_percentage_title">快速设置电池百分比</string>
+    <string name="qs_battery_percentage_summary">在快速设置顶部显示电量百分比而不是电量估计</string>
 </resources>

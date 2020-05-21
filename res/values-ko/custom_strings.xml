@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">선택 긴 와이프 앱</string>
     <string name="right_swipe_actions_title">오래 오른쪽으로 밀어 작업</string>
     <string name="right_swipe_app_action_title">선택 긴로그</string>
+    <string name="left_vertical_swipe_actions_title">수직 와이프 조치</string>
+    <string name="left_vertical_swipe_app_action_title">선택하 수직으로 왼쪽으로 스와이프 앱</string>
+    <string name="right_vertical_swipe_actions_title">수직 오른쪽으로 밀어 작업</string>
+    <string name="right_vertical_swipe_app_action_title">선택하 수직 오른쪽으로 스와이프 앱</string>
     <string name="gesture_nav_tweaks_footer_info">선택하는 특정 응용 프로그램 활동에 대한 액션,길게 누르면 모든 응용 프로그램에서 앱을 선택합니다.\n\n경우 런처를 보여주는,하프에서 매우 아래 화면의 영역을 트리거합니다.</string>
     <string name="back_swipe_extended_title">확장 슬쩍 작업</string>
+    <string name="back_swipe_extended_summary">트리거 동작에 더 넓은 와이프(의 절반 이상이 디스플레이 크기),또는 L 강타(세로로 충분히 더 이상)</string>
     <string name="show_media_heads_up_title">쇼 미디어 헤드</string>
     <string name="show_media_heads_up_summary">쇼 미디어 머리를 때 새로운 트랙을 재생하는 경우,플레이어미에서 전경</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">개선을 터치할 때 사용하여 스크린 보호자</string>
+    <string name="touch_sensitivity_title">증가하는 터치 민감도</string>
+    <string name="keywords_touch_sensitivity">터치 민감도,구분,스크린 보호자,영화,응답성,응답성</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">메뉴 바 조정</string>
+    <string name="back_gesture_sensitivity_dialog_message">높은 민감도와 충돌할 수 있습니다 앱 어떤 제스처의 가장자리를 따라 화면입니다.</string>
+    <string name="back_gesture_area_dead_zone_title">다시 영역 죽은 지역</string>
+    <string name="back_gesture_area_dead_zone_message">설정 화면의 영역을 강타 트리거 될 수 있습니다,충돌을 방지하기 위해 응용 프로그램 내 몸짓입니다.</string>
     <string name="smallest_tick_label">전체 화면</string>
     <string name="greatest_tick_label">반면</string>
+    <string name="show_gestures_navbar_title_text">Toggle 메뉴 바</string>
+    <string name="show_gestures_navbar_switch_text">쇼 제스처 메뉴 바</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">배터리 표시 상태 표시</string>
+    <string name="battery_percent_summary">구성 스타일 아이콘 및 텍스트에 대한 배터리 표시 상태 표시</string>
+    <string name="status_bar_battery_style_title">배터리 스타일</string>
+    <string name="status_bar_battery_style_icon_portrait">아이콘이 초상화</string>
+    <string name="status_bar_battery_style_circle">원</string>
+    <string name="status_bar_battery_style_dotted_circle">점 원</string>
+    <string name="status_bar_battery_style_filled_circle">가득한 원</string>
+    <string name="status_bar_battery_style_text">텍스트</string>
+    <string name="status_bar_battery_style_hidden">숨겨진</string>
+    <string name="status_bar_battery_percentage_title">배터리</string>
+    <string name="status_bar_battery_percentage_default">숨겨진</string>
+    <string name="status_bar_battery_percentage_text_inside">내부에 아이콘</string>
+    <string name="status_bar_battery_percentage_text_next">다음 아이콘</string>
+    <string name="qs_battery_percentage_title">QS 비율 배터리</string>
+    <string name="qs_battery_percentage_summary">배터리 잔량 표시에 QS 헤더는 대신 배터리 예측</string>
 </resources>

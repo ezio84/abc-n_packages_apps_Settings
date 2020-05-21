@@ -212,13 +212,43 @@
     <string name="left_swipe_app_action_title">Chọn lâu dài trái vuốt ứng dụng</string>
     <string name="right_swipe_actions_title">Lâu đúng vuốt hành động</string>
     <string name="right_swipe_app_action_title">Chọn dài phải vuốt ứng dụng</string>
+    <string name="left_vertical_swipe_actions_title">Dọc trái vuốt hành động</string>
+    <string name="left_vertical_swipe_app_action_title">Chọn dọc trái vuốt ứng dụng</string>
+    <string name="right_vertical_swipe_actions_title">Đứng ngay vuốt hành động</string>
+    <string name="right_vertical_swipe_app_action_title">Chọn dọc phải vuốt ứng dụng</string>
     <string name="gesture_nav_tweaks_footer_info">Để chọn một ứng dụng cụ thể hoạt động cho những hành động, báo chí trên bất kỳ ứng dụng trong các ứng dụng chọn.\n\nNếu phóng đang làm trượt xuống đáy vực của màn hình để kích hoạt các hành động.</string>
     <string name="back_swipe_extended_title">Mở rộng vuốt hành động</string>
+    <string name="back_swipe_extended_summary">Kích hoạt động trên rộng hơn vuốt (hơn một nửa của màn hình kích thước), hoặc một L vuốt (theo chiều dọc còn đủ)</string>
     <string name="show_media_heads_up_title">Show truyền thông heads up</string>
     <string name="show_media_heads_up_summary">Show truyền thông đứng lên khi một ca khúc mới được chơi, nếu các người đã không ở phía sau</string>
     <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Cải thiện cảm khi sử dụng bảo vệ màn hình</string>
+    <string name="touch_sensitivity_title">Tăng độ nhạy cảm ứng</string>
+    <string name="keywords_touch_sensitivity">cảm, nhạy cảm, nhạy cảm, bảo vệ, phim, đáp ứng đáp ứng</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Đi chỉnh</string>
+    <string name="back_gesture_sensitivity_dialog_message">Cao hơn nhạy có thể xung đột với bất cứ ứng cử chỉ dọc theo cạnh của màn hình.</string>
+    <string name="back_gesture_area_dead_zone_title">Trở lại khu vực vùng chết</string>
+    <string name="back_gesture_area_dead_zone_message">Thiết lập khu vực của màn hình mà các vuốt có thể được kích hoạt, để tránh xung đột với ứng cử chỉ.</string>
     <string name="smallest_tick_label">Màn hình đầy đủ</string>
     <string name="greatest_tick_label">Một nửa màn hình</string>
+    <string name="show_gestures_navbar_title_text">Chuyển đi</string>
+    <string name="show_gestures_navbar_switch_text">Hiển thị cử chỉ đi</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Trạng thái pin</string>
+    <string name="battery_percent_summary">Cấu hình biểu tượng và phong cách văn bản cho trạng thái pin</string>
+    <string name="status_bar_battery_style_title">Pin phong cách</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn đầy</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Pin phần trăm</string>
+    <string name="status_bar_battery_percentage_default">Ẩn</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong các biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Tiếp đến là biểu tượng</string>
+    <string name="qs_battery_percentage_title">QS phần trăm pin</string>
+    <string name="qs_battery_percentage_summary">Hiện phần trăm pin ở south carolina state đầu thay pin ước tính</string>
 </resources>
