@@ -285,10 +285,11 @@
 
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="pulse_cat_title">Pulse equalizer</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer</string>
     <string name="show_pulse_title">Show Pulse</string>
-    <string name="show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_pulse_summary">Audio graphic equalizer on the navigation bar area, even if nagivation bar is hidden</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
@@ -297,6 +298,7 @@
     <string name="pulse_color_accent">Accent</string>
     <string name="pulse_color_custom">Custom</string>
     <string name="pulse_color_lava_lamp">Lava lamp</string>
+    <string name="pulse_color_auto">Album art</string>
     <string name="pulse_color_chooser">Choose color</string>
     <string name="smoothing_enabled_title">Turn on smoothing</string>
     <string name="smoothing_enabled_summary">Each bar is animated more smoothly</string>
