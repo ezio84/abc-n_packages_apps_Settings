@@ -289,7 +289,7 @@
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio graphic equalizer</string>
     <string name="show_pulse_title">Show Pulse</string>
-    <string name="show_pulse_summary">Audio graphic equalizer on the navigation bar area, even if nagivation bar is hidden</string>
+    <string name="show_pulse_summary">Audio graphic equalizer in the navigation bar area, even if the bar is hidden</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
