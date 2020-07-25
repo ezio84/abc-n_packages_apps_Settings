@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Langs die ikoon</string>
     <string name="qs_battery_percentage_title">QS battery persentasie</string>
     <string name="qs_battery_percentage_summary">Wys battery persentasie in die QS kop in plaas van die battery skat</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pols nie werk nie met\'n paar klank bronne toe te luister op die toestel spreker</string>
+    <string name="pulse_cat_title">Pols gelykmaker</string>
+    <string name="pulse_settings">Pols</string>
+    <string name="pulse_settings_summary">Klank grafiese gelykmaker</string>
+    <string name="show_pulse_title">Wys Pols</string>
+    <string name="show_pulse_summary">Klank grafiese gelykmaker op die navigasie bar area, selfs as navigasie bar is verborge</string>
+    <string name="pulse_render_mode_title">Lewer af</string>
+    <string name="pulse_render_mode_fading_bars">Vervaag blokke</string>
+    <string name="pulse_render_mode_solid_lines">Soliede lyne</string>
+    <string name="pulse_color">Kleur</string>
+    <string name="pulse_color_mode">Kleur af</string>
+    <string name="pulse_color_accent">Aksent</string>
+    <string name="pulse_color_custom">Persoonlike</string>
+    <string name="pulse_color_lava_lamp">Lava lamp</string>
+    <string name="pulse_color_auto">- Album kuns</string>
+    <string name="pulse_color_chooser">Kies kleur</string>
+    <string name="smoothing_enabled_title">Draai op die gladheid</string>
+    <string name="smoothing_enabled_summary">Elke bar is geanimeerde meer glad verloop</string>
+    <string name="pulse_advanced_category">Gevorderd</string>
+    <string name="pulse_legacy_mode_advanced_category">Vervaag blokke af instellings</string>
+    <string name="pulse_custom_fudge_factor">Gesonde verstand vlak</string>
+    <string name="lavamp_speed_title">Lava lamp spoed</string>
+    <string name="pulse_solid_units_count">Soliede lyne tel</string>
+    <string name="pulse_solid_units_opacity">Soliede lyne dekking</string>
+    <string name="pulse_solid_dimen_category">Soliede lyne af instellings</string>
+    <string name="pulse_custom_dimen">Bar breedte</string>
+    <string name="pulse_custom_div">Bar spasiëring</string>
+    <string name="pulse_filled_block_size">Blok grootte</string>
+    <string name="pulse_empty_block_size">Blok spasiëring</string>
 </resources>

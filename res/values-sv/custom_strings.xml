@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Bredvid ikonen</string>
     <string name="qs_battery_percentage_title">QS batteri procent</string>
     <string name="qs_battery_percentage_summary">Visa batteriprocent i QS-huvudet istället för batteriets uppskattning</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulsen inte fungerar med vissa ljudkällor när man lyssnar på enhetens högtalare</string>
+    <string name="pulse_cat_title">Puls equalizer</string>
+    <string name="pulse_settings">Puls</string>
+    <string name="pulse_settings_summary">Ljud grafisk equalizer</string>
+    <string name="show_pulse_title">Visa Puls</string>
+    <string name="show_pulse_summary">Ljud grafisk equalizer på navigation bar område, även om navigation bar är dold</string>
+    <string name="pulse_render_mode_title">Gör läge</string>
+    <string name="pulse_render_mode_fading_bars">Blekning block</string>
+    <string name="pulse_render_mode_solid_lines">Heldragna linjer</string>
+    <string name="pulse_color">Färg</string>
+    <string name="pulse_color_mode">Färgläge</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Anpassade</string>
+    <string name="pulse_color_lava_lamp">Lava lampa</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Välj färg</string>
+    <string name="smoothing_enabled_title">Slå på utjämning</string>
+    <string name="smoothing_enabled_summary">Varje bar är animerade på ett smidigare sätt</string>
+    <string name="pulse_advanced_category">Mipangilio ya kina</string>
+    <string name="pulse_legacy_mode_advanced_category">Blekning kvarter läge inställningar</string>
+    <string name="pulse_custom_fudge_factor">Sanity nivå</string>
+    <string name="lavamp_speed_title">Lava lampa hastighet</string>
+    <string name="pulse_solid_units_count">Heldragna linjer räknas</string>
+    <string name="pulse_solid_units_opacity">Heldragna linjer opacitet</string>
+    <string name="pulse_solid_dimen_category">Heldragna linjer mode settings</string>
+    <string name="pulse_custom_dimen">Bar bredd</string>
+    <string name="pulse_custom_div">Bar avstånd</string>
+    <string name="pulse_filled_block_size">Block storlek</string>
+    <string name="pulse_empty_block_size">Blockera avstånd</string>
 </resources>

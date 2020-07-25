@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
     <string name="qs_battery_percentage_title">Porcentagem da bateria</string>
     <string name="qs_battery_percentage_summary">Mostrar porcentagem da bateria nas configurações rápidas do cabeçalho ao invés da estimativa da bateria</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulso não funciona com algumas fontes de áudio ao ouvir no dispositivo de alto-falante</string>
+    <string name="pulse_cat_title">Pulso equalizador</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Áudio equalizador gráfico</string>
+    <string name="show_pulse_title">Mostrar Pulso</string>
+    <string name="show_pulse_summary">Áudio equalizador gráfico na barra de navegação área, mesmo se a barra de navegação está escondido</string>
+    <string name="pulse_render_mode_title">Modo de Renderização</string>
+    <string name="pulse_render_mode_fading_bars">Blocos de desvanecimento</string>
+    <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
+    <string name="pulse_color">Cor</string>
+    <string name="pulse_color_mode">Modo de cor</string>
+    <string name="pulse_color_accent">Acento</string>
+    <string name="pulse_color_custom">Personalizado</string>
+    <string name="pulse_color_lava_lamp">Lâmpada da Lava</string>
+    <string name="pulse_color_auto">A arte do álbum</string>
+    <string name="pulse_color_chooser">Escolher cor</string>
+    <string name="smoothing_enabled_title">Ativar a suavização</string>
+    <string name="smoothing_enabled_summary">Cada barra é de animação mais suave</string>
+    <string name="pulse_advanced_category">Avançado</string>
+    <string name="pulse_legacy_mode_advanced_category">Configurações do modo de blocos desvanecentes</string>
+    <string name="pulse_custom_fudge_factor">Visualizador do Nível de sanidade</string>
+    <string name="lavamp_speed_title">Lâmpada de Lava velocidade</string>
+    <string name="pulse_solid_units_count">Contador de linhas sólidas</string>
+    <string name="pulse_solid_units_opacity">Opacidade das linhas sólidas</string>
+    <string name="pulse_solid_dimen_category">Personalização das linhas sólidas</string>
+    <string name="pulse_custom_dimen">Largura da barra</string>
+    <string name="pulse_custom_div">Espaçamento da Barra Pulse</string>
+    <string name="pulse_filled_block_size">Tamanho do Bloco</string>
+    <string name="pulse_empty_block_size">Espaçamento do Bloco</string>
 </resources>

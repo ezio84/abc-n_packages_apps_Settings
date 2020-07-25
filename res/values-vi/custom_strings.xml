@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Tiếp đến là biểu tượng</string>
     <string name="qs_battery_percentage_title">QS phần trăm pin</string>
     <string name="qs_battery_percentage_summary">Hiện phần trăm pin ở south carolina state đầu thay pin ước tính</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Xung không làm việc với một số nguồn âm thanh khi nghe thiết bị trên loa</string>
+    <string name="pulse_cat_title">Xung cân bằng</string>
+    <string name="pulse_settings">Xung</string>
+    <string name="pulse_settings_summary">Âm thanh cân bằng đồ họa</string>
+    <string name="show_pulse_title">Chương Trình Xung</string>
+    <string name="show_pulse_summary">Âm thanh cân bằng đồ họa về hướng vực bar, thậm chí nếu chuyển hướng được</string>
+    <string name="pulse_render_mode_title">Làm cho chế độ</string>
+    <string name="pulse_render_mode_fading_bars">Mờ dần khối</string>
+    <string name="pulse_render_mode_solid_lines">Dòng rắn</string>
+    <string name="pulse_color">Màu sắc</string>
+    <string name="pulse_color_mode">Chế độ màu</string>
+    <string name="pulse_color_accent">Giọng</string>
+    <string name="pulse_color_custom">Tuỳ</string>
+    <string name="pulse_color_lava_lamp">Đèn dung nham</string>
+    <string name="pulse_color_auto">Album nghệ thuật</string>
+    <string name="pulse_color_chooser">Chọn màu</string>
+    <string name="smoothing_enabled_title">Bật mịn</string>
+    <string name="smoothing_enabled_summary">Mỗi thanh thông suốt hơn là phim hoạt hình</string>
+    <string name="pulse_advanced_category">Nâng cao</string>
+    <string name="pulse_legacy_mode_advanced_category">Mờ dần khối cài đặt chế độ</string>
+    <string name="pulse_custom_fudge_factor">Tỉnh táo</string>
+    <string name="lavamp_speed_title">Dung nham đèn tốc độ</string>
+    <string name="pulse_solid_units_count">Rắn dòng đếm</string>
+    <string name="pulse_solid_units_opacity">Rắn đường nét mờ</string>
+    <string name="pulse_solid_dimen_category">Rắn dòng cài đặt chế độ</string>
+    <string name="pulse_custom_dimen">Thanh rộng</string>
+    <string name="pulse_custom_div">Thanh khoảng cách</string>
+    <string name="pulse_filled_block_size">Kích thước khối</string>
+    <string name="pulse_empty_block_size">Khối khoảng cách</string>
 </resources>

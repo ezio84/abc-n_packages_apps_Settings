@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Lângă pictograma</string>
     <string name="qs_battery_percentage_title">Procentaj baterie setări rapide</string>
     <string name="qs_battery_percentage_summary">Afișează procentajul bateriei în antetul setărilor rapide în loc de estimarea bateriei</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulsul nu funcționează cu unele surse audio atunci când ascultați la difuzor dispozitiv</string>
+    <string name="pulse_cat_title">Pulsul egalizator</string>
+    <string name="pulse_settings">Puls</string>
+    <string name="pulse_settings_summary">Audio egalizator grafic</string>
+    <string name="show_pulse_title">Show-Puls</string>
+    <string name="show_pulse_summary">Audio egalizator grafic pe bara de navigare din zonă, chiar dacă bara de navigare este ascuns</string>
+    <string name="pulse_render_mode_title">Modul de randare</string>
+    <string name="pulse_render_mode_fading_bars">Decolorare blocuri</string>
+    <string name="pulse_render_mode_solid_lines">Linii solide</string>
+    <string name="pulse_color">Culoare</string>
+    <string name="pulse_color_mode">Modul de culoare</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Personalizate</string>
+    <string name="pulse_color_lava_lamp">Lampă de lavă</string>
+    <string name="pulse_color_auto">Album de arta</string>
+    <string name="pulse_color_chooser">Alege culoarea</string>
+    <string name="smoothing_enabled_title">Porniți de netezire</string>
+    <string name="smoothing_enabled_summary">Fiecare bara este animat mai lin</string>
+    <string name="pulse_advanced_category">Avansate</string>
+    <string name="pulse_legacy_mode_advanced_category">Decolorare blocuri modul de setări</string>
+    <string name="pulse_custom_fudge_factor">Nivel bun-simț</string>
+    <string name="lavamp_speed_title">Lampă de lavă viteza</string>
+    <string name="pulse_solid_units_count">Linii solide conta</string>
+    <string name="pulse_solid_units_opacity">Linii solide opacitate</string>
+    <string name="pulse_solid_dimen_category">Linii solide modul de setări</string>
+    <string name="pulse_custom_dimen">Bar lățime</string>
+    <string name="pulse_custom_div">Spațiere Bar</string>
+    <string name="pulse_filled_block_size">Dimensiune bloc</string>
+    <string name="pulse_empty_block_size">Bloc spațiere</string>
 </resources>

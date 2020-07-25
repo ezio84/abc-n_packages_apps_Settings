@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
     <string name="qs_battery_percentage_title">Pourcentage de batterie des réglages rapides</string>
     <string name="qs_battery_percentage_summary">Afficher le pourcentage de la batterie dans l\'en-tête des réglages rapides au lieu de l\'estimation de la batterie</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">L\'impulsion ne fonctionne pas avec certaines sources audio lors de l\'écoute sur haut-parleur de l\'appareil</string>
+    <string name="pulse_cat_title">L\'impulsion de l\'égaliseur</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audio de l\'égaliseur graphique</string>
+    <string name="show_pulse_title">Montrer Impulsion</string>
+    <string name="show_pulse_summary">Audio de l\'égaliseur graphique sur la barre de navigation de la zone, même si la barre de navigation est caché</string>
+    <string name="pulse_render_mode_title">Mode de Rendu</string>
+    <string name="pulse_render_mode_fading_bars">Blocs délavés</string>
+    <string name="pulse_render_mode_solid_lines">Lignes pleines</string>
+    <string name="pulse_color">Couleur</string>
+    <string name="pulse_color_mode">Mode couleur</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Personnalisé</string>
+    <string name="pulse_color_lava_lamp">Lampe à lave</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Choisissez la couleur</string>
+    <string name="smoothing_enabled_title">Tourner sur le lissage</string>
+    <string name="smoothing_enabled_summary">Chaque barre est animé de manière plus fluide</string>
+    <string name="pulse_advanced_category">Avancées</string>
+    <string name="pulse_legacy_mode_advanced_category">Réglages du rendu en blocs</string>
+    <string name="pulse_custom_fudge_factor">Niv. de sensibilité de l\'égaliseur</string>
+    <string name="lavamp_speed_title">Lampe à lave vitesse</string>
+    <string name="pulse_solid_units_count">Nombre de lignes</string>
+    <string name="pulse_solid_units_opacity">Opacité des lignes</string>
+    <string name="pulse_solid_dimen_category">Réglages du rendu en lignes pleines</string>
+    <string name="pulse_custom_dimen">La largeur de la barre</string>
+    <string name="pulse_custom_div">Espacement des barres</string>
+    <string name="pulse_filled_block_size">Taille des blocs</string>
+    <string name="pulse_empty_block_size">Espacement des blocs</string>
 </resources>

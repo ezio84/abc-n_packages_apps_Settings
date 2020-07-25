@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
     <string name="qs_battery_percentage_title">Procent baterii szybkich ustawień</string>
     <string name="qs_battery_percentage_summary">Pokaż procent baterii w nagłówku Szybkich Ustawień zamiast szacunków baterii</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Puls nie działać z niektórymi źródłami dźwięku podczas słuchania na głośnik</string>
+    <string name="pulse_cat_title">Impulsowe korektor</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audio korektor graficzny</string>
+    <string name="show_pulse_title">Pokazują Puls</string>
+    <string name="show_pulse_summary">Audio korektor graficzny w okienku nawigacji, nawet jeśli okienko nawigacji jest ukryty</string>
+    <string name="pulse_render_mode_title">Tryb renderowania</string>
+    <string name="pulse_render_mode_fading_bars">Zanikanie bloków</string>
+    <string name="pulse_render_mode_solid_lines">Linie ciągłe</string>
+    <string name="pulse_color">Kolor</string>
+    <string name="pulse_color_mode">Tryb kolorów</string>
+    <string name="pulse_color_accent">Akcent</string>
+    <string name="pulse_color_custom">Zamówienie</string>
+    <string name="pulse_color_lava_lamp">Lampa lawa</string>
+    <string name="pulse_color_auto">Okładka albumu</string>
+    <string name="pulse_color_chooser">Wybrać kolor</string>
+    <string name="smoothing_enabled_title">Włączenie wygładzania</string>
+    <string name="smoothing_enabled_summary">Każdy bar animowanych bardziej gładko</string>
+    <string name="pulse_advanced_category">Zaawansowane</string>
+    <string name="pulse_legacy_mode_advanced_category">Ustawienia trybu zanikania</string>
+    <string name="pulse_custom_fudge_factor">Poziom szaleństwa</string>
+    <string name="lavamp_speed_title">Prędkość Лавовая lampa</string>
+    <string name="pulse_solid_units_count">Liczba stałych linii</string>
+    <string name="pulse_solid_units_opacity">Przezroczystość stałych linii</string>
+    <string name="pulse_solid_dimen_category">Ustawienia trybu linii ciągłych</string>
+    <string name="pulse_custom_dimen">Szerokość bar</string>
+    <string name="pulse_custom_div">Odstęp</string>
+    <string name="pulse_filled_block_size">Rozmiar bloku</string>
+    <string name="pulse_empty_block_size">Odstępy w bloku</string>
 </resources>

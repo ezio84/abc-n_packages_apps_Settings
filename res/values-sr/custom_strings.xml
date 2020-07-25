@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Поред иконе</string>
     <string name="qs_battery_percentage_title">СОЗ проценат батерије</string>
     <string name="qs_battery_percentage_summary">Схов проценат батерије у СОЗ заглавља уместо да процени батерију</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Пулс неће радити са неким извора звука када слушате на звучник уређаја</string>
+    <string name="pulse_cat_title">Пулс еквилајзер</string>
+    <string name="pulse_settings">Пулс</string>
+    <string name="pulse_settings_summary">Аудио графички еквилајзер</string>
+    <string name="show_pulse_title">Показују Пулс</string>
+    <string name="show_pulse_summary">Аудио графички еквилајзер на области пловидбе, чак и ако навигациони панел сакривен</string>
+    <string name="pulse_render_mode_title">Режим визуелизације</string>
+    <string name="pulse_render_mode_fading_bars">Огреботине блокова</string>
+    <string name="pulse_render_mode_solid_lines">Чврсте линије</string>
+    <string name="pulse_color">Боја</string>
+    <string name="pulse_color_mode">Режим боја</string>
+    <string name="pulse_color_accent">Акценат</string>
+    <string name="pulse_color_custom">Налог</string>
+    <string name="pulse_color_lava_lamp">Лава лампе</string>
+    <string name="pulse_color_auto">Омот албума</string>
+    <string name="pulse_color_chooser">Изаберите боју</string>
+    <string name="smoothing_enabled_title">Укључивање равнање</string>
+    <string name="smoothing_enabled_summary">Сваки бар анимираних више глатко</string>
+    <string name="pulse_advanced_category">Напредна подешавања</string>
+    <string name="pulse_legacy_mode_advanced_category">Тающие блокови подешавања режим</string>
+    <string name="pulse_custom_fudge_factor">Ниво вменяемости</string>
+    <string name="lavamp_speed_title">Брзина Лавовая лампа</string>
+    <string name="pulse_solid_units_count">Чврсте линије графа</string>
+    <string name="pulse_solid_units_opacity">Чврсте линије провидност</string>
+    <string name="pulse_solid_dimen_category">Чврсте линије подешавања режим</string>
+    <string name="pulse_custom_dimen">Ширина бар</string>
+    <string name="pulse_custom_div">Дистанционирование адвокатске класе</string>
+    <string name="pulse_filled_block_size">Величина блока</string>
+    <string name="pulse_empty_block_size">Блок дистанционирования</string>
 </resources>

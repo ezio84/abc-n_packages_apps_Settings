@@ -252,4 +252,34 @@
     <string name="status_bar_battery_percentage_text_next">Ved siden af ikonet</string>
     <string name="qs_battery_percentage_title">QS batteri procentdel</string>
     <string name="qs_battery_percentage_summary">Vis batteri procentdel i QS header i stedet for batteriet skøn</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Puls virker ikke med nogle lydkilder, når du lytter på højttaler enhed</string>
+    <string name="pulse_cat_title">Puls equalizer</string>
+    <string name="pulse_settings">Puls</string>
+    <string name="pulse_settings_summary">Audio grafisk equalizer</string>
+    <string name="show_pulse_title">Vis Puls</string>
+    <string name="show_pulse_summary">Lyd grafiske equalizer på navigations-bar-område, selv om navigation bar er skjult</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blokke</string>
+    <string name="pulse_render_mode_solid_lines">Fuldt optrukne linjer</string>
+    <string name="pulse_color">Farve</string>
+    <string name="pulse_color_mode">Color mode</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Brugerdefineret</string>
+    <string name="pulse_color_lava_lamp">Lava lampe</string>
+    <string name="pulse_color_auto">Album-Cover</string>
+    <string name="pulse_color_chooser">Vælg farve</string>
+    <string name="smoothing_enabled_title">Slå udjævning</string>
+    <string name="smoothing_enabled_summary">Hver bar er animeret mere gnidningsløst</string>
+    <string name="pulse_advanced_category">Avanceret</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blokke mode indstillinger</string>
+    <string name="pulse_custom_fudge_factor">Sanity niveau</string>
+    <string name="lavamp_speed_title">Lava lampe hastighed</string>
+    <string name="pulse_solid_units_count">Fuldt optrukne linjer tæller</string>
+    <string name="pulse_solid_units_opacity">Fuldt optrukne linjer opacitet</string>
+    <string name="pulse_solid_dimen_category">Fuldt optrukne linjer mode indstillinger</string>
+    <string name="pulse_custom_dimen">Bar bredde</string>
+    <string name="pulse_custom_div">Bar afstand</string>
+    <string name="pulse_filled_block_size">Blok størrelse</string>
+    <string name="pulse_empty_block_size">Blok afstand</string>
 </resources>

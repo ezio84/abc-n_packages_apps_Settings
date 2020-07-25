@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Поруч із значком</string>
     <string name="qs_battery_percentage_title">Відсоток заряду батареї</string>
     <string name="qs_battery_percentage_summary">Показувати відсоток заряду батареї в заголовку QS замість орієнтації батареї</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Пульс не працювати з деякими джерелами звуку при прослуховуванні на динамік пристрою</string>
+    <string name="pulse_cat_title">Імпульсний еквалайзер</string>
+    <string name="pulse_settings">Пульс</string>
+    <string name="pulse_settings_summary">Аудіо графічний еквалайзер</string>
+    <string name="show_pulse_title">Показують Пульс</string>
+    <string name="show_pulse_summary">Аудіо графічний еквалайзер на панелі навігації, навіть якщо навігаційна панель прихована</string>
+    <string name="pulse_render_mode_title">Режим візуалізації</string>
+    <string name="pulse_render_mode_fading_bars">Потертості блоків</string>
+    <string name="pulse_render_mode_solid_lines">Суцільні лінії</string>
+    <string name="pulse_color">Колір</string>
+    <string name="pulse_color_mode">Колірний режим</string>
+    <string name="pulse_color_accent">Акцент</string>
+    <string name="pulse_color_custom">Замовлення</string>
+    <string name="pulse_color_lava_lamp">Світильник лави</string>
+    <string name="pulse_color_auto">Обкладинка альбому</string>
+    <string name="pulse_color_chooser">Вибрати колір</string>
+    <string name="smoothing_enabled_title">Включення згладжування</string>
+    <string name="smoothing_enabled_summary">Кожен бар анімованих більш гладко</string>
+    <string name="pulse_advanced_category">Розширені</string>
+    <string name="pulse_legacy_mode_advanced_category">Тануть блоки налаштування режим</string>
+    <string name="pulse_custom_fudge_factor">Рівень осудності</string>
+    <string name="lavamp_speed_title">Швидкість Лавовая лампа</string>
+    <string name="pulse_solid_units_count">Суцільні лінії графа</string>
+    <string name="pulse_solid_units_opacity">Суцільні лінії непрозорість</string>
+    <string name="pulse_solid_dimen_category">Суцільні лінії налаштування режим</string>
+    <string name="pulse_custom_dimen">Ширина бар</string>
+    <string name="pulse_custom_div">Дистанціювання адвокатського стану</string>
+    <string name="pulse_filled_block_size">Розмір блоку</string>
+    <string name="pulse_empty_block_size">Блок дистанционирования</string>
 </resources>

@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
     <string name="qs_battery_percentage_title">QS akkumulátor százalékos</string>
     <string name="qs_battery_percentage_summary">Kijelzi az akku százalékos a QS fejléc, ahelyett, hogy az akkumulátor becsült</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulzus nem működik néhány audio források, ha hallgat a készülék hangszóró</string>
+    <string name="pulse_cat_title">Pulzus equalizer</string>
+    <string name="pulse_settings">Pulzus</string>
+    <string name="pulse_settings_summary">Audio grafikus equalizer</string>
+    <string name="show_pulse_title">Mutasd Meg Pulzus</string>
+    <string name="show_pulse_summary">Audio grafikus equalizer a navigációs sávon a területen, még akkor is, ha a navigációs sáv el van rejtve</string>
+    <string name="pulse_render_mode_title">Render mód</string>
+    <string name="pulse_render_mode_fading_bars">Halványuló blokkok</string>
+    <string name="pulse_render_mode_solid_lines">Szilárd vonalak</string>
+    <string name="pulse_color">Szín</string>
+    <string name="pulse_color_mode">Szín mód</string>
+    <string name="pulse_color_accent">Akcentus</string>
+    <string name="pulse_color_custom">Egyéni</string>
+    <string name="pulse_color_lava_lamp">Láva lámpa</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Válasszon színt</string>
+    <string name="smoothing_enabled_title">Kapcsolja be a simítás</string>
+    <string name="smoothing_enabled_summary">Minden bár, animációs simábban</string>
+    <string name="pulse_advanced_category">Speciális</string>
+    <string name="pulse_legacy_mode_advanced_category">Halványuló blokk mód beállításai</string>
+    <string name="pulse_custom_fudge_factor">Józanság szint</string>
+    <string name="lavamp_speed_title">Láva lámpa sebesség</string>
+    <string name="pulse_solid_units_count">Szilárd vonalak szám</string>
+    <string name="pulse_solid_units_opacity">Szilárd vonalak homály</string>
+    <string name="pulse_solid_dimen_category">A szilárd vonal az üzemmód-beállítások</string>
+    <string name="pulse_custom_dimen">Bár szélesség</string>
+    <string name="pulse_custom_div">Bár távolság</string>
+    <string name="pulse_filled_block_size">Blokk mérete</string>
+    <string name="pulse_empty_block_size">Blokk távolság</string>
 </resources>

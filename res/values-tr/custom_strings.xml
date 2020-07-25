@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
     <string name="qs_battery_percentage_title">K pil yüzdesi</string>
     <string name="qs_battery_percentage_summary">Bu KAYNAK göster pil yüzdesi yerine pil tahmin Başlığı</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Sinyal cihazı hoparlör dinlerken bazı ses kaynakları ile çalışmaz</string>
+    <string name="pulse_cat_title">Darbe equalizer</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Ses grafik ekolayzır</string>
+    <string name="show_pulse_title">Haritayı Darbe</string>
+    <string name="show_pulse_summary">Gezinti çubuğu alanda ses grafik ekolayzır, eğer gezinti çubuğu olsa bile gizli</string>
+    <string name="pulse_render_mode_title">İşleme biçimi</string>
+    <string name="pulse_render_mode_fading_bars">Solan bloklar</string>
+    <string name="pulse_render_mode_solid_lines">Düz çizgiler</string>
+    <string name="pulse_color">Renk</string>
+    <string name="pulse_color_mode">Renk Modu</string>
+    <string name="pulse_color_accent">Aksan</string>
+    <string name="pulse_color_custom">Özel</string>
+    <string name="pulse_color_lava_lamp">Lav lambası</string>
+    <string name="pulse_color_auto">Albüm</string>
+    <string name="pulse_color_chooser">Renk seçin</string>
+    <string name="smoothing_enabled_title">Yumuşatma açın</string>
+    <string name="smoothing_enabled_summary">Her bar daha düzgün animasyonlu</string>
+    <string name="pulse_advanced_category">Gelişmiş</string>
+    <string name="pulse_legacy_mode_advanced_category">Solan bloklar modu ayarları</string>
+    <string name="pulse_custom_fudge_factor">Davranış seviyesi</string>
+    <string name="lavamp_speed_title">Lav lambası hız</string>
+    <string name="pulse_solid_units_count">Düz çizgi sayısı</string>
+    <string name="pulse_solid_units_opacity">Düz çizgi saydamlığı</string>
+    <string name="pulse_solid_dimen_category">Düz çizgiler modu ayarları</string>
+    <string name="pulse_custom_dimen">Bar genişliği</string>
+    <string name="pulse_custom_div">Çubuk aralığı</string>
+    <string name="pulse_filled_block_size">Blok Boyutu</string>
+    <string name="pulse_empty_block_size">Blok Aralığı</string>
 </resources>

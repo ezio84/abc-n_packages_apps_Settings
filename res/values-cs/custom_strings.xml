@@ -253,4 +253,33 @@
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
     <string name="qs_battery_percentage_title">Procenta baterie v QS</string>
     <string name="qs_battery_percentage_summary">Zobrazit procenta baterie v záhlaví QS namísto odhadu baterie</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse nefunguje s některými zdroji zvuku při poslechu z reproduktoru zařízení</string>
+    <string name="pulse_cat_title">Ekvalizér Pulse</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Grafický ekvalizér</string>
+    <string name="show_pulse_title">Zobrazit Pulse</string>
+    <string name="pulse_render_mode_title">Režim vykreslování</string>
+    <string name="pulse_render_mode_fading_bars">Vyblednutí sloupců</string>
+    <string name="pulse_render_mode_solid_lines">Sloupce</string>
+    <string name="pulse_color">Barva</string>
+    <string name="pulse_color_mode">Barevný režim</string>
+    <string name="pulse_color_accent">Odstín</string>
+    <string name="pulse_color_custom">Vlastní</string>
+    <string name="pulse_color_lava_lamp">Lávová lampa</string>
+    <string name="pulse_color_auto">Obal interpreta</string>
+    <string name="pulse_color_chooser">Vybrat barvu</string>
+    <string name="smoothing_enabled_title">Zapnout vyhlazování</string>
+    <string name="smoothing_enabled_summary">Animace sloupců je mnohem hladší</string>
+    <string name="pulse_advanced_category">Pokročilé</string>
+    <string name="pulse_legacy_mode_advanced_category">Nastavení režimu zahalujících se bloků</string>
+    <string name="pulse_custom_fudge_factor">Úroveň výkonu</string>
+    <string name="lavamp_speed_title">Rychlost lávové lampy</string>
+    <string name="pulse_solid_units_count">Počet sloupců</string>
+    <string name="pulse_solid_units_opacity">Průhlednost sloupců</string>
+    <string name="pulse_solid_dimen_category">Nastavení režimu sloupců</string>
+    <string name="pulse_custom_dimen">Šířka sloupce</string>
+    <string name="pulse_custom_div">Mezera mezi sloupci</string>
+    <string name="pulse_filled_block_size">Výška bloku</string>
+    <string name="pulse_empty_block_size">Odsazení bloků</string>
 </resources>

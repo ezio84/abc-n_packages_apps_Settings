@@ -252,4 +252,33 @@
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
     <string name="qs_battery_percentage_title">Процент заряда в быстрых настройках</string>
     <string name="qs_battery_percentage_summary">Показывать процент батареи в шторке быстрых настроек вместо рассчётного времени работы</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse не работает с некоторыми источниками аудио во время прослушивания через динамик устройства</string>
+    <string name="pulse_cat_title">Эквалайзер Pulse</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Аудиографический эквалайзер</string>
+    <string name="show_pulse_title">Показывать Pulse</string>
+    <string name="pulse_render_mode_title">Режим визуализации</string>
+    <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
+    <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
+    <string name="pulse_color">Цвет</string>
+    <string name="pulse_color_mode">Режим цвета</string>
+    <string name="pulse_color_accent">Оттенок</string>
+    <string name="pulse_color_custom">Настройки пользователя</string>
+    <string name="pulse_color_lava_lamp">Лава</string>
+    <string name="pulse_color_auto">Обложка альбома</string>
+    <string name="pulse_color_chooser">Выбрать цвет</string>
+    <string name="smoothing_enabled_title">Включить сглаживание</string>
+    <string name="smoothing_enabled_summary">Каждая полоса анимируется более гладко</string>
+    <string name="pulse_advanced_category">Расширенные настройки</string>
+    <string name="pulse_legacy_mode_advanced_category">Настройки режима затухающих блоков</string>
+    <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
+    <string name="lavamp_speed_title">Скорость лавы</string>
+    <string name="pulse_solid_units_count">Количество сплошных линий</string>
+    <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+    <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
+    <string name="pulse_custom_dimen">Ширина полосы</string>
+    <string name="pulse_custom_div">Интервал</string>
+    <string name="pulse_filled_block_size">Размер блоков</string>
+    <string name="pulse_empty_block_size">Расстояние между блоками</string>
 </resources>

@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">ליד הסמל</string>
     <string name="qs_battery_percentage_title">QS אחוז הסוללה</string>
     <string name="qs_battery_percentage_summary">אחוז הסוללה הצג את QS כותרת במקום סוללה הערכה</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">הדופק לא עובד עם כמה מקורות שמע בעת האזנה במכשיר רמקול</string>
+    <string name="pulse_cat_title">דופק אקולייזר</string>
+    <string name="pulse_settings">הדופק</string>
+    <string name="pulse_settings_summary">אודיו אקולייזר גרפי</string>
+    <string name="show_pulse_title">להראות את הדופק</string>
+    <string name="show_pulse_summary">אודיו אקולייזר גרפי בסרגל הניווט באזור, גם אם סרגל הניווט מוסתר</string>
+    <string name="pulse_render_mode_title">להפוך מצב</string>
+    <string name="pulse_render_mode_fading_bars">דהייה רחובות</string>
+    <string name="pulse_render_mode_solid_lines">מוצק קווים</string>
+    <string name="pulse_color">צבע</string>
+    <string name="pulse_color_mode">מצב צבע</string>
+    <string name="pulse_color_accent">המבטא</string>
+    <string name="pulse_color_custom">מותאם אישית</string>
+    <string name="pulse_color_lava_lamp">מנורת לבה</string>
+    <string name="pulse_color_auto">האלבום</string>
+    <string name="pulse_color_chooser">בחר צבע</string>
+    <string name="smoothing_enabled_title">הפעל החלקת</string>
+    <string name="smoothing_enabled_summary">כל בר הוא אנימציה בצורה חלקה יותר</string>
+    <string name="pulse_advanced_category">אפשרויות מתקדמות</string>
+    <string name="pulse_legacy_mode_advanced_category">דהייה רחובות הגדרות מצב</string>
+    <string name="pulse_custom_fudge_factor">שפיות ברמה</string>
+    <string name="lavamp_speed_title">מנורת לבה מהירות</string>
+    <string name="pulse_solid_units_count">מוצק קווי לספור</string>
+    <string name="pulse_solid_units_opacity">מוצק קווי אטימות</string>
+    <string name="pulse_solid_dimen_category">מוצק קווי הגדרות מצב</string>
+    <string name="pulse_custom_dimen">בר רוחב</string>
+    <string name="pulse_custom_div">הבר המרווח</string>
+    <string name="pulse_filled_block_size">גודל בלוק</string>
+    <string name="pulse_empty_block_size">בלוק מרווח</string>
 </resources>

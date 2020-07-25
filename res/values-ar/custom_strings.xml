@@ -251,4 +251,34 @@
     <string name="status_bar_battery_percentage_text_next">بجانب الرمز</string>
     <string name="qs_battery_percentage_title">نسبة بطارية الإعدادات السريعة</string>
     <string name="qs_battery_percentage_summary">إظهار نسبة البطارية في رأس الإعدادات السريعة بدلاً من تقدير البطارية</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">نبض لا يعمل مع بعض مصادر الصوت عند الاستماع على الجهاز المتكلم</string>
+    <string name="pulse_cat_title">نبض التعادل</string>
+    <string name="pulse_settings">النبض</string>
+    <string name="pulse_settings_summary">الصوت المعادل الرسومي</string>
+    <string name="show_pulse_title">عرض النبض</string>
+    <string name="show_pulse_summary">الصوت التعادل الرسم على شريط التنقل المنطقة ، حتى لو كان شريط التنقل المخفية</string>
+    <string name="pulse_render_mode_title">نمط المعالجة</string>
+    <string name="pulse_render_mode_fading_bars">كتل متلاشية</string>
+    <string name="pulse_render_mode_solid_lines">خطوط صلبة</string>
+    <string name="pulse_color">اللون</string>
+    <string name="pulse_color_mode">وضع اللون</string>
+    <string name="pulse_color_accent">لهجة</string>
+    <string name="pulse_color_custom">مخصص</string>
+    <string name="pulse_color_lava_lamp">مصباح الحمم</string>
+    <string name="pulse_color_auto">الألبوم</string>
+    <string name="pulse_color_chooser">اختيار اللون</string>
+    <string name="smoothing_enabled_title">بدوره على تجانس</string>
+    <string name="smoothing_enabled_summary">كل شريط الرسوم المتحركة أكثر سلاسة</string>
+    <string name="pulse_advanced_category">متقدم</string>
+    <string name="pulse_legacy_mode_advanced_category">إعدادات نمط الكتل المتلاشية</string>
+    <string name="pulse_custom_fudge_factor">مستوى العُقلان</string>
+    <string name="lavamp_speed_title">مصباح الحمم السرعة</string>
+    <string name="pulse_solid_units_count">عدد الخطوط الصلبة</string>
+    <string name="pulse_solid_units_opacity">عتامة الخطوط الصلبة</string>
+    <string name="pulse_solid_dimen_category">إعدادات نمط الخطوط الصلبة</string>
+    <string name="pulse_custom_dimen">شريط العرض</string>
+    <string name="pulse_custom_div">مساحات الشريط</string>
+    <string name="pulse_filled_block_size">حجم الكتلة</string>
+    <string name="pulse_empty_block_size">مساحات الكتلة</string>
 </resources>

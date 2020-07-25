@@ -253,4 +253,34 @@
     <string name="status_bar_battery_percentage_text_next">Al costat de la icona</string>
     <string name="qs_battery_percentage_title">QS bateria percentatge</string>
     <string name="qs_battery_percentage_summary">Mostra bateria percentatge en el QS capçalera en lloc de bateria estimació</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pols no funciona amb algunes fonts d\'àudio quan s\'escolta en el dispositiu ponent</string>
+    <string name="pulse_cat_title">Pols equalitzador</string>
+    <string name="pulse_settings">Pols</string>
+    <string name="pulse_settings_summary">Àudio equalitzador gràfic</string>
+    <string name="show_pulse_title">Mostra De Pols</string>
+    <string name="show_pulse_summary">Àudio equalitzador gràfic a la barra de navegació de la zona, fins i tot si la barra de navegació està amagat</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Atenuació de blocs</string>
+    <string name="pulse_render_mode_solid_lines">Sòlid línies</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_mode">Mode de Color</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Personalitzat</string>
+    <string name="pulse_color_lava_lamp">Làmpada de Lava</string>
+    <string name="pulse_color_auto">Àlbum</string>
+    <string name="pulse_color_chooser">Tria el color</string>
+    <string name="smoothing_enabled_title">Activar suavitzat</string>
+    <string name="smoothing_enabled_summary">Cada barra és d\'animació més suaument</string>
+    <string name="pulse_advanced_category">Configuració avançada</string>
+    <string name="pulse_legacy_mode_advanced_category">Atenuació de blocs mode de configuració</string>
+    <string name="pulse_custom_fudge_factor">Seny nivell</string>
+    <string name="lavamp_speed_title">Làmpada de Lava velocitat</string>
+    <string name="pulse_solid_units_count">Sòlid recompte de línies</string>
+    <string name="pulse_solid_units_opacity">Sòlid línies opacitat</string>
+    <string name="pulse_solid_dimen_category">Sòlid línies mode de configuració</string>
+    <string name="pulse_custom_dimen">Bar amplada</string>
+    <string name="pulse_custom_div">Bar espaiat</string>
+    <string name="pulse_filled_block_size">Grandària de bloc</string>
+    <string name="pulse_empty_block_size">Bloc espaiat</string>
 </resources>
