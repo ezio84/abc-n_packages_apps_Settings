@@ -235,7 +235,11 @@
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Equalizzatore grafico audio</string>
     <string name="show_pulse_title">Mostra Pulse</string>
-    <string name="show_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione, anche quando questa è nascosta</string>
+    <string name="show_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione (anche se la barra è nascosta) e nella lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione, anche se la barra è nascosta</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Equalizzatore grafico audio nella schermata di blocco</string>
     <string name="pulse_render_mode_title">Tipo render</string>
     <string name="pulse_render_mode_fading_bars">Blocchi a dissolvenza</string>
     <string name="pulse_render_mode_solid_lines">Linee solide</string>
