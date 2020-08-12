@@ -106,6 +106,7 @@
         android:selectAllOnFocus="true"
         android:imeOptions="actionDone"
         android:inputType="textNoSuggestions"
+        android:order="19"
         android:persistent="false" />
 
     <PreferenceCategory
