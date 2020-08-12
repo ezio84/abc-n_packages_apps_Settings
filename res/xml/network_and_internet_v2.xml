@@ -107,6 +107,17 @@
         android:positiveButtonText="@string/save"
         android:negativeButtonText="@android:string/cancel" />
 
+    <com.abc.support.preferences.HostnamePreference
+        android:key="device_hostname"
+        android:title="@string/device_hostname"
+        android:dialogTitle="@string/device_hostname"
+        android:positiveButtonText="@string/wifi_save"
+        android:negativeButtonText="@string/wifi_cancel"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:persistent="false" />
+
     <PreferenceCategory
         android:key="net_monitor_category"
         android:title="@string/net_monitor_category_title"
