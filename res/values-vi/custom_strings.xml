@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">Xung cân bằng</string>
     <string name="pulse_settings">Xung</string>
     <string name="pulse_settings_summary">Âm thanh cân bằng đồ họa</string>
-    <string name="show_pulse_title">Chương Trình Xung</string>
-    <string name="show_pulse_summary">Âm thanh cân bằng đồ họa về hướng vực bar, thậm chí nếu chuyển hướng được</string>
     <string name="pulse_render_mode_title">Làm cho chế độ</string>
     <string name="pulse_render_mode_fading_bars">Mờ dần khối</string>
     <string name="pulse_render_mode_solid_lines">Dòng rắn</string>

@@ -118,6 +118,8 @@
     <string name="clock_date_right">Oikea aika</string>
     <string name="clock_date_left">Jäljellä aikaa</string>
     <string name="clock_date_position">Päivämäärä asemassa</string>
+    <string name="status_bar_clock_hide_on_home_title">Piilota kotiin</string>
+    <string name="status_bar_clock_hide_on_home_summary">Piilota kello kun koti näytetään</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Lukitusnäyttö kello</string>
     <string name="lockscreen_clock_summary">Tyyli kellon lukitusnäyttö ja Ympäristön näyttö</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Pulssi taajuuskorjain</string>
     <string name="pulse_settings">Pulssi</string>
     <string name="pulse_settings_summary">Audio graafinen taajuuskorjain</string>
-    <string name="show_pulse_title">Näytä Pulssi</string>
-    <string name="show_pulse_summary">Audio graafinen taajuuskorjain navigointi-bar-alueella, vaikka navigointipalkin on piilotettu</string>
+    <string name="show_navbar_pulse_title">Navigointipalkin Pulssi</string>
+    <string name="show_navbar_pulse_summary">Äänen graafinen taajuuskorjain navigointipalkin alueella, myös jos palkki on piilotettu</string>
+    <string name="show_lockscreen_pulse_title">Lukitusnäytön Pulssi</string>
+    <string name="show_lockscreen_pulse_summary">Äänen graafinen taajuuskorjain lukitusnäytöllä</string>
     <string name="pulse_render_mode_title">Render-tilassa</string>
     <string name="pulse_render_mode_fading_bars">Häipyminen lohkot</string>
     <string name="pulse_render_mode_solid_lines">Kiinteät linjat</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Tankojen väli</string>
     <string name="pulse_filled_block_size">Lohkon koko</string>
     <string name="pulse_empty_block_size">Lohkon väli</string>
+    <string name="device_hostname">Laitteen isäntänimi</string>
 </resources>

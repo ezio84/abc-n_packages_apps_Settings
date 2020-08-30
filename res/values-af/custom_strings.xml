@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">Pols gelykmaker</string>
     <string name="pulse_settings">Pols</string>
     <string name="pulse_settings_summary">Klank grafiese gelykmaker</string>
-    <string name="show_pulse_title">Wys Pols</string>
-    <string name="show_pulse_summary">Klank grafiese gelykmaker op die navigasie bar area, selfs as navigasie bar is verborge</string>
     <string name="pulse_render_mode_title">Lewer af</string>
     <string name="pulse_render_mode_fading_bars">Vervaag blokke</string>
     <string name="pulse_render_mode_solid_lines">Soliede lyne</string>

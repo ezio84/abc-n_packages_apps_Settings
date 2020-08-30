@@ -118,6 +118,8 @@
     <string name="clock_date_right">Rechts van tijd</string>
     <string name="clock_date_left">Links van tijd</string>
     <string name="clock_date_position">Datum positie</string>
+    <string name="status_bar_clock_hide_on_home_title">Verberg op startpagina</string>
+    <string name="status_bar_clock_hide_on_home_summary">Verberg klok wanneer de startpagina wordt weergegeven</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Vergrendelscherm klok</string>
     <string name="lockscreen_clock_summary">Stijl van de klok in vergrendelscherm en Ambient</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Pulse equalizer</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio grafische equalizer</string>
-    <string name="show_pulse_title">Toon Puls</string>
-    <string name="show_pulse_summary">Audio grafische equalizer op de navigatiebalk op de omgeving, zelfs als de navigatie balk is verborgen</string>
+    <string name="show_navbar_pulse_title">Navigatiebalk Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio grafische equalizer op het gebied van de navigatiebalk, ook als de balk verborgen is</string>
+    <string name="show_lockscreen_pulse_title">Vergrendelscherm Puls</string>
+    <string name="show_lockscreen_pulse_summary">Audio grafische equalizer op het vergrendelscherm</string>
     <string name="pulse_render_mode_title">Weergave modus</string>
     <string name="pulse_render_mode_fading_bars">Vervagende blokken</string>
     <string name="pulse_render_mode_solid_lines">Balken</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Balk afstand</string>
     <string name="pulse_filled_block_size">Blok grootte</string>
     <string name="pulse_empty_block_size">Blok afstand</string>
+    <string name="device_hostname">Apparaat hostnaam</string>
 </resources>

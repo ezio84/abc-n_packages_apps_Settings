@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">Pulzus equalizer</string>
     <string name="pulse_settings">Pulzus</string>
     <string name="pulse_settings_summary">Audio grafikus equalizer</string>
-    <string name="show_pulse_title">Mutasd Meg Pulzus</string>
-    <string name="show_pulse_summary">Audio grafikus equalizer a navigációs sávon a területen, még akkor is, ha a navigációs sáv el van rejtve</string>
     <string name="pulse_render_mode_title">Render mód</string>
     <string name="pulse_render_mode_fading_bars">Halványuló blokkok</string>
     <string name="pulse_render_mode_solid_lines">Szilárd vonalak</string>

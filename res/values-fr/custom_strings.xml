@@ -118,6 +118,8 @@
     <string name="clock_date_right">À droite de l\'heure</string>
     <string name="clock_date_left">À gauche de l\'heure</string>
     <string name="clock_date_position">Position de la date</string>
+    <string name="status_bar_clock_hide_on_home_title">Cacher sur la page d\'accueil</string>
+    <string name="status_bar_clock_hide_on_home_summary">Masquer l\'horloge lorsque l\'écran d\'accueil est affiché</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Horloge de l\'écran de verrouillage</string>
     <string name="lockscreen_clock_summary">Style de l\'horloge dans l\'écran de verrouillage et l\'affichage en mode Veille</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">L\'impulsion de l\'égaliseur</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio de l\'égaliseur graphique</string>
-    <string name="show_pulse_title">Montrer Impulsion</string>
-    <string name="show_pulse_summary">Audio de l\'égaliseur graphique sur la barre de navigation de la zone, même si la barre de navigation est caché</string>
+    <string name="show_navbar_pulse_title">Pulsation de la barre de navigation</string>
+    <string name="show_navbar_pulse_summary">Égaliseur graphique audio sur la zone de navigation, même si la barre est cachée</string>
+    <string name="show_lockscreen_pulse_title">Pulse de l\'écran de verrouillage</string>
+    <string name="show_lockscreen_pulse_summary">Égaliseur graphique audio sur l\'écran de verrouillage</string>
     <string name="pulse_render_mode_title">Mode de Rendu</string>
     <string name="pulse_render_mode_fading_bars">Blocs délavés</string>
     <string name="pulse_render_mode_solid_lines">Lignes pleines</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Espacement des barres</string>
     <string name="pulse_filled_block_size">Taille des blocs</string>
     <string name="pulse_empty_block_size">Espacement des blocs</string>
+    <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
 </resources>

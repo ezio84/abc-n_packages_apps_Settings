@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">דופק אקולייזר</string>
     <string name="pulse_settings">הדופק</string>
     <string name="pulse_settings_summary">אודיו אקולייזר גרפי</string>
-    <string name="show_pulse_title">להראות את הדופק</string>
-    <string name="show_pulse_summary">אודיו אקולייזר גרפי בסרגל הניווט באזור, גם אם סרגל הניווט מוסתר</string>
     <string name="pulse_render_mode_title">להפוך מצב</string>
     <string name="pulse_render_mode_fading_bars">דהייה רחובות</string>
     <string name="pulse_render_mode_solid_lines">מוצק קווים</string>

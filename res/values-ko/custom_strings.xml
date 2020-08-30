@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">이퀄라이저 펄스</string>
     <string name="pulse_settings">펄스</string>
     <string name="pulse_settings_summary">오디오 그래픽은 이퀄라이저</string>
-    <string name="show_pulse_title">쇼 펄스</string>
-    <string name="show_pulse_summary">오디오 그래픽은 이퀄라이저 네비게이션 바에서도,지역 경우 탐색 바는 숨겨진</string>
     <string name="pulse_render_mode_title">렌더링드</string>
     <string name="pulse_render_mode_fading_bars">페이딩 블록</string>
     <string name="pulse_render_mode_solid_lines">선</string>

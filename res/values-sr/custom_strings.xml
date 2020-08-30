@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">Пулс еквилајзер</string>
     <string name="pulse_settings">Пулс</string>
     <string name="pulse_settings_summary">Аудио графички еквилајзер</string>
-    <string name="show_pulse_title">Показују Пулс</string>
-    <string name="show_pulse_summary">Аудио графички еквилајзер на области пловидбе, чак и ако навигациони панел сакривен</string>
     <string name="pulse_render_mode_title">Режим визуелизације</string>
     <string name="pulse_render_mode_fading_bars">Огреботине блокова</string>
     <string name="pulse_render_mode_solid_lines">Чврсте линије</string>

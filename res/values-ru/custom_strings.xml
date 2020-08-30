@@ -118,6 +118,8 @@
     <string name="clock_date_right">Справа от часов</string>
     <string name="clock_date_left">Слева от часов</string>
     <string name="clock_date_position">Расположение даты</string>
+    <string name="status_bar_clock_hide_on_home_title">Скрыть на домашнем экране</string>
+    <string name="status_bar_clock_hide_on_home_summary">Скрыть часы при отображении Домой</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Часы на экране блокировки</string>
     <string name="lockscreen_clock_summary">Стиль часов на экране блокировки и Ambient-дисплее</string>
@@ -257,7 +259,10 @@
     <string name="pulse_cat_title">Эквалайзер Pulse</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Аудиографический эквалайзер</string>
-    <string name="show_pulse_title">Показывать Pulse</string>
+    <string name="show_navbar_pulse_title">Пульс панели навигации</string>
+    <string name="show_navbar_pulse_summary">Аудио эквалайзер на панели навигации, также если панель скрыта</string>
+    <string name="show_lockscreen_pulse_title">Импульс экрана блокировки</string>
+    <string name="show_lockscreen_pulse_summary">Аудио эквалайзер на экране блокировки</string>
     <string name="pulse_render_mode_title">Режим визуализации</string>
     <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
     <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
@@ -281,4 +286,5 @@
     <string name="pulse_custom_div">Интервал</string>
     <string name="pulse_filled_block_size">Размер блоков</string>
     <string name="pulse_empty_block_size">Расстояние между блоками</string>
+    <string name="device_hostname">Имя хоста устройства</string>
 </resources>

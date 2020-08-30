@@ -119,6 +119,8 @@
     <string name="clock_date_right">A la derecha de la hora</string>
     <string name="clock_date_left">A la izquierda de la hora</string>
     <string name="clock_date_position">Posición de la fecha</string>
+    <string name="status_bar_clock_hide_on_home_title">Ocultar en Inicio</string>
+    <string name="status_bar_clock_hide_on_home_summary">Ocultar reloj cuando se muestra el inicio</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Reloj de la pantalla de bloqueo</string>
     <string name="lockscreen_clock_summary">Estilo del reloj en el lockscreen y Ambiental de la pantalla</string>
@@ -257,8 +259,10 @@
     <string name="pulse_cat_title">Pulso ecualizador</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio ecualizador gráfico</string>
-    <string name="show_pulse_title">Mostrar Pulso</string>
-    <string name="show_pulse_summary">Audio ecualizador gráfico en la barra de navegación de área, incluso si la barra de navegación está oculto</string>
+    <string name="show_navbar_pulse_title">Pulso Navbar</string>
+    <string name="show_navbar_pulse_summary">Ecualizador gráfico de audio en el área de la barra de navegación, también si la barra está oculta</string>
+    <string name="show_lockscreen_pulse_title">Pulso en pantalla de bloqueo</string>
+    <string name="show_lockscreen_pulse_summary">Ecualizador gráfico de audio en la pantalla de bloqueo</string>
     <string name="pulse_render_mode_title">Modo de renderizado</string>
     <string name="pulse_render_mode_fading_bars">Desvanecimiento de bloques</string>
     <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
@@ -282,4 +286,5 @@
     <string name="pulse_custom_div">Espacio de la barra</string>
     <string name="pulse_filled_block_size">Tamaño del bloque</string>
     <string name="pulse_empty_block_size">Espacio del bloque</string>
+    <string name="device_hostname">Nombre de host del dispositivo</string>
 </resources>

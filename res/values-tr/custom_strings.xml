@@ -256,8 +256,6 @@
     <string name="pulse_cat_title">Darbe equalizer</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Ses grafik ekolayzır</string>
-    <string name="show_pulse_title">Haritayı Darbe</string>
-    <string name="show_pulse_summary">Gezinti çubuğu alanda ses grafik ekolayzır, eğer gezinti çubuğu olsa bile gizli</string>
     <string name="pulse_render_mode_title">İşleme biçimi</string>
     <string name="pulse_render_mode_fading_bars">Solan bloklar</string>
     <string name="pulse_render_mode_solid_lines">Düz çizgiler</string>

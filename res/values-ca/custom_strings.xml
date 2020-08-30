@@ -258,8 +258,6 @@
     <string name="pulse_cat_title">Pols equalitzador</string>
     <string name="pulse_settings">Pols</string>
     <string name="pulse_settings_summary">Àudio equalitzador gràfic</string>
-    <string name="show_pulse_title">Mostra De Pols</string>
-    <string name="show_pulse_summary">Àudio equalitzador gràfic a la barra de navegació de la zona, fins i tot si la barra de navegació està amagat</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Atenuació de blocs</string>
     <string name="pulse_render_mode_solid_lines">Sòlid línies</string>

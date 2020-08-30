@@ -118,6 +118,8 @@
     <string name="clock_date_right">يسار الساعة</string>
     <string name="clock_date_left">يمين الساعة</string>
     <string name="clock_date_position">موضع التاريخ</string>
+    <string name="status_bar_clock_hide_on_home_title">إخفاء في الصفحة الرئيسية</string>
+    <string name="status_bar_clock_hide_on_home_summary">إخفاء الساعة عند عرض الصفحة الرئيسية</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Lockscreen clock</string>
     <string name="lockscreen_clock_summary">نمط عقارب الساعة في شاشة القفل و عرض المحيط</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">نبض التعادل</string>
     <string name="pulse_settings">النبض</string>
     <string name="pulse_settings_summary">الصوت المعادل الرسومي</string>
-    <string name="show_pulse_title">عرض النبض</string>
-    <string name="show_pulse_summary">الصوت التعادل الرسم على شريط التنقل المنطقة ، حتى لو كان شريط التنقل المخفية</string>
+    <string name="show_navbar_pulse_title">نبض شريط التنقل</string>
+    <string name="show_navbar_pulse_summary">معادل الصوت الرسومي في منطقة شريط التنقل، أيضًا إذا كان الشريط مخفي</string>
+    <string name="show_lockscreen_pulse_title">نبض شاشة القفل</string>
+    <string name="show_lockscreen_pulse_summary">معادل الصوت الرسومي على شاشة القفل</string>
     <string name="pulse_render_mode_title">نمط المعالجة</string>
     <string name="pulse_render_mode_fading_bars">كتل متلاشية</string>
     <string name="pulse_render_mode_solid_lines">خطوط صلبة</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">مساحات الشريط</string>
     <string name="pulse_filled_block_size">حجم الكتلة</string>
     <string name="pulse_empty_block_size">مساحات الكتلة</string>
+    <string name="device_hostname">اسم مضيف الجهاز</string>
 </resources>

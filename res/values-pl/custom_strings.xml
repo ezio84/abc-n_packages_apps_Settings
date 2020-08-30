@@ -118,6 +118,8 @@
     <string name="clock_date_right">Po prawej stronie zegara</string>
     <string name="clock_date_left">Po lewej stronie zegara</string>
     <string name="clock_date_position">Położenie daty</string>
+    <string name="status_bar_clock_hide_on_home_title">Ukryj na stronie głównej</string>
+    <string name="status_bar_clock_hide_on_home_summary">Ukryj zegar, gdy Strona główna jest wyświetlana</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Zegar ekranu blokady</string>
     <string name="lockscreen_clock_summary">Styl zegara na ekranie blokady i ekranie dostosowanym do otoczenia</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Impulsowe korektor</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio korektor graficzny</string>
-    <string name="show_pulse_title">Pokazują Puls</string>
-    <string name="show_pulse_summary">Audio korektor graficzny w okienku nawigacji, nawet jeśli okienko nawigacji jest ukryty</string>
+    <string name="show_navbar_pulse_title">Puls paska nawigacji</string>
+    <string name="show_navbar_pulse_summary">Korektor graficzny dźwięku na obszarze paska nawigacji, również jeśli pasek jest ukryty</string>
+    <string name="show_lockscreen_pulse_title">Puls ekranu blokady</string>
+    <string name="show_lockscreen_pulse_summary">Korektor graficzny dźwięku na ekranie blokady</string>
     <string name="pulse_render_mode_title">Tryb renderowania</string>
     <string name="pulse_render_mode_fading_bars">Zanikanie bloków</string>
     <string name="pulse_render_mode_solid_lines">Linie ciągłe</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Odstęp</string>
     <string name="pulse_filled_block_size">Rozmiar bloku</string>
     <string name="pulse_empty_block_size">Odstępy w bloku</string>
+    <string name="device_hostname">Nazwa hosta</string>
 </resources>

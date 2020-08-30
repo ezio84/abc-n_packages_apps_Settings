@@ -118,6 +118,8 @@
     <string name="clock_date_right">À direita do relógio</string>
     <string name="clock_date_left">À esquerda do relógio</string>
     <string name="clock_date_position">Posição da data</string>
+    <string name="status_bar_clock_hide_on_home_title">Esconder na Página Inicial</string>
+    <string name="status_bar_clock_hide_on_home_summary">Ocultar relógio quando em início inicial estiver exibido</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Lockscreen relógio</string>
     <string name="lockscreen_clock_summary">Estilo do relógio no lockscreen e Ambiente de visualização</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Pulso equalizador</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Áudio equalizador gráfico</string>
-    <string name="show_pulse_title">Mostrar Pulso</string>
-    <string name="show_pulse_summary">Áudio equalizador gráfico na barra de navegação área, mesmo se a barra de navegação está escondido</string>
+    <string name="show_navbar_pulse_title">Pulso de Navbar</string>
+    <string name="show_navbar_pulse_summary">Equalizador gráfico de áudio na área da barra de navegação, também se a barra estiver escondida</string>
+    <string name="show_lockscreen_pulse_title">Pulso da Tela de Bloqueio</string>
+    <string name="show_lockscreen_pulse_summary">Equalizador gráfico de áudio na tela de bloqueio</string>
     <string name="pulse_render_mode_title">Modo de Renderização</string>
     <string name="pulse_render_mode_fading_bars">Blocos de desvanecimento</string>
     <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Espaçamento da Barra Pulse</string>
     <string name="pulse_filled_block_size">Tamanho do Bloco</string>
     <string name="pulse_empty_block_size">Espaçamento do Bloco</string>
+    <string name="device_hostname">Hostname do dispositivo</string>
 </resources>

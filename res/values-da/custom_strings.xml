@@ -119,6 +119,8 @@
     <string name="clock_date_right">Til højre for klokkeslæt</string>
     <string name="clock_date_left">Til venstre for klokkeslæ</string>
     <string name="clock_date_position">Datoposition</string>
+    <string name="status_bar_clock_hide_on_home_title">Skjul på startside</string>
+    <string name="status_bar_clock_hide_on_home_summary">Skjul uret, når startskærmen vises</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Lockscreen clock</string>
     <string name="lockscreen_clock_summary">Stil uret i lockscreen og Ambient display</string>
@@ -257,8 +259,10 @@
     <string name="pulse_cat_title">Puls equalizer</string>
     <string name="pulse_settings">Puls</string>
     <string name="pulse_settings_summary">Audio grafisk equalizer</string>
-    <string name="show_pulse_title">Vis Puls</string>
-    <string name="show_pulse_summary">Lyd grafiske equalizer på navigations-bar-område, selv om navigation bar er skjult</string>
+    <string name="show_navbar_pulse_title">Navbjælke Puls</string>
+    <string name="show_navbar_pulse_summary">Lydgrafisk equalizer på navigationsbjælkeområdet, også hvis bjælken er skjult</string>
+    <string name="show_lockscreen_pulse_title">Puls På Låseskærm</string>
+    <string name="show_lockscreen_pulse_summary">Lydgrafisk equalizer på låseskærmen</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blokke</string>
     <string name="pulse_render_mode_solid_lines">Fuldt optrukne linjer</string>
@@ -282,4 +286,5 @@
     <string name="pulse_custom_div">Bar afstand</string>
     <string name="pulse_filled_block_size">Blok størrelse</string>
     <string name="pulse_empty_block_size">Blok afstand</string>
+    <string name="device_hostname">Enhedens værtsnavn</string>
 </resources>

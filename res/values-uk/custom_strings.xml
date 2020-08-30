@@ -118,6 +118,8 @@
     <string name="clock_date_right">Праворуч від часу</string>
     <string name="clock_date_left">Залишилось часу</string>
     <string name="clock_date_position">Розположення дати</string>
+    <string name="status_bar_clock_hide_on_home_title">Сховати на головній</string>
+    <string name="status_bar_clock_hide_on_home_summary">Сховати годинник на домашньому екрані</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Годинник</string>
     <string name="lockscreen_clock_summary">Стиль годинника на екрані блокування і на Ambient дисплеї</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Імпульсний еквалайзер</string>
     <string name="pulse_settings">Пульс</string>
     <string name="pulse_settings_summary">Аудіо графічний еквалайзер</string>
-    <string name="show_pulse_title">Показують Пульс</string>
-    <string name="show_pulse_summary">Аудіо графічний еквалайзер на панелі навігації, навіть якщо навігаційна панель прихована</string>
+    <string name="show_navbar_pulse_title">Імпульс навігаційної панелі</string>
+    <string name="show_navbar_pulse_summary">Аудіо графічний еквалайзер в панелі навігації, також якщо панель приховано</string>
+    <string name="show_lockscreen_pulse_title">Пульсація екрану блокування</string>
+    <string name="show_lockscreen_pulse_summary">Графічний еквалайзер на екрані блокування</string>
     <string name="pulse_render_mode_title">Режим візуалізації</string>
     <string name="pulse_render_mode_fading_bars">Потертості блоків</string>
     <string name="pulse_render_mode_solid_lines">Суцільні лінії</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Дистанціювання адвокатського стану</string>
     <string name="pulse_filled_block_size">Розмір блоку</string>
     <string name="pulse_empty_block_size">Блок дистанционирования</string>
+    <string name="device_hostname">Ім\'я хоста пристрою</string>
 </resources>

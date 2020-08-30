@@ -118,6 +118,8 @@
     <string name="clock_date_right">Dreptul de timp</string>
     <string name="clock_date_left">Părăsit de timp</string>
     <string name="clock_date_position">Data poziție</string>
+    <string name="status_bar_clock_hide_on_home_title">Ascunde pe Acasă</string>
+    <string name="status_bar_clock_hide_on_home_summary">Ascunde ceasul când ecranul de pornire este afișat</string>
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Lockscreen clock</string>
     <string name="lockscreen_clock_summary">Stil de ceasul din lockscreen și afișare Ambient</string>
@@ -256,8 +258,10 @@
     <string name="pulse_cat_title">Pulsul egalizator</string>
     <string name="pulse_settings">Puls</string>
     <string name="pulse_settings_summary">Audio egalizator grafic</string>
-    <string name="show_pulse_title">Show-Puls</string>
-    <string name="show_pulse_summary">Audio egalizator grafic pe bara de navigare din zonă, chiar dacă bara de navigare este ascuns</string>
+    <string name="show_navbar_pulse_title">Puls Navbar</string>
+    <string name="show_navbar_pulse_summary">Egalizator grafic audio pe zona barei de navigare, de asemenea, dacă bara este ascunsă</string>
+    <string name="show_lockscreen_pulse_title">Pulsare ecran blocare</string>
+    <string name="show_lockscreen_pulse_summary">Egalizator grafic audio pe ecranul de blocare</string>
     <string name="pulse_render_mode_title">Modul de randare</string>
     <string name="pulse_render_mode_fading_bars">Decolorare blocuri</string>
     <string name="pulse_render_mode_solid_lines">Linii solide</string>
@@ -281,4 +285,5 @@
     <string name="pulse_custom_div">Spațiere Bar</string>
     <string name="pulse_filled_block_size">Dimensiune bloc</string>
     <string name="pulse_empty_block_size">Bloc spațiere</string>
+    <string name="device_hostname">Nume gazdă dispozitiv</string>
 </resources>
