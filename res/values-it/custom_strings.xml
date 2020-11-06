@@ -29,6 +29,9 @@
     <!-- Density options -->
     <string name="density_category">Opzioni densità</string>
 
+    <string name="fp_swipe_to_dismiss_notifications_title">Scorri a destra o sinistra il sensore per cancellare le notifiche</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Per eliminare le notifiche, scorri a destra o sinistra il dito sul sensore sul retro del tuo telefono.</string>
+
     <!-- QS advanced settings -->
     <string name="qs_column_rows_settings_title">Impostazioni Quick Tiles</string>
     <string name="status_bar_quick_qs_pulldown">Pulldown veloce tiles</string>
