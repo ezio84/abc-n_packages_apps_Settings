@@ -43,4 +43,5 @@
     <string name="qs_rows_landscape_title">Righe tiles in landscape</string>
     <string name="qs_columns_portrait_title">Colonne tiles in portrait</string>
     <string name="qs_columns_landscape_title">Colonne tiles landscape</string>
+    <string name="qs_tile_title_visibility_title">Mostra descrizione tiles</string>
 </resources>
