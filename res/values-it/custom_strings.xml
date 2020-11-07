@@ -54,4 +54,8 @@
     <string name="torch_power_button_gesture_none">Disattivato</string>
     <string name="torch_power_button_gesture_dt">Doppio tap power per la torcia</string>
     <string name="torch_power_button_gesture_lp">Pressione lunga power per la torcia</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Copertine lockscreen</string>
+    <string name="lockscreen_media_art_summary">Mostra le album art nella lockscreen durante la riproduzione musicale</string>
 </resources>
