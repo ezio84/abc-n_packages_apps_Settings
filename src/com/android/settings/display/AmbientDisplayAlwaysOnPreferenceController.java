@@ -45,8 +45,8 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
 
     @Override
     public int getAvailabilityStatus() {
-        return isAvailable(getConfig())
-                && !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false) ?
+        return isAvailable(getConfig())/*
+                && !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false)*/ ?
                 AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
