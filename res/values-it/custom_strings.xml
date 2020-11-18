@@ -89,4 +89,9 @@
 
     <string name="doze_on_charge_title">Always On in carica</string>
     <string name="doze_on_charge_summary">Mostra l\'Ambient display durante la carica</string>
+
+    <string name="custom_light_title">Colore led</string>
+    <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
+    <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
+    <string name="value_equals_default">def</string>
 </resources>
