@@ -103,4 +103,9 @@
     <string name="battery_light_medium_color">Carica media</string>
     <string name="battery_light_full_color">Quasi carico</string>
     <string name="battery_light_reallyfull_color">Completamente carico (100)</string>
+
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa le prime due seekbar per configurare la sensibilità dello swipe indietro, la terza seekbar per impostare una zona morta nella parte superiore dello schermo, per evitare conflitti con i gesti delle app.</string>
 </resources>
