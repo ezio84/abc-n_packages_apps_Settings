@@ -152,4 +152,10 @@
 
     <string name="show_gestures_navbar_switch_title">Mostra pillola</string>
     <string name="show_gestures_navbar_switch_summary">Mostra la barra di navigazione</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Attività di rete</string>
+    <string name="network_traffic_state_title">Attiva monitor di rete</string>
+    <string name="network_traffic_state_summary">Attiva monitor di rete nella barra di stato espansa</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia monitor di rete in KB/s</string>
 </resources>

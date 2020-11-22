@@ -155,4 +155,10 @@
 
     <string name="show_gestures_navbar_switch_title">Show pill</string>
     <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Network activity</string>
+    <string name="network_traffic_state_title">Enable network monitor</string>
+    <string name="network_traffic_state_summary">Show net activity in expanded statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
