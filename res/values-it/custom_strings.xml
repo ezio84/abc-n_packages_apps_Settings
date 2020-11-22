@@ -149,4 +149,7 @@
     <string name="gesture_nav_tweaks_footer_info">Per selezionare una activity specifica come azione, premi a lungo su un\'app nell\'app picker.\n\nSe il launcher è in primo piano, lo swipe per le azioni è disponibile nella parte più bassa dello schermo.</string>
     <string name="back_swipe_extended_title">Swipe esteso per azioni</string>
     <string name="back_swipe_extended_summary">Esegui le azioni con uno swipe esteso (più di metà display), o uno swipe a L (sufficientemente lungo in verticale)</string>
+
+    <string name="show_gestures_navbar_switch_title">Mostra pillola</string>
+    <string name="show_gestures_navbar_switch_summary">Mostra la barra di navigazione</string>
 </resources>
